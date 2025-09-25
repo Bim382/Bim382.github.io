@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "贝尔宾团队角色自我认知问卷\n\n\n\nteamwork\n\npersonality\n\nshiny\n\n\n\n\n\n\nFeb 10, 2025\n\n\nDianyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nGap Challenge Solver\n\n\n\nOT assessment\n\ngap challenge\n\nshiny\n\n\n\n\n\n\nNov 2, 2024\n\n\nDianyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nPython package: shiny-sortable\n\n\n\nshiny\n\nsortable\n\npython\n\nshinylive\n\n\n\n\n\n\nOct 28, 2024\n\n\nDianyi Yang\n\n\n\n\n\n\n\n\n\n\n\n\nSwitch Challenge Solver\n\n\n\nOT assessment\n\nswitch challenge\n\nshiny\n\n\n\n\n\n\nSep 23, 2024\n\n\nDianyi Yang\n\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "tools/2024-11-02-GapChallenge/index.html",
+    "href": "tools/2024-11-02-GapChallenge/index.html",
+    "title": "Gap Challenge Solver",
+    "section": "",
+    "text": "Please leave a comment below or give me a star🌟 at the Github repository if you find this useful.\n\nHow to Use the Switch Challenge Solver\nLet’s use the most difficult level 5 as an example:\n\nWe first change the number of rows and columns of the solver to “5”:\n\nWe then enter the existing patterns using numbers:\n\nAlternatively, we can also snip the patterns from the screen and paste them into the solver:\n\nThen hit Enter (if you are using a computer) or press the Submit button. If the problem is entered correctly, a full solution will be displayed:\n\nIn this case, 4, which corresponds to the green trigangle, is the answer we are looking for.\nIn the end, we can hit ~/` if on a computer, or hit Clear to clear the problem and move on to the next one.\n\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Gap {Challenge} {Solver}},\n  date = {2024-11-02},\n  url = {https://bim382.github.io/tools/2024-11-02-GapChallenge/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, November 2). Gap Challenge Solver. https://bim382.github.io/tools/2024-11-02-GapChallenge/"
+  },
+  {
+    "objectID": "tools/2024-09-23-SwitchChallenge/index.html",
+    "href": "tools/2024-09-23-SwitchChallenge/index.html",
+    "title": "Switch Challenge Solver",
+    "section": "",
+    "text": "How to Use the Switch Challenge Solver\nThere are two ways of using the solver:\n\nDrag and Drop to enter the input and outshapes, then enter the middle part of the formula, which is potentially slower.\nEnter the full formula, which can be faster when you are more familiar as you have done more assessments (very bad humour).\n\nPlease leave a comment below or give me a star🌟 at the Github repository if you find this useful.\n\n\nUsing Drag and Drop\nSimilar to the problems, there are two rows of “shapes”, the row at the top is the inputs while the other one at the bottom is the outputs. By dragging and dropping the shapes, you can enter the input and output colours.\nFor the easiest problems (as the one below), once you have moved both rows of shapes, the answer is automatically displayed below the line edit:\n\n\n\nEasy problem\n\n\nPS: to clear the formula and answer, hit the ~/` button\nFor the harder question, you may need to enter the formula (from level 4 onward?) and hit Enter. In the formula, you need to replace the options with x：\n\n\n\nMedium problem\n\n\nThe solver can handle x in any position:\n\n\n\nHard problem\n\n\nFor the hardest questions with two choices, you need to make a guess about the first choice, and let the solver find the second choice. If the answer is not correct, you need to try again. You may need to try 3 times at most:\n\n\n\nHardest problem\n\n\nIn this case, the third option of the first choice is the correct answer. This implies that you need to try 3 times if you do from left to right.\n\n\nUsing the full formula\nThere are two ways of using the full formula, long form and short form. In both cases, ignore the shapes in the solver, they don’t do anything. You can even check the box at the top to hide the shapes.\nIn the long form, you enter the input and output colors.\nLet’s use the hard case as an example, the formula would be:\nybgr+1324+x+3241=gbyr\n\n\n\nLong Formula with GUI\n\n\nThe gist of the short formula form is that you encode the outcome (number after =) in such a way that it is a single switch from the input to the output. Note that you cannot use the short formula for the easiest problems (you solve it with your brain).\nLet’s use the hard case as an example:\n\n\n\nShort Formula with GUI\n\n\nYou can hide the shapes by checking the box at the top:\n\n\n\nHide shapes\n\n\n\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Switch {Challenge} {Solver}},\n  date = {2024-09-23},\n  url = {https://bim382.github.io/tools/2024-09-23-SwitchChallenge/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, September 23). Switch Challenge Solver. https://bim382.github.io/tools/2024-09-23-SwitchChallenge/"
+  },
+  {
+    "objectID": "papers/2024-12-09-Terrorism/index.html",
+    "href": "papers/2024-12-09-Terrorism/index.html",
+    "title": "Revisiting the Link between Democracy and Terrorism",
+    "section": "",
+    "text": "Abstract\nThis essay revisits the link between democracy and terrorism. Several related divided conclusions proposed in the past are re-examined with new data. An OLS regression with fixed effects and a 2SLS regression are adopted in this essay. The results confirms the common belief that democracy has a positive curvilinear relationship with terrorism. Countries respecting physical integrity would experience less terrorism. High levels of mobilization would inspire terrorism, and new systematic changes in the dynamic between democracy and terrorism remain to be further explored.\n\n\n\n\nCitationBibTeX citation:@online{fu2024,\n  author = {Fu, Yuxin},\n  title = {Revisiting the {Link} Between {Democracy} and {Terrorism}},\n  date = {2024-12-09},\n  url = {https://bim382.github.io/papers/2024-12-09-Terrorism/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nFu, Y. (2024, December 9). Revisiting the Link between Democracy and\nTerrorism. https://bim382.github.io/papers/2024-12-09-Terrorism/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yuxin Fu",
+    "section": "",
+    "text": "I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.\nREAD MORE →"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "My Travel Logs",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Accessibility commitment",
+    "section": "",
+    "text": "Travel back to the home page or about page."
+  },
+  {
+    "objectID": "accessibility.html#feedback",
+    "href": "accessibility.html#feedback",
+    "title": "Accessibility commitment",
+    "section": "Feedback",
+    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
+  },
+  {
+    "objectID": "accessibility.html#accessibility-practices",
+    "href": "accessibility.html#accessibility-practices",
+    "title": "Accessibility commitment",
+    "section": "Accessibility practices",
+    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
+  },
+  {
+    "objectID": "accessibility.html#work-related-to-accessibility",
+    "href": "accessibility.html#work-related-to-accessibility",
+    "title": "Accessibility commitment",
+    "section": "Work related to accessibility",
+    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
+  },
+  {
+    "objectID": "accessibility.html#footnotes",
+    "href": "accessibility.html#footnotes",
+    "title": "Accessibility commitment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Yuxin Fu",
+    "section": "",
+    "text": "Hello, this is Yuxin! Nice to meet you.\n\nI’m so far interested in the following areas:\n\n\nPolitical Economy\n\n\nPolitical Communication\n\n\nConflict Resolution\n\n\nCausal Inference\n\n\nGame Theory\n\n\nData Science\n\n\nMachine Learning\n\n\nText Analysis"
+  },
+  {
+    "objectID": "about/index.html#more-about-my-thoughts",
+    "href": "about/index.html#more-about-my-thoughts",
+    "title": "Yuxin Fu",
+    "section": "More about my thoughts",
+    "text": "More about my thoughts\nWork in progress …"
+  },
+  {
+    "objectID": "about/index.html#lately",
+    "href": "about/index.html#lately",
+    "title": "Yuxin Fu",
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n来自我的小红书\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPapers\n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\n\n\nNo matching items\n\nSee all →"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html",
+    "href": "blog/2023-11-15-FranceVisa/index.html",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "银行流水不足三个月并不会影响递签。\n\n\n实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。\n\n\n\n\n\n\n法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件\n\n\n\n\n\n\n\nTLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。\n\n\n\n\n\n\n所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "href": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "href": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "TLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "href": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact ",
+    "section": "",
+    "text": "You can also contact me via yfu382@outlook.com \n    \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\nDemocracy\n\nTerrorism\n\nCivil Liberty\n\nPhysical Integrity\n\n\n\n\n\n\nDec 9, 2024\n\n\nYuxin Fu\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tools/2024-10-28-ShinySortable/index.html",
+    "href": "tools/2024-10-28-ShinySortable/index.html",
+    "title": "Python package: shiny-sortable",
+    "section": "",
+    "text": "This is a shinylive example of the usage of the Python package shiny-sortable, which is a Python wrapper of the SortableJS library. To install the package, run in CI:\npip install shiny-sortable\nMore information can be found in the GitHub repo.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| components: [editor, viewer]\n## file: app.py\nfrom shiny import *\nimport shiny_sortable as sortable\nfrom pathlib import Path\n\n@sortable.make(updatable=True)\ndef sortable_list(inputID):\n    list = ui.tags.ol(\n        ui.tags.li(\"Item 1\", **{'data-id': '1'}),\n        ui.tags.li(\"Item 2\", **{'data-id': '2'}),\n        ui.tags.li(\"Item 3\", **{'data-id': '3'}),\n        id=inputID\n    )\n    return list\n\napp_ui = ui.page_fluid(\n    sortable_list(\"list\"),\n    ui.output_text_verbatim(id = \"text\"),\n    ui.input_action_button(\"reset\", \"Reset\"),\n    ui.head_content(ui.include_js(Path(__file__).parent / \"light-dark.js\")), # This is just for the dark mode\n)\n\ndef server(input, output, session):\n    list_order = reactive.value(\"\")\n    @output\n    @render.text\n    def text():\n        return list_order()\n\n    @reactive.effect\n    @reactive.event(input.list)\n    def _():\n        list_order.set(input.list())\n\n    @reactive.effect\n    @reactive.event(input.reset)\n    async def _():\n        await sortable.update(session, \"list\", [\"1\", \"2\", \"3\"])\n\n\napp = App(app_ui, server)\n\n## file: requirements.txt\nshiny-sortable\n\n## file: light-dark.js\nwindow.parent.addEventListener(\"quarto-color-mode\", function(event) {\n    document.documentElement.dataset.bsTheme = event.detail.mode;\n    if (event.detail.mode === \"dark\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#16242f\"); // custom dark background color\n    }  else if (event.detail.mode === \"light\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#f9fffe\"); // custom light background color\n    }\n})\nwindow.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Python Package: Shiny-Sortable},\n  date = {2024-10-28},\n  url = {https://bim382.github.io/tools/2024-10-28-ShinySortable/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, October 28). Python package: shiny-sortable. https://bim382.github.io/tools/2024-10-28-ShinySortable/"
+  },
+  {
+    "objectID": "tools/2025-02-10-Belbin/index.html",
+    "href": "tools/2025-02-10-Belbin/index.html",
+    "title": "贝尔宾团队角色自我认知问卷",
+    "section": "",
+    "text": "贝尔宾团队角色自我认知问卷是自 1981 年以来各组织用来提高团队绩效的性格测试。通过了解您个人的团队角色，您的团队可以评估您合作的效率，并确定团队角色分配中的差距和重叠，这些差距和重叠可能会对您的成功产生影响。贝尔宾团队角色自我认知问卷将帮助您通过选择能够自然地完成任务的人来减少对外部激励的需求。\n贝尔宾自评文件是一份以行为为基础导向的测评问卷。请用15-20分钟时间完成该问卷。请注意：这里没有好坏之分，尝试以你目前的实际情况回答，而不是你未来想成为的状态来回答问题。请仔细回答，但不要过度分析自己。\n贝尔宾自评有7个部分，每个部分有10个句子，每一部分你要选出任意数量符合您当前状态的句子，并给每个句子打出0-10的评分。 本程序将根据您的答案为您和九个不同的角色类型打适配分数。\n\n\n\n\n\n\n\n\n\n角色名称\n大类\n角色作用\n可容许弱点\n\n\n\n\n智多星（PL）\n思考型\n有创造力，想象力，灵活解决问题\n弱于沟通和管理普通人，不守常规\n\n\n外交家（RI）\n人本型\n外向、热情、善交际、探索机会、建立联系\n热情一过及失去兴趣\n\n\n协调者（CO）\n人本型\n成熟、自信、信任、一个的主持人，阐明目标、促进决策\n不必是最聪明或最有创造性的成员\n\n\n鞭策者（SH）\n行动型\n灵活、开朗、执着、怀疑、施压、出主意\n易怒、脾气急\n\n\n审议者（ME）\n思考型\n严肃、有策略、有眼光、考虑周到、判断准确\n缺少激发别人的动力和能力\n\n\n执行者（IM）\n行动型\n自律、可靠、保守、把想法付诸实际行动\n有些不灵活、对新事物反应慢\n\n\n凝聚者（TW）\n人本型\n善交往、温和、感觉灵敏、容纳、倾听、解决摩擦\n关键时刻不果断\n\n\n完成者（CF）\n行动型\n苦干、谨慎、有条理、准时、仔细、精确\n关键时刻不果断\n\n\n专业师（SP）\n思考型\n心眼单一、自我激励、投入、提供知识和技能\n只在较窄的范围内做出贡献\n\n\n\n如果觉得有用，请您在本项目的Github 仓库🌟 给我一颗星！\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2025,\n  author = {Yang, Dianyi},\n  title = {贝尔宾团队角色自我认知问卷 {[}Belbin Team-Role\n    Self-Perception Inventory{]}},\n  date = {2025-02-10},\n  url = {https://bim382.github.io/tools/2025-02-10-Belbin/},\n  langid = {zh-CN}\n}\nFor attribution, please cite this work as:\nYang, D. (2025, February 10). 贝尔宾团队角色自我认知问卷 [Belbin\nTeam-Role Self-Perception Inventory]. https://bim382.github.io/tools/2025-02-10-Belbin/"
+  }
+]

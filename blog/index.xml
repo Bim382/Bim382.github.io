@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Yuxin Fu</title>
+<link>https://bim382.github.io/blog/</link>
+<atom:link href="https://bim382.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>On my journeys around the world...
+</description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Tue, 14 Nov 2023 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>伦敦怎么办法签？</title>
+  <dc:creator>Yuxin Fu</dc:creator>
+  <link>https://bim382.github.io/blog/2023-11-15-FranceVisa/</link>
+  <description><![CDATA[ 
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> -->
+
+
+
+<section id="伦敦法签-diy-经验分享" class="level1">
+<h1>伦敦法签 DIY 经验分享</h1>
+<p>
+<strong>银行流水不足三个月并不会影响递签。</strong>
+</p>
+<p>
+实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。
+</p>
+<hr>
+<section id="时间线" class="level2">
+<h2 class="anchored" data-anchor-id="时间线">时间线</h2>
+<ul>
+<li>
+<strong>法签官网填申请表：</strong> 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。
+</li>
+<li>
+<strong>访问 TLScontact 预约 slot</strong>
+</li>
+<li>
+<strong>选择伦敦签证中心</strong>
+</li>
+<li>
+<strong>建议预约早上 8:30：</strong> 刚开门时处理速度最快。
+</li>
+<li>
+<strong>9.28：</strong> 递交签证申请
+</li>
+<li>
+<strong>10.9：</strong> 收到领取邮件
+</li>
+</ul>
+<hr>
+</section>
+<section id="伦敦法签中心地址" class="level2">
+<h2 class="anchored" data-anchor-id="伦敦法签中心地址">伦敦法签中心地址</h2>
+<p>
+<strong>TLScontact – Visa Application Centre</strong><br> 地址：SW18 1UN
+</p>
+<p>
+<strong>交通方式：</strong><br> 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。
+</p>
+<hr>
+</section>
+<section id="准备材料" class="level2">
+<h2 class="anchored" data-anchor-id="准备材料">准备材料</h2>
+<p>
+所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。
+</p>
+<ul>
+<li>
+TLS 预约单或邮件：非必需，入口处出示预约邮件即可
+</li>
+<li>
+法签申请表及收据
+</li>
+<li>
+护照原件
+</li>
+<li>
+护照首页复印件
+</li>
+<li>
+BRP 原件
+</li>
+<li>
+BRP 复印件：打印两份，取护照时会用到
+</li>
+<li>
+往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）
+</li>
+<li>
+旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点
+</li>
+<li>
+照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒
+</li>
+<li>
+学校在读证明：可在学校官网获取
+</li>
+<li>
+银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可
+</li>
+<li>
+酒店订单：建议选择可退订的订单，下签后取消
+</li>
+<li>
+旅行保险：推荐 Coverwise，打印确认邮件即可
+</li>
+</ul>
+<hr>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2023,
+  author = {Fu, Yuxin},
+  title = {伦敦怎么办法签？},
+  date = {2023-11-15},
+  url = {https://bim382.github.io/blog/2023-11-15-FranceVisa/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-fu2023" class="csl-entry quarto-appendix-citeas">
+Fu, Y. (2023, November 15). <em>伦敦怎么办法签？</em>. <a href="https://bim382.github.io/blog/2023-11-15-FranceVisa/">https://bim382.github.io/blog/2023-11-15-FranceVisa/</a>
+</div></div></section></div> ]]></description>
+  <category>Visa</category>
+  <category>France</category>
+  <category>London</category>
+  <guid>https://bim382.github.io/blog/2023-11-15-FranceVisa/</guid>
+  <pubDate>Tue, 14 Nov 2023 16:00:00 GMT</pubDate>
+  <media:content url="https://bim382.github.io/blog/2023-11-15-FranceVisa/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
