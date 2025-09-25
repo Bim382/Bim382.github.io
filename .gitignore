@@ -19,7 +19,6 @@ Thumbs.db
 .hugo_build.lock
 
 /.luarc.json
-CV/*
-!CV/CV_Dianyi.tex
+
 
 **/*.quarto_ipynb
