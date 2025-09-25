@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  26 SEP 2025 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  26 SEP 2025 01:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,12 +322,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
 
-Overfull \hbox (9.25427pt too wide) in paragraph at lines 35--41
+Overfull \hbox (34.6522pt too wide) in paragraph at lines 35--41
  [] 
  []
 
 
-Overfull \hbox (89.72125pt too wide) in paragraph at lines 48--77
+Overfull \hbox (20.20026pt too wide) in paragraph at lines 48--60
 [] 
  []
 
@@ -345,20 +345,20 @@ Package rerunfilecheck Info: File `CV_Yuxin.out' has not changed.
 Here is how much of TeX's memory you used:
  8908 strings out of 474486
  140756 string characters out of 5743755
- 1937542 words of memory out of 5000000
+ 1938542 words of memory out of 5000000
  31108 multiletter control sequences out of 15000+600000
  562020 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,253b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,248b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on CV_Yuxin.pdf (1 page, 74949 bytes).
+Output written on CV_Yuxin.pdf (1 page, 75640 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
