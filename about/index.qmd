@@ -1,0 +1,134 @@
+---
+title: "Yuxin Fu"
+subtitle: PhD student @ University of Macau
+image: sidebar/avatar.png
+image-alt: "at Old Man of Storr, Isle of Skye, Scotland."
+comments: false
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/Bim382
+    - icon: youtube
+      aria-label: "Youtube"
+      href: https://www.youtube.com/@bim382
+    - icon: instagram
+      aria-label: "Instagram"
+      href: https://www.instagram.com/yfu382
+    - text: "{{< ai orcid >}}"
+      aria-label: "ORCID"
+      href: https://orcid.org/0009-0003-0905-0207
+    - text: "{{< fa brands bilibili >}}"
+      aria-label: "Bilibili"
+      href: https://space.bilibili.com/34634614
+listing: 
+- id: blog
+  contents: 
+    - "../blog/*/index.qmd"
+    - "../blog/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+#- id: talk
+#  contents: 
+#    - "../talk/*/index.qmd"
+#    - "../talk/*/index.markdown"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, subtitle, image]
+#  max-items: 1
+#  image-height: "200"
+- id: papers
+  contents: 
+    - "../papers/*/index.qmd"
+    - "../papars/*/index.markdown"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+  image-placeholder: ../papers/featured.jpg
+#- id: project
+#  contents: 
+#    - "../project/*/index.qmd"
+#    - "../project/*/index.markdown"
+#  sort: date desc
+#  type: grid
+#  grid-columns: 1
+#  categories: false
+#  sort-ui: false
+#  filter-ui: false
+#  fields: [title, subtitle, image]
+#  max-items: 1
+#  image-height: "200"
+page-layout: article
+format: 
+  html: 
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {#hero-heading}
+<div class="h1">Hello, this is Yuxin! Nice to meet you.</div>
+
+I'm so far interested in the following areas:
+<ul>
+  <li>Political Economy</li>
+  <li>Political Communication</li>
+  <li>Conflict Resolution</li>
+  <li>Causal Inference</li>
+  <li>Game Theory</li>
+  <li>Data Science</li>
+  <li>Machine Learning</li>
+  <li>Text Analysis</li>
+</ul>
+
+:::
+
+## More about my thoughts
+
+Work in progress ...
+
+## Lately ...
+
+:::: {.grid}
+
+::: {.g-col-4}
+#### Blog
+::: {#blog}
+:::
+[See all &rarr;](../blog){.about-links .subtitle}
+:::
+
+::: {.g-col-4}
+#### Papers
+::: {#papers}
+:::
+[See all &rarr;](../papers){.about-links .subtitle}
+:::
+
+::::

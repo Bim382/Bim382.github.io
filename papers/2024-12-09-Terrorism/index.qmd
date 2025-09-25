@@ -1,0 +1,29 @@
+---
+author: 
+- name: Yuxin Fu
+  orcid: 0009-0003-0905-0207
+date: 2024-12-09
+title: Revisiting the Link between Democracy and Terrorism
+subtitle: adapted from my Msc dissertation
+image: featured.png
+categories:
+- Democracy
+- Terrorism
+- Civil Liberty
+- Physical Integrity
+links:
+  - icon: file-pdf
+    name: PDF
+    url: Terrorism.pdf
+
+# citation:
+ # type: article-journal
+#  container-title: SSRN Electronic Journal
+#  issn: 1556-5068
+ # doi: "10.2139/ssrn.4499460"
+ # number: 4499460
+ # publisher: Elsevier BV
+---
+# Abstract
+This essay revisits the link between democracy and terrorism. Several related divided conclusions proposed in the past are re-examined with new data. An OLS regression with fixed effects and a 2SLS regression are adopted in this essay. The results confirms the common belief that democracy has a positive curvilinear relationship with terrorism. Countries respecting physical integrity would experience less terrorism. High levels of mobilization would inspire terrorism, and new systematic changes
+in the dynamic between democracy and terrorism remain to be further explored.
