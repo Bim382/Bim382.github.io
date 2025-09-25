@@ -8,7 +8,7 @@ twitter-card:
     title:  Yuxin Fu
     description: |
       I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.
-    image: assets/silvia/img/dianyi-social.png
+    # image: assets/silvia/img/dianyi-social.png
 
 about:
   template: solana
