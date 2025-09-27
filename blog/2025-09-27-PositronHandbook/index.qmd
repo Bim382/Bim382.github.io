@@ -51,13 +51,13 @@ Next, we need to set up the system environment variables for proxys.
 
 **For Windows:**
 
-1. Open the Windows Start Menu and search for "Env".
+1. Open the Windows Start Menu and search for `Env`.
 
-2. Click on "Edit the system environment variables".
+2. Click on `Edit the system environment variables`.
 
-3. In the System Properties window, click on the "Environment Variables" button.
+3. In the System Properties window, click on the `Environment Variables` button.
 
-4. In the Environment Variables window, under the "System variables" section, click on the "New" button.
+4. In the Environment Variables window, under the `System variables` section, click on the `New` button.
 
 5. In the New System Variable window, enter `HTTP_PROXY` as the Variable name and `http://127.0.0.1:xxxx` as the Variable value. Click OK. (Replace `xxxx` with the port number you are using for your proxy.)
 
