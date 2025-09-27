@@ -2,7 +2,7 @@
 title: "Yuxin Fu"
 subtitle: PhD student @ University of Macau
 image: sidebar/avatar.png
-image-alt: "at Old Man of Storr, Isle of Skye, Scotland."
+image-alt: "修塔尔克可爱捏"
 comments: false
 about:
   template: trestles
