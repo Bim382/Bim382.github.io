@@ -7,7 +7,7 @@ image-alt: "My avatar"
 twitter-card:
     title:  Yuxin Fu
     description: |
-      I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.
+      I'm currently a Ph.D. student in Political Science of the University of Macau.I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.
     # image: assets/silvia/img/dianyi-social.png
 
 about:
@@ -54,7 +54,7 @@ resources:
 
 ::: {#hero-heading}
 
-I’m a graduate of the [London School of Economics and Political Science](https://www.lse.ac.uk/). At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.
+I'm currently a Ph.D. student in Political Science of the [University of Macau](https://www.um.edu.mo/).I’m a graduate of the [London School of Economics and Political Science](https://www.lse.ac.uk/). At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.
 
 [READ MORE &rarr;](/about){.about-links .subtitle}
 
