@@ -22,6 +22,9 @@ links:
     url: https://www.bilibili.com/video/BV1RBWPzjELj
 bibliography: references.bib
 csl: apa.csl
+toc: true
+toc-depth: 2
+number-sections: true
 ---
 
 本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。
@@ -114,7 +117,7 @@ csl: apa.csl
 
 4. 将📖图标拖拽到右侧的辅助边栏中。
 
-## 安装Zotero
+## 安装Zotero {#sec-zotero}
 
 最后，我们需要下载并安装Zotero来管理参考文献。
 
@@ -350,26 +353,30 @@ modelsummary(
 
 以下是使用Quarto进行文献引用的示例。
 
-首先，确保您已经按照前面的说明将`references.bib`文件添加到您的项目中，并在YAML头部中正确设置了`bibliography`字段。
+首先，确保您已经按照前面 @sec-zotero 的说明将`references.bib`文件添加到您的项目中，并在YAML头部中正确设置了`bibliography`字段。
 
 其次，确保您已经下载并安装了对应引用格式的`*.csl`文件，并在YAML头部中正确设置了`csl`字段。引用格式可以从[CSL仓库](https://github.com/citation-style-language/styles)下载。
 
-现在，您可以在文本中使用`@引用键`来引用文献。我们可以将引用放在句首。例如：`@lake2011` @lake2011 认为国际关系研究中的“主义”之争是有害的。
+现在，您可以在文本中使用`@引用键`来引用文献。我们可以将引用放在句首。例如：
 
-或者，我们也可以将引用放在句末：国际关系研究中的“主义”之争是有害的`[@lake2011]`[@lake2011]。
+`@lake2011` @lake2011 认为国际关系研究中的“主义”之争是有害的。
 
-如果要引用多个文章，可以使用逗号分隔引用键，例如：`[@lake2011, @hale2020]` [@lake2011; @hale2020]。
+或者，我们也可以将引用放在句末：
+
+国际关系研究中的“主义”之争是有害的`[@lake2011]`[@lake2011]。
+
+如果要引用多个文章，可以使用逗号分隔引用键，例如：
+
+这里是一些好文章`[@lake2011, @hale2020]` [@lake2011; @hale2020]。
 
 最后，在文档的末尾添加以下内容以生成参考文献列表：
 
+```r
+# References {.unnumbered} #生成不要编号的参考文献列表
+
+::: {#refs} #将参考文献放在一个带有id的块中
+:::
 ```
+
 # References {.unnumbered}
 
-::: {#refs}
-:::
-
-```
-# References {.unnumbered}
-
-::: {#refs}
-:::
