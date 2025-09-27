@@ -1,0 +1,222 @@
+---
+author:
+- name: Yuxin Fu
+  orcid: 0009-0003-0905-0207
+title: "Research 101: How to work as a modern quantitative social scientist?"
+subtitle: "A Handbook for Positron, Quarto, Github Copilot and Zotero"
+date: '2025-09-27'
+categories:
+  - Positron
+  - Quarto
+  - Github
+  - Zotero
+  - Copilot
+  - Toturial
+image: featured.jpg
+google-scholar: false
+
+---
+
+This handbook provides a comprehensive guide for installing, configuring, and using Positron, Quarto, and Zotero for writing quantitative academic research papers.
+
+## Installation
+
+This section will guide you through the installation and setup of Positron, Quarto, and Zotero for writing quantitative academic research papers.
+
+### Install R & Positron & Quarto
+
+First, we need to download and install R, Positron and Quarto.
+
+1. Follow the instructions on [CRAN mirror](https://mirrors.tuna.tsinghua.edu.cn/CRAN/) to download and install R.
+
+2. Follow the instructions on [Positron Download](https://positron.posit.co/download.html) to download Positron.
+
+3. Run SETUP and install Positron. Check all of the boxes when asked to.
+
+![Check all of the boxes](Positron_Install.png)
+
+4. Follow the instructions on [Quarto Get Started](https://quarto.org/docs/get-started/) to download and install Quarto.
+
+### Set up System Environment Variables
+
+Next, we need to set up the system environment variables for proxys.
+
+**For Windows:**
+
+1. Open the Windows Start Menu and search for "Env".
+
+2. Click on "Edit the system environment variables".
+
+3. In the System Properties window, click on the "Environment Variables" button.
+
+4. In the Environment Variables window, under the "System variables" section, click on the "New" button.
+
+5. In the New System Variable window, enter `HTTP_PROXY` as the Variable name and `http://127.0.0.1:xxxx` as the Variable value. Click OK. (Replace `xxxx` with the port number you are using for your proxy.)
+
+6. Repeat step 5 to create another system variable named `HTTPS_PROXY` with the same value `http://127.0.0.1:xxxx`.
+
+7. Repeat step 5 to create another system variable named `NO_PROXY` with the value `localhost,127.0.0.1`.
+
+8. Click OK to close the Environment Variables window. Click OK to close the System Properties window.
+
+**For Mac:**
+
+Work in progress.
+
+### Join Github Education
+
+To use Github Copilot, we need to join the Github Education program.
+
+1. Open your web browser and go to [GitHub Education](https://github.com/education).
+
+2. Click on the "Join GitHub Education" button.
+
+3. Follow the instructions to verify your student status and complete the application process.
+
+### Update Positron and Set Up Github Copilot Chat
+
+Now, we need to update Positron and set up Github Copilot Chat.
+
+1. Open Positron.
+
+2. Click on the "Manage" Icon on the bottom left corner.
+
+3. Click on "Settings" to open the Settings tab.
+
+4. In the Settings tab, search for "channel", and switch the "releases" to "dailies".
+
+5. Click on the "Manage" Icon on the bottom left corner. Click on "Check for Updates" to update Positron to the latest version. After the update is complete, restart Positron.
+
+6. Repeat step 2 & 3 to open the Settings tab again.
+
+7. In the Settings tab, search for "assistant". Check on the box "Enable Positron Assistant".
+
+8. Click on the "Chat" Icon on the left sidebar to open the Chat tab.
+
+9. In the Chat tab, click on "add model provider" button.
+
+10. In the Configure Language Model Provider window, select "GitHub Copilot". Click on "Sign in".
+
+11. In the GitHub login page, enter your GitHub credentials to sign in.
+
+12. After signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding.
+
+### Install R Package Manager
+
+Next, we need to install the R Package Manager to manage R packages.
+
+1. Open Positron. Click on the "Extensions" Icon on the left sidebar.
+
+2. Search for "Positron R Package Manager". Click on "Install" to install the extension.
+
+3. Once the extension is installed and activated, you can find the R Package Manager 📖 icon on the left sidebar.
+
+4. Drag the 📖 icon to the secondary sidebar on the right.
+
+### Install Zotero
+
+Finally, we need to download and install Zotero for managing references.
+
+Work in progress.
+
+## Usage
+
+This section will guide you through the usage of Positron, Quarto, and Zotero for writing quantitative academic research papers.
+
+### Fetch ORCID Template
+
+Now, every time before you start writing a new paper, we could install the ORCID template for better LaTeX formatting.
+
+1. Open Positron, create a qmd file as your transcript. Click on "TERMINAL" on the bottom sidebar.
+
+2. In the terminal, type the following command and press Enter: "quarto add kv9898/orcid".
+
+3. Enter "Y" when asked to trust the authors and to continue.
+
+4. You can now work on an ORCID template. Copy and paste the example syntax from here: [ORCID Template](https://github.com/kv9898/orcid/blob/main/example.qmd).
+
+5. Click "Preview" on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.
+
+### YAML header
+
+You can make changes to the default YAML header to fit your needs. Refer to the comments on the code in the template for more information.
+
+Work in progress.
+
+### An Example Regression Analysis
+
+Here is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.
+
+First, let's examine the relationship between car weight and fuel efficiency using a scatter plot.
+
+```{r}
+#| label: fig-scatter
+#| fig-cap: "Relationship between Car Weight and Fuel Efficiency"
+#| echo: true
+#| warning: false
+#| message: false
+library(ggplot2)
+library(dplyr)
+
+# Create descriptive statistics plot
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(aes(color = factor(cyl)), size = 3) +
+  geom_smooth(method = "lm", se = TRUE, color = "blue") +
+  labs(
+    x = "Weight (1000 lbs)",
+    y = "Miles per Gallon",
+    color = "Cylinders"
+  ) +
+  theme_minimal()
+```
+
+Next, we'll perform a regression analysis. Equations written in LaTeX syntax should be covered by double dollar signs and be assigned a label for cross-referencing:
+
+$$
+mpg = \beta_0 + \beta_1 \cdot weight + \beta_2 \cdot cylinders + \epsilon
+$$
+
+We can also use "&" to align equations. For example, if we want our equations to be aligned at the equal signs:
+
+$$
+\begin{aligned}
+1+2&=3\\
+3+4&=7\\
+11&=5+6
+\end{aligned}
+$$
+
+Finally, let's create a regression table to summarize our regression results using the `modelsummary` package:
+
+```{r}
+#| label: tbl-regression
+#| tbl-cap: "Regression Results: Fuel Efficiency Model"
+#| echo: true
+#| warning: false
+#| message: false
+library(modelsummary)
+
+# Fit regression models
+model1 <- lm(mpg ~ wt, data = mtcars)
+model2 <- lm(mpg ~ wt + cyl, data = mtcars)
+model3 <- lm(mpg ~ wt + cyl + hp, data = mtcars)
+
+# Create regression table
+modelsummary(
+  list("Model 1" = model1, "Model 2" = model2, "Model 3" = model3),
+  stars = TRUE,
+  gof_map = c("nobs", "r.squared", "adj.r.squared")
+)
+```
+
+The equations, figures, and tables are automatically numbered in a correct sequence, and could be cross-referenced in the text using the `@label` syntax.
+
+### An Example Literature Review
+
+Work in progress.
+
+## Conclusion
+
+This handbook provides a comprehensive guide for setting up and using Positron, Quarto, and Zotero for quantitative academic research. The tools covered here will help streamline your research workflow and improve the quality of your academic papers.
+
+
