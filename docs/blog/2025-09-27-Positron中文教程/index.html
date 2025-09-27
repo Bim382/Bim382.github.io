@@ -10,7 +10,7 @@
 <meta name="author" content="Dianyi Yang">
 <meta name="dcterms.date" content="2025-09-27">
 
-<title>研究入门：如何成为现代定量社会科学家？ – Yuxin Fu</title>
+<title>研究入门：现代定量社会科学家如何工作？ – Yuxin Fu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -211,7 +211,7 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
 <div class="quarto-title column-body page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">研究入门：如何成为现代定量社会科学家？</h1>
+<h1 class="title">研究入门：现代定量社会科学家如何工作？</h1>
 <p class="subtitle lead">Positron、Quarto、Github Copilot和Zotero实用指南</p>
   <div class="quarto-categories">
     <div class="quarto-category">Positron</div>
@@ -262,7 +262,7 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
-  <ul class="collapse">
+  <ul>
   <li><a href="#安装" id="toc-安装" class="nav-link active" data-scroll-target="#安装"><span class="header-section-number">1</span> 安装</a>
   <ul class="collapse">
   <li><a href="#安装rpositron和quarto" id="toc-安装rpositron和quarto" class="nav-link" data-scroll-target="#安装rpositron和quarto"><span class="header-section-number">1.1</span> 安装R、Positron和Quarto</a></li>
@@ -270,7 +270,7 @@ window.Quarto = {
   <li><a href="#加入github教育计划" id="toc-加入github教育计划" class="nav-link" data-scroll-target="#加入github教育计划"><span class="header-section-number">1.3</span> 加入Github教育计划</a></li>
   <li><a href="#更新positron并设置github-copilot-chat" id="toc-更新positron并设置github-copilot-chat" class="nav-link" data-scroll-target="#更新positron并设置github-copilot-chat"><span class="header-section-number">1.4</span> 更新Positron并设置Github Copilot Chat</a></li>
   <li><a href="#安装r包管理器" id="toc-安装r包管理器" class="nav-link" data-scroll-target="#安装r包管理器"><span class="header-section-number">1.5</span> 安装R包管理器</a></li>
-  <li><a href="#sec-zotero" id="toc-sec-zotero" class="nav-link" data-scroll-target="#sec-zotero"><span class="header-section-number">1.6</span> 安装Zotero</a></li>
+  <li><a href="#安装zotero" id="toc-安装zotero" class="nav-link" data-scroll-target="#安装zotero"><span class="header-section-number">1.6</span> 安装Zotero</a></li>
   </ul></li>
   <li><a href="#使用方法" id="toc-使用方法" class="nav-link" data-scroll-target="#使用方法"><span class="header-section-number">2</span> 使用方法</a>
   <ul class="collapse">
@@ -365,8 +365,8 @@ window.Quarto = {
 <li><p>将📖图标拖拽到右侧的辅助边栏中。</p></li>
 </ol>
 </section>
-<section id="sec-zotero" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="sec-zotero"><span class="header-section-number">1.6</span> 安装Zotero</h2>
+<section id="安装zotero" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="安装zotero"><span class="header-section-number">1.6</span> 安装Zotero</h2>
 <p>最后，我们需要下载并安装Zotero来管理参考文献。</p>
 <ol type="1">
 <li><p>从<a href="https://www.zotero.org/download/">Zotero下载页面</a>下载适用于您操作系统的Zotero安装程序。</p></li>
@@ -543,8 +543,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <script>
 
-      function styleCell_g1u8itjsx3kwolxqdy07(i, j, css_id) {
-          var table = document.getElementById("tinytable_g1u8itjsx3kwolxqdy07");
+      function styleCell_wx6ui4dzrfyr2ybfhqn4(i, j, css_id) {
+          var table = document.getElementById("tinytable_wx6ui4dzrfyr2ybfhqn4");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -553,8 +553,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_g1u8itjsx3kwolxqdy07(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_g1u8itjsx3kwolxqdy07");
+      function spanCell_wx6ui4dzrfyr2ybfhqn4(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_wx6ui4dzrfyr2ybfhqn4");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -585,20 +585,20 @@ Table&nbsp;1: 回归结果：燃油效率模型
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_qyhhpddn6vsmntmi5b5o',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_99tahk6hi8rt46ot50m0',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_elbjbp5agkmwsjspvj15',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_op3qci5coouxykoa9525',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_uc86wkabfeh36gg49wl1',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_zldnvbrdwt1va2dmij4k',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_qduub4r975clyumuvu8h',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_49hc6sc3a0e6sy34ww0b',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_9d25u3vkqhqkr5jk7gwq',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_zjb6ee1mvkcpa2qzg09a',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_ywtg9uc374u3z5j55o9i',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_xik8g49xdneaysyicqkh',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_btitg4wlogs1eksw4xxk',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_kry22d3657y74l674n3h',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_sfpoz5qzv49p0inxq0lu',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_oze1ngwdeqenu5171qhl',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_g1u8itjsx3kwolxqdy07(cell.i, cell.j, group.css_id);
+                  styleCell_wx6ui4dzrfyr2ybfhqn4(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -606,17 +606,17 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_qyhhpddn6vsmntmi5b5o, .table th.tinytable_css_qyhhpddn6vsmntmi5b5o { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_99tahk6hi8rt46ot50m0, .table th.tinytable_css_99tahk6hi8rt46ot50m0 { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_elbjbp5agkmwsjspvj15, .table th.tinytable_css_elbjbp5agkmwsjspvj15 { text-align: center; }
-      .table td.tinytable_css_op3qci5coouxykoa9525, .table th.tinytable_css_op3qci5coouxykoa9525 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_uc86wkabfeh36gg49wl1, .table th.tinytable_css_uc86wkabfeh36gg49wl1 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_zldnvbrdwt1va2dmij4k, .table th.tinytable_css_zldnvbrdwt1va2dmij4k { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_qduub4r975clyumuvu8h, .table th.tinytable_css_qduub4r975clyumuvu8h { text-align: left; }
-      .table td.tinytable_css_49hc6sc3a0e6sy34ww0b, .table th.tinytable_css_49hc6sc3a0e6sy34ww0b { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_9d25u3vkqhqkr5jk7gwq, .table th.tinytable_css_9d25u3vkqhqkr5jk7gwq { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_zjb6ee1mvkcpa2qzg09a, .table th.tinytable_css_zjb6ee1mvkcpa2qzg09a { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_ywtg9uc374u3z5j55o9i, .table th.tinytable_css_ywtg9uc374u3z5j55o9i { text-align: center; }
+      .table td.tinytable_css_xik8g49xdneaysyicqkh, .table th.tinytable_css_xik8g49xdneaysyicqkh { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_btitg4wlogs1eksw4xxk, .table th.tinytable_css_btitg4wlogs1eksw4xxk { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_kry22d3657y74l674n3h, .table th.tinytable_css_kry22d3657y74l674n3h { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_sfpoz5qzv49p0inxq0lu, .table th.tinytable_css_sfpoz5qzv49p0inxq0lu { text-align: left; }
+      .table td.tinytable_css_oze1ngwdeqenu5171qhl, .table th.tinytable_css_oze1ngwdeqenu5171qhl { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_g1u8itjsx3kwolxqdy07" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_wx6ui4dzrfyr2ybfhqn4" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -709,18 +709,18 @@ Table&nbsp;1: 回归结果：燃油效率模型
 <section id="文献综述示例" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="文献综述示例"><span class="header-section-number">2.4</span> 文献综述示例</h2>
 <p>以下是使用Quarto进行文献引用的示例。</p>
-<p>首先，确保您已经按照前面 <a href="#sec-zotero" class="quarto-xref">Section&nbsp;1.6</a> 的说明将<code>references.bib</code>文件添加到您的项目中，并在YAML头部中正确设置了<code>bibliography</code>字段。</p>
+<p>首先，确保您已经按照前面的说明将<code>references.bib</code>文件添加到您的项目中，并在YAML头部中正确设置了<code>bibliography</code>字段。</p>
 <p>其次，确保您已经下载并安装了对应引用格式的<code>*.csl</code>文件，并在YAML头部中正确设置了<code>csl</code>字段。引用格式可以从<a href="https://github.com/citation-style-language/styles">CSL仓库</a>下载。</p>
 <p>现在，您可以在文本中使用<code>@引用键</code>来引用文献。我们可以将引用放在句首。例如：</p>
 <p><code>@lake2011</code> <span class="citation" data-cites="lake2011">Lake (<a href="#ref-lake2011" role="doc-biblioref">2011</a>)</span> 认为国际关系研究中的“主义”之争是有害的。</p>
 <p>或者，我们也可以将引用放在句末：</p>
 <p>国际关系研究中的“主义”之争是有害的<code>[@lake2011]</code><span class="citation" data-cites="lake2011">(<a href="#ref-lake2011" role="doc-biblioref">Lake, 2011</a>)</span>。</p>
 <p>如果要引用多个文章，可以使用逗号分隔引用键，例如：</p>
-<p>这里是一些好文章<code>[@lake2011, @hale2020]</code> <span class="citation" data-cites="lake2011 hale2020">(<a href="#ref-hale2020" role="doc-biblioref">Hale, 2020</a>; <a href="#ref-lake2011" role="doc-biblioref">Lake, 2011</a>)</span>。</p>
+<p>这里有两篇好文章<code>[@lake2011, @hale2020]</code> <span class="citation" data-cites="lake2011 hale2020">(<a href="#ref-hale2020" role="doc-biblioref">Hale, 2020</a>; <a href="#ref-lake2011" role="doc-biblioref">Lake, 2011</a>)</span>。</p>
 <p>最后，在文档的末尾添加以下内容以生成参考文献列表：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># References {.unnumbered} #生成不要编号的参考文献列表</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># References {.unnumbered} #添加没有编号的参考文献部分</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span> {<span class="co">#refs} #将参考文献放在一个带有id的块中</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span> {<span class="co">#refs} #将参考文献放这个位置，而不是文档的末尾</span></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 </section>
@@ -740,14 +740,14 @@ Lake, D. A. (2011). Why <span>“isms”</span> <span>Are Evil</span>: <span>The
 </div>
 </div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
   author = {Fu, Yuxin and Yang, Dianyi},
-  title = {研究入门：如何成为现代定量社会科学家？},
+  title = {研究入门：现代定量社会科学家如何工作？},
   date = {2025-09-27},
   url = {https://bim382.github.io/blog/2025-09-27-Positron中文教程/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-fu2025" class="csl-entry quarto-appendix-citeas" role="listitem">
 Fu, Y., &amp; Yang, D. (2025, September 27).
-<em>研究入门：如何成为现代定量社会科学家？</em>. <a href="https://bim382.github.io/blog/2025-09-27-Positron中文教程/">https://bim382.github.io/blog/2025-09-27-Positron中文教程/</a>
+<em>研究入门：现代定量社会科学家如何工作？</em>. <a href="https://bim382.github.io/blog/2025-09-27-Positron中文教程/">https://bim382.github.io/blog/2025-09-27-Positron中文教程/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
