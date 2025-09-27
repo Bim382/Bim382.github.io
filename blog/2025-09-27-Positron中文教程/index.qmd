@@ -286,7 +286,7 @@ modelsummary(
 
 方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。
 
-要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用`@标签`，其中*标签*是您分配给图表、表格或方程的标签。例如，`@eq-regression`引用回归方程@eq-regression，`@eq-group`引用方程组@eq-group，`@fig-scatter`引用散点图@fig-scatter，`@tbl-regression`引用回归表@tbl-regression。您可以参考[Quarto交叉引用文档](https://quarto.org/docs/authoring/cross-references.html#overview)获取更多交叉引用信息。
+要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用`@标签`，其中*标签*是您分配给图表、表格或方程的标签。例如，`@eq-regression`引用回归方程 @eq-regression，`@eq-group`引用方程组 @eq-group，`@fig-scatter`引用散点图 @fig-scatter，`@tbl-regression`引用回归表 @tbl-regression。您可以参考[Quarto交叉引用文档](https://quarto.org/docs/authoring/cross-references.html#overview)获取更多交叉引用信息。
 
 ## 文献综述示例
 
