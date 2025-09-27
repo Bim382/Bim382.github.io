@@ -1,5 +1,5 @@
 ---
-title: "My Travel Logs"
+title: "My Blogs"
 description: |
   On my journeys around the world...
 listing: 
