@@ -88,19 +88,19 @@ links:
 
 3. 点击"设置"打开设置选项卡。
 
-4. 在设置选项卡中，搜索"channel"，将"releases"切换为"dailies"。
+4. 在设置选项卡中，搜索`channel`，将`releases`切换为`dailies`。
 
 5. 点击左下角的"管理"图标。点击"检查更新"将Positron更新到最新版本。更新完成后，重启Positron。
 
 6. 重复步骤2和3再次打开设置选项卡。
 
-7. 在设置选项卡中，搜索"assistant"。勾选"Enable Positron Assistant"选项。
+7. 在设置选项卡中，搜索`assistant`。勾选`Enable Positron Assistant`选项。
 
 8. 点击左侧边栏的"聊天"图标打开聊天选项卡。
 
 9. 在聊天选项卡中，点击"添加模型提供商"按钮。
 
-10. 在配置语言模型提供商窗口中，选择"GitHub Copilot"。点击"登录"。
+10. 在配置语言模型提供商窗口中，选择`GitHub Copilot`。点击"登录"。
 
 11. 在GitHub登录页面中，输入您的GitHub凭据进行登录。
 
@@ -112,7 +112,7 @@ links:
 
 1. 打开Positron。点击左侧边栏的"扩展"图标。
 
-2. 搜索"Positron R Package Manager"。点击"安装"来安装扩展。
+2. 搜索`Positron R Package Manager`。点击"安装"来安装扩展。
 
 3. 扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。
 
@@ -132,15 +132,15 @@ links:
 
 现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。
 
-1. 打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的"终端"。
+1. 打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的`终端`。
 
-2. 在终端中，输入以下命令并按回车："quarto add kv9898/orcid"。
+2. 在终端中，输入以下命令并按回车：`quarto add kv9898/orcid`。
 
-3. 当询问是否信任作者并继续时，输入"Y"。
+3. 当询问是否信任作者并继续时，输入`Y`。
 
 4. 现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：[ORCID模板](https://github.com/kv9898/orcid/blob/main/example.qmd)。
 
-5. 点击顶部栏的"预览"尝试编译文档。按照终端中的说明安装任何缺失的包。
+5. 点击顶部栏的`预览`尝试编译文档。按照终端中的说明安装任何缺失的包。
 
 ## YAML头部
 
@@ -215,7 +215,7 @@ $$
 mpg = \beta_0 + \beta_1 \cdot 重量 + \beta_2 \cdot 气缸数 + \epsilon
 $$ {#eq-regression}
 
-我们也可以使用"&"来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：
+我们也可以使用`&`来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：
 
 ```r
 $$
