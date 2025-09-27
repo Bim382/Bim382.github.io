@@ -115,7 +115,7 @@ number-sections: true
 
 4. 将📖图标拖拽到右侧的辅助边栏中。
 
-## 安装Zotero
+## 安装Zotero {#sec-zotero}
 
 最后，我们需要下载并安装Zotero来管理参考文献。
 
@@ -351,7 +351,7 @@ modelsummary(
 
 以下是使用Quarto进行文献引用的示例。
 
-首先，确保您已经按照前面的说明将`references.bib`文件添加到您的项目中，并在YAML头部中正确设置了`bibliography`字段。
+首先，确保您已经按照前面 @sec-zotero 的说明将`references.bib`文件添加到您的项目中，并在YAML头部中正确设置了`bibliography`字段。
 
 其次，确保您已经下载并安装了对应引用格式的`*.csl`文件，并在YAML头部中正确设置了`csl`字段。引用格式可以从[CSL仓库](https://github.com/citation-style-language/styles)下载。
 
