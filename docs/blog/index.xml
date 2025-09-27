@@ -654,6 +654,646 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
   <media:content url="https://bim382.github.io/blog/2025-09-27-PositronHandbook/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>研究入门：如何成为现代定量社会科学家？</title>
+  <dc:creator>Yuxin Fu</dc:creator>
+  <dc:creator>Dianyi Yang</dc:creator>
+  <link>https://bim382.github.io/blog/2025-09-27-Positron中文教程/</link>
+  <description><![CDATA[ 
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> -->
+
+
+
+<p>本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的全面指导。</p>
+<section id="安装" class="level1">
+<h1>安装</h1>
+<p>本节将指导您安装和设置Positron、Quarto和Zotero，用于撰写定量学术研究论文。</p>
+<section id="安装rpositron和quarto" class="level2">
+<h2 class="anchored" data-anchor-id="安装rpositron和quarto">安装R、Positron和Quarto</h2>
+<p>首先，我们需要下载并安装R、Positron和Quarto。</p>
+<ol type="1">
+<li><p>按照<a href="https://mirrors.tuna.tsinghua.edu.cn/CRAN/">CRAN镜像</a>上的说明下载并安装R。</p></li>
+<li><p>按照<a href="https://positron.posit.co/download.html">Positron下载页面</a>上的说明下载Positron。</p></li>
+<li><p>运行安装程序并安装Positron。当被要求时，请勾选所有选项。</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://bim382.github.io/blog/2025-09-27-Positron中文教程/Positron_Install.png" class="img-fluid figure-img"></p>
+<figcaption>勾选所有选项</figcaption>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>按照<a href="https://quarto.org/docs/get-started/">Quarto入门指南</a>上的说明下载并安装Quarto。</li>
+</ol>
+</section>
+<section id="设置系统环境变量" class="level2">
+<h2 class="anchored" data-anchor-id="设置系统环境变量">设置系统环境变量</h2>
+<p>接下来，我们需要为代理设置系统环境变量。</p>
+<p><strong>Windows用户：</strong></p>
+<ol type="1">
+<li><p>打开Windows开始菜单并搜索”Env”。</p></li>
+<li><p>点击”编辑系统环境变量”。</p></li>
+<li><p>在系统属性窗口中，点击”环境变量”按钮。</p></li>
+<li><p>在环境变量窗口中，在”系统变量”部分下，点击”新建”按钮。</p></li>
+<li><p>在新建系统变量窗口中，输入<code>HTTP_PROXY</code>作为变量名，<code>http://127.0.0.1:xxxx</code>作为变量值。点击确定。（将<code>xxxx</code>替换为您代理使用的端口号。）</p></li>
+<li><p>重复步骤5，创建另一个名为<code>HTTPS_PROXY</code>的系统变量，值相同为<code>http://127.0.0.1:xxxx</code>。</p></li>
+<li><p>重复步骤5，创建另一个名为<code>NO_PROXY</code>的系统变量，值为<code>localhost,127.0.0.1</code>。</p></li>
+<li><p>点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。</p></li>
+</ol>
+<p><strong>Mac用户：</strong></p>
+<p>正在完善中。</p>
+</section>
+<section id="加入github教育计划" class="level2">
+<h2 class="anchored" data-anchor-id="加入github教育计划">加入Github教育计划</h2>
+<p>要使用Github Copilot，我们需要加入Github教育计划。</p>
+<ol type="1">
+<li><p>打开网络浏览器，访问<a href="https://github.com/education">GitHub Education</a>。</p></li>
+<li><p>点击”Join GitHub Education”按钮。</p></li>
+<li><p>按照说明验证您的学生身份并完成申请过程。</p></li>
+</ol>
+</section>
+<section id="更新positron并设置github-copilot-chat" class="level2">
+<h2 class="anchored" data-anchor-id="更新positron并设置github-copilot-chat">更新Positron并设置Github Copilot Chat</h2>
+<p>现在，我们需要更新Positron并设置Github Copilot Chat。</p>
+<ol type="1">
+<li><p>打开Positron。</p></li>
+<li><p>点击左下角的”管理”图标。</p></li>
+<li><p>点击”设置”打开设置选项卡。</p></li>
+<li><p>在设置选项卡中，搜索”channel”，将”releases”切换为”dailies”。</p></li>
+<li><p>点击左下角的”管理”图标。点击”检查更新”将Positron更新到最新版本。更新完成后，重启Positron。</p></li>
+<li><p>重复步骤2和3再次打开设置选项卡。</p></li>
+<li><p>在设置选项卡中，搜索”assistant”。勾选”Enable Positron Assistant”选项。</p></li>
+<li><p>点击左侧边栏的”聊天”图标打开聊天选项卡。</p></li>
+<li><p>在聊天选项卡中，点击”添加模型提供商”按钮。</p></li>
+<li><p>在配置语言模型提供商窗口中，选择”GitHub Copilot”。点击”登录”。</p></li>
+<li><p>在GitHub登录页面中，输入您的GitHub凭据进行登录。</p></li>
+<li><p>登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。</p></li>
+</ol>
+</section>
+<section id="安装r包管理器" class="level2">
+<h2 class="anchored" data-anchor-id="安装r包管理器">安装R包管理器</h2>
+<p>接下来，我们需要安装R包管理器来管理R包。</p>
+<ol type="1">
+<li><p>打开Positron。点击左侧边栏的”扩展”图标。</p></li>
+<li><p>搜索”Positron R Package Manager”。点击”安装”来安装扩展。</p></li>
+<li><p>扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。</p></li>
+<li><p>将📖图标拖拽到右侧的辅助边栏中。</p></li>
+</ol>
+</section>
+<section id="安装zotero" class="level2">
+<h2 class="anchored" data-anchor-id="安装zotero">安装Zotero</h2>
+<p>最后，我们需要下载并安装Zotero来管理参考文献。</p>
+<p>正在完善中。</p>
+</section>
+</section>
+<section id="使用方法" class="level1">
+<h1>使用方法</h1>
+<p>本节将指导您如何使用Positron、Quarto和Zotero撰写定量学术研究论文。</p>
+<section id="获取orcid模板" class="level2">
+<h2 class="anchored" data-anchor-id="获取orcid模板">获取ORCID模板</h2>
+<p>现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。</p>
+<ol type="1">
+<li><p>打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的”终端”。</p></li>
+<li><p>在终端中，输入以下命令并按回车：“quarto add kv9898/orcid”。</p></li>
+<li><p>当询问是否信任作者并继续时，输入”Y”。</p></li>
+<li><p>现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：<a href="https://github.com/kv9898/orcid/blob/main/example.qmd">ORCID模板</a>。</p></li>
+<li><p>点击顶部栏的”预览”尝试编译文档。按照终端中的说明安装任何缺失的包。</p></li>
+</ol>
+</section>
+<section id="yaml头部" class="level2">
+<h2 class="anchored" data-anchor-id="yaml头部">YAML头部</h2>
+<p>您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。</p>
+<p>正在完善中。</p>
+</section>
+<section id="回归分析示例" class="level2">
+<h2 class="anchored" data-anchor-id="回归分析示例">回归分析示例</h2>
+<p>以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。</p>
+<p>首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。</p>
+<p>点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 为散点图分配标签以便交叉引用</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 图表标签应该有前缀"fig-"</span></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| label: fig-scatter</span></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 为散点图分配标题</span></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| fig-cap: "汽车重量与燃油效率的关系"</span></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 仅对图表输出设置echo、warning和message为false</span></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| echo: false</span></span>
+<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| warning: false</span></span>
+<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| message: false</span></span>
+<span id="cb1-10"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 安装必要的包</span></span>
+<span id="cb1-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ggplot2"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"dplyr"</span>))</span>
+<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 如果包已安装，可以跳过上面的行</span></span>
+<span id="cb1-13"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-14"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span>
+<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建描述性统计图表</span></span>
+<span id="cb1-16"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(mtcars, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> wt, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> mpg)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(cyl)), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_smooth</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">method =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lm"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">se =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"blue"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-19">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(</span>
+<span id="cb1-20">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"重量 (1000磅)"</span>,</span>
+<span id="cb1-21">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"每加仑英里数"</span>,</span>
+<span id="cb1-22">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"气缸数"</span></span>
+<span id="cb1-23">  ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-scatter" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="H">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://bim382.github.io/blog/2025-09-27-Positron中文教程/index_files/figure-html/fig-scatter-1.png" class="img-fluid figure-img" data-fig-pos="H" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: 汽车重量与燃油效率的关系
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号<code>$$ ... $$</code>括起来，并使用<code>{#label}</code>分配标签以便交叉引用。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span></span>
+<span id="cb2-2">mpg <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> \beta_0 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> \beta_1 \cdot 重量 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> \beta_2 \cdot 气缸数 <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> \epsilon</span>
+<span id="cb2-3"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span> {<span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#eq-regression}  #方程标签应该有前缀"eq-"</span></span></code></pre></div></div>
+<p><span id="eq-regression"><img src="https://latex.codecogs.com/png.latex?%0Ampg%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20%5Ccdot%20%E9%87%8D%E9%87%8F%20+%20%5Cbeta_2%20%5Ccdot%20%E6%B0%94%E7%BC%B8%E6%95%B0%20+%20%5Cepsilon%0A%5Ctag%7B1%7D"></span></p>
+<p>我们也可以使用”&amp;“来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span></span>
+<span id="cb3-2">\begin{aligned}</span>
+<span id="cb3-3"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>\\</span>
+<span id="cb3-4"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">7</span>\\</span>
+<span id="cb3-5"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span></span>
+<span id="cb3-6">\end{aligned}</span>
+<span id="cb3-7"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">$</span> {<span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#eq-group}</span></span></code></pre></div></div>
+<p>注意这里我们使用<code>\begin{aligned} ... \end{aligned}</code>来对齐一组方程，使用<code>\\</code>表示换行，使用<code>&amp;</code>表示对齐点。</p>
+<p>这三个方程现在作为一组引用并在等号处对齐：</p>
+<p><span id="eq-group"><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A1+2&amp;=3%5C%5C%0A3+4&amp;=7%5C%5C%0A11&amp;=5+6%0A%5Cend%7Baligned%7D%0A%5Ctag%7B2%7D"></span></p>
+<p>最后，让我们创建一个回归表来总结我们的回归结果。我们将使用<code>modelsummary</code>包来创建格式良好的回归表。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 为回归表分配标签以便交叉引用</span></span>
+<span id="cb4-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 表格标签应该有前缀"tbl-"</span></span>
+<span id="cb4-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| label: tbl-regression</span></span>
+<span id="cb4-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 为回归表分配标题</span></span>
+<span id="cb4-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| tbl-cap: "回归结果：燃油效率模型"</span></span>
+<span id="cb4-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 仅对图表输出设置echo、warning和message为false</span></span>
+<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| echo: false</span></span>
+<span id="cb4-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| warning: false</span></span>
+<span id="cb4-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| message: false</span></span>
+<span id="cb4-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(modelsummary)</span>
+<span id="cb4-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 拟合回归模型</span></span>
+<span id="cb4-12">model1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lm</span>(mpg <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> wt, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> mtcars)</span>
+<span id="cb4-13">model2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lm</span>(mpg <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> wt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> cyl, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> mtcars)</span>
+<span id="cb4-14">model3 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lm</span>(mpg <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> wt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> cyl <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> hp, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> mtcars)</span>
+<span id="cb4-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建回归表</span></span>
+<span id="cb4-16"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">modelsummary</span>(</span>
+<span id="cb4-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">list</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"模型1"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> model1, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"模型2"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> model2, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"模型3"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> model3),</span>
+<span id="cb4-18">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">stars =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>,</span>
+<span id="cb4-19">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">gof_map =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"nobs"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"r.squared"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"adj.r.squared"</span>)</span>
+<span id="cb4-20">)</span></code></pre></div></div>
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-regression" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: 回归结果：燃油效率模型
+</figcaption>
+<div aria-describedby="tbl-regression-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<!-- preamble start -->
+
+    <script>
+
+      function styleCell_rhm905z79t5adfnysuib(i, j, css_id) {
+          var table = document.getElementById("tinytable_rhm905z79t5adfnysuib");
+          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+          if (cell) {
+              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
+              cell.classList.add(css_id);
+          } else {
+              console.warn(`Cell at (${i}, ${j}) not found.`);
+          }
+      }
+      function spanCell_rhm905z79t5adfnysuib(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_rhm905z79t5adfnysuib");
+        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
+        if (!targetCell) {
+          console.warn(`Cell at (${i}, ${j}) not found.`);
+        }
+
+        // Get all cells that need to be removed
+        const cellsToRemove = [];
+        for (let r = 0; r < rowspan; r++) {
+          for (let c = 0; c < colspan; c++) {
+            if (r === 0 && c === 0) continue; // Skip the target cell
+            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
+            if (cell) {
+              cellsToRemove.push(cell);
+            }
+          }
+        }
+
+        // Remove all cells
+        cellsToRemove.forEach(cell => cell.remove());
+
+        // Set rowspan and colspan of the target cell if it exists
+        if (targetCell) {
+          targetCell.rowSpan = rowspan;
+          targetCell.colSpan = colspan;
+        }
+      }
+      // tinytable span after
+      window.addEventListener('load', function () {
+          var cellsToStyle = [
+            // tinytable style arrays after
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_kpt3779cppi5o0ej3vaf',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_40bj9wy2kn83n45m5rli',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_chgamgd5442zen3qt9k8',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_zn8rhlnzgbh9mu7rtur1',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_6qqy875mum7hr6gl9t88',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_opc609vg16l77fhzsno7',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_m0ff0lupgmu0d9l7m1sr',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_ey9jewyyeppfsa3pt24n',}, 
+          ];
+
+          // Loop over the arrays to style the cells
+          cellsToStyle.forEach(function (group) {
+              group.positions.forEach(function (cell) {
+                  styleCell_rhm905z79t5adfnysuib(cell.i, cell.j, group.css_id);
+              });
+          });
+      });
+    </script>
+
+    <style>
+      /* tinytable css entries after */
+      .table td.tinytable_css_kpt3779cppi5o0ej3vaf, .table th.tinytable_css_kpt3779cppi5o0ej3vaf { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_40bj9wy2kn83n45m5rli, .table th.tinytable_css_40bj9wy2kn83n45m5rli { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_chgamgd5442zen3qt9k8, .table th.tinytable_css_chgamgd5442zen3qt9k8 { text-align: center; }
+      .table td.tinytable_css_zn8rhlnzgbh9mu7rtur1, .table th.tinytable_css_zn8rhlnzgbh9mu7rtur1 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_6qqy875mum7hr6gl9t88, .table th.tinytable_css_6qqy875mum7hr6gl9t88 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_opc609vg16l77fhzsno7, .table th.tinytable_css_opc609vg16l77fhzsno7 { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_m0ff0lupgmu0d9l7m1sr, .table th.tinytable_css_m0ff0lupgmu0d9l7m1sr { text-align: left; }
+      .table td.tinytable_css_ey9jewyyeppfsa3pt24n, .table th.tinytable_css_ey9jewyyeppfsa3pt24n { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+    </style>
+    <div class="container">
+      <table class="table table-borderless" id="tinytable_rhm905z79t5adfnysuib" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+        <thead>
+        
+              <tr>
+                <th scope="col" data-row="0" data-col="0"> </th>
+                <th scope="col" data-row="0" data-col="1">模型1</th>
+                <th scope="col" data-row="0" data-col="2">模型2</th>
+                <th scope="col" data-row="0" data-col="3">模型3</th>
+              </tr>
+        </thead>
+        <tfoot><tr><td colspan="4">+ p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001</td></tr></tfoot>
+        <tbody>
+                <tr>
+                  <td data-row="1" data-col="0">(Intercept)</td>
+                  <td data-row="1" data-col="1">37.285***</td>
+                  <td data-row="1" data-col="2">39.686***</td>
+                  <td data-row="1" data-col="3">38.752***</td>
+                </tr>
+                <tr>
+                  <td data-row="2" data-col="0"></td>
+                  <td data-row="2" data-col="1">(1.878)</td>
+                  <td data-row="2" data-col="2">(1.715)</td>
+                  <td data-row="2" data-col="3">(1.787)</td>
+                </tr>
+                <tr>
+                  <td data-row="3" data-col="0">wt</td>
+                  <td data-row="3" data-col="1">-5.344***</td>
+                  <td data-row="3" data-col="2">-3.191***</td>
+                  <td data-row="3" data-col="3">-3.167***</td>
+                </tr>
+                <tr>
+                  <td data-row="4" data-col="0"></td>
+                  <td data-row="4" data-col="1">(0.559)</td>
+                  <td data-row="4" data-col="2">(0.757)</td>
+                  <td data-row="4" data-col="3">(0.741)</td>
+                </tr>
+                <tr>
+                  <td data-row="5" data-col="0">cyl</td>
+                  <td data-row="5" data-col="1"></td>
+                  <td data-row="5" data-col="2">-1.508**</td>
+                  <td data-row="5" data-col="3">-0.942+</td>
+                </tr>
+                <tr>
+                  <td data-row="6" data-col="0"></td>
+                  <td data-row="6" data-col="1"></td>
+                  <td data-row="6" data-col="2">(0.415)</td>
+                  <td data-row="6" data-col="3">(0.551)</td>
+                </tr>
+                <tr>
+                  <td data-row="7" data-col="0">hp</td>
+                  <td data-row="7" data-col="1"></td>
+                  <td data-row="7" data-col="2"></td>
+                  <td data-row="7" data-col="3">-0.018</td>
+                </tr>
+                <tr>
+                  <td data-row="8" data-col="0"></td>
+                  <td data-row="8" data-col="1"></td>
+                  <td data-row="8" data-col="2"></td>
+                  <td data-row="8" data-col="3">(0.012)</td>
+                </tr>
+                <tr>
+                  <td data-row="9" data-col="0">Num.Obs.</td>
+                  <td data-row="9" data-col="1">32</td>
+                  <td data-row="9" data-col="2">32</td>
+                  <td data-row="9" data-col="3">32</td>
+                </tr>
+                <tr>
+                  <td data-row="10" data-col="0">R2</td>
+                  <td data-row="10" data-col="1">0.753</td>
+                  <td data-row="10" data-col="2">0.830</td>
+                  <td data-row="10" data-col="3">0.843</td>
+                </tr>
+                <tr>
+                  <td data-row="11" data-col="0">R2 Adj.</td>
+                  <td data-row="11" data-col="1">0.745</td>
+                  <td data-row="11" data-col="2">0.819</td>
+                  <td data-row="11" data-col="3">0.826</td>
+                </tr>
+        </tbody>
+      </table>
+    </div>
+<!-- hack to avoid NA insertion in last line -->
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。</p>
+<p>要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用<code>@标签</code>，其中<em>标签</em>是您分配给图表、表格或方程的标签。例如，<code>@eq-regression</code>引用回归方程@eq-regression，<code>@eq-group</code>引用方程组@eq-group，<code>@fig-scatter</code>引用散点图@fig-scatter，<code>@tbl-regression</code>引用回归表@tbl-regression。您可以参考<a href="https://quarto.org/docs/authoring/cross-references.html#overview">Quarto交叉引用文档</a>获取更多交叉引用信息。</p>
+</section>
+<section id="文献综述示例" class="level2">
+<h2 class="anchored" data-anchor-id="文献综述示例">文献综述示例</h2>
+<p>正在完善中。</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
+  author = {Fu, Yuxin and Yang, Dianyi},
+  title = {研究入门：如何成为现代定量社会科学家？},
+  date = {2025-09-27},
+  url = {https://bim382.github.io/blog/2025-09-27-Positron中文教程/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-fu2025" class="csl-entry quarto-appendix-citeas">
+Fu, Y., &amp; Yang, D. (2025, September 27).
+<em>研究入门：如何成为现代定量社会科学家？</em>. <a href="https://bim382.github.io/blog/2025-09-27-Positron中文教程/">https://bim382.github.io/blog/2025-09-27-Positron中文教程/</a>
+</div></div></section></div> ]]></description>
+  <category>Positron</category>
+  <category>Quarto</category>
+  <category>Github</category>
+  <category>Zotero</category>
+  <category>Copilot</category>
+  <category>教程</category>
+  <guid>https://bim382.github.io/blog/2025-09-27-Positron中文教程/</guid>
+  <pubDate>Fri, 26 Sep 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://bim382.github.io/blog/2025-09-27-Positron中文教程/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>伦敦怎么办法签？</title>
   <dc:creator>Yuxin Fu</dc:creator>
   <link>https://bim382.github.io/blog/2023-11-15-FranceVisa/</link>
