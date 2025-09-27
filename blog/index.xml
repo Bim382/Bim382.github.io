@@ -52,10 +52,10 @@
 <p>Next, we need to set up the system environment variables for proxys.</p>
 <p><strong>For Windows:</strong></p>
 <ol type="1">
-<li><p>Open the Windows Start Menu and search for “Env”.</p></li>
-<li><p>Click on “Edit the system environment variables”.</p></li>
-<li><p>In the System Properties window, click on the “Environment Variables” button.</p></li>
-<li><p>In the Environment Variables window, under the “System variables” section, click on the “New” button.</p></li>
+<li><p>Open the Windows Start Menu and search for <code>Env</code>.</p></li>
+<li><p>Click on <code>Edit the system environment variables</code>.</p></li>
+<li><p>In the System Properties window, click on the <code>Environment Variables</code> button.</p></li>
+<li><p>In the Environment Variables window, under the <code>System variables</code> section, click on the <code>New</code> button.</p></li>
 <li><p>In the New System Variable window, enter <code>HTTP_PROXY</code> as the Variable name and <code>http://127.0.0.1:xxxx</code> as the Variable value. Click OK. (Replace <code>xxxx</code> with the port number you are using for your proxy.)</p></li>
 <li><p>Repeat step 5 to create another system variable named <code>HTTPS_PROXY</code> with the same value <code>http://127.0.0.1:xxxx</code>.</p></li>
 <li><p>Repeat step 5 to create another system variable named <code>NO_PROXY</code> with the value <code>localhost,127.0.0.1</code>.</p></li>
@@ -69,7 +69,7 @@
 <p>To use Github Copilot, we need to join the Github Education program.</p>
 <ol type="1">
 <li><p>Open your web browser and go to <a href="https://github.com/education">GitHub Education</a>.</p></li>
-<li><p>Click on the “Join GitHub Education” button.</p></li>
+<li><p>Click on the <code>Join GitHub Education</code> button.</p></li>
 <li><p>Follow the instructions to verify your student status and complete the application process.</p></li>
 </ol>
 </section>
@@ -78,15 +78,15 @@
 <p>Now, we need to update Positron and set up Github Copilot Chat.</p>
 <ol type="1">
 <li><p>Open Positron.</p></li>
-<li><p>Click on the “Manage” Icon on the bottom left corner.</p></li>
-<li><p>Click on “Settings” to open the Settings tab.</p></li>
-<li><p>In the Settings tab, search for “channel”, and switch the “releases” to “dailies”.</p></li>
-<li><p>Click on the “Manage” Icon on the bottom left corner. Click on “Check for Updates” to update Positron to the latest version. After the update is complete, restart Positron.</p></li>
+<li><p>Click on the <code>Manage</code> Icon on the bottom left corner.</p></li>
+<li><p>Click on <code>Settings</code> to open the Settings tab.</p></li>
+<li><p>In the Settings tab, search for <code>channel</code>, and switch the <code>releases</code> to <code>dailies</code>.</p></li>
+<li><p>Click on the <code>Manage</code> Icon on the bottom left corner. Click on <code>Check for Updates</code> to update Positron to the latest version. After the update is complete, restart Positron.</p></li>
 <li><p>Repeat step 2 &amp; 3 to open the Settings tab again.</p></li>
-<li><p>In the Settings tab, search for “assistant”. Check on the box “Enable Positron Assistant”.</p></li>
-<li><p>Click on the “Chat” Icon on the left sidebar to open the Chat tab.</p></li>
-<li><p>In the Chat tab, click on “add model provider” button.</p></li>
-<li><p>In the Configure Language Model Provider window, select “GitHub Copilot”. Click on “Sign in”.</p></li>
+<li><p>In the Settings tab, search for <code>assistant</code>. Check on the box <code>Enable Positron Assistant</code>.</p></li>
+<li><p>Click on the <code>Chat</code> Icon on the left sidebar to open the Chat tab.</p></li>
+<li><p>In the Chat tab, click on <code>add model provider</code> button.</p></li>
+<li><p>In the Configure Language Model Provider window, select <code>GitHub Copilot</code>. Click on <code>Sign in</code>.</p></li>
 <li><p>In the GitHub login page, enter your GitHub credentials to sign in.</p></li>
 <li><p>After signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding.</p></li>
 </ol>
@@ -95,8 +95,8 @@
 <h2 class="anchored" data-anchor-id="install-r-package-manager">Install R Package Manager</h2>
 <p>Next, we need to install the R Package Manager to manage R packages.</p>
 <ol type="1">
-<li><p>Open Positron. Click on the “Extensions” Icon on the left sidebar.</p></li>
-<li><p>Search for “Positron R Package Manager”. Click on “Install” to install the extension.</p></li>
+<li><p>Open Positron. Click on the <code>Extensions</code> Icon on the left sidebar.</p></li>
+<li><p>Search for <code>Positron R Package Manager</code>. Click on <code>Install</code> to install the extension.</p></li>
 <li><p>Once the extension is installed and activated, you can find the R Package Manager 📖 icon on the left sidebar.</p></li>
 <li><p>Drag the 📖 icon to the secondary sidebar on the right.</p></li>
 </ol>
@@ -114,11 +114,11 @@
 <h2 class="anchored" data-anchor-id="fetch-orcid-template">Fetch ORCID Template</h2>
 <p>Now, every time before you start writing a new paper, we could install the ORCID template for better formatting.</p>
 <ol type="1">
-<li><p>Open Positron, create a qmd file as your transcript. Click on “TERMINAL” on the bottom sidebar.</p></li>
-<li><p>In the terminal, type the following command and press Enter: “quarto add kv9898/orcid”.</p></li>
-<li><p>Enter “Y” when asked to trust the authors and to continue.</p></li>
+<li><p>Open Positron, create a qmd file as your transcript. Click on <code>TERMINAL</code> on the bottom sidebar.</p></li>
+<li><p>In the terminal, type the following command and press Enter: <code>quarto add kv9898/orcid</code>.</p></li>
+<li><p>Enter <code>Y</code> when asked to trust the authors and to continue.</p></li>
 <li><p>You can now work on an ORCID template. Copy and paste the example syntax from here: <a href="https://github.com/kv9898/orcid/blob/main/example.qmd">ORCID Template</a>.</p></li>
-<li><p>Click “Preview” on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.</p></li>
+<li><p>Click <code>Preview</code> on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.</p></li>
 </ol>
 </section>
 <section id="yaml-header" class="level2">
@@ -130,7 +130,7 @@
 <h2 class="anchored" data-anchor-id="an-example-regression-analysis">An Example Regression Analysis</h2>
 <p>Here is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.</p>
 <p>First, let’s examine the relationship between car weight and fuel efficiency using a scatter plot.</p>
-<p>Insert an r code cell by clicking the “Insert Code Cell” button on the top bar, and copy and paste the following code into the code cell:</p>
+<p>Insert an r code cell by clicking the <code>Insert Code Cell</code> button on the top bar, and copy and paste the following code into the code cell:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Assign a label to the scatter plot for cross-referencing</span></span>
@@ -286,7 +286,7 @@ font-style: inherit;">$</span> {<span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#eq-regression}  #Labels for equations should have the prefix "eq-"</span></span></code></pre></div></div>
 <p><span id="eq-regression"><img src="https://latex.codecogs.com/png.latex?%0Ampg%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20%5Ccdot%20weight%20+%20%5Cbeta_2%20%5Ccdot%20cylinders%20+%20%5Cepsilon%0A%5Ctag%7B1%7D"></span></p>
-<p>We can also use “&amp;” to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:</p>
+<p>We can also use <code>&amp;</code> to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
@@ -460,8 +460,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <script>
 
-      function styleCell_hqg44m60m4wbxryfuf5n(i, j, css_id) {
-          var table = document.getElementById("tinytable_hqg44m60m4wbxryfuf5n");
+      function styleCell_j8r0gt5xuzk2a800gft3(i, j, css_id) {
+          var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -470,8 +470,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_hqg44m60m4wbxryfuf5n(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_hqg44m60m4wbxryfuf5n");
+      function spanCell_j8r0gt5xuzk2a800gft3(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -502,20 +502,20 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_5ossf1uah1fb77o14lku',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_dqlu1urt3jmi1wx6kmaf',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_9kng46uccumzcpgkuiu8',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_2cwiey3t4na6v7l0xt9r',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_r5ylfgzgigyg043lx3cx',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_2xhd3s6og1jrcr0tiiha',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_ffndqmp8xj46rzmalgit',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_u5flfvxuttxidftdyxcw',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_8y1zv2wo24tahcowsiqt',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_csi5dd09u2d7zinz7xb1',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_8i02blb7rtvpzbdtgpu5',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_pjb373t6eu08dr4gwyin',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_pl7kuvg21k5ofv6x3usy',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_5tjj5goeecjljejblxww',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_6lq3y9s572a17bakimx4',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_gzgxyslkgw94i230wxo1',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_hqg44m60m4wbxryfuf5n(cell.i, cell.j, group.css_id);
+                  styleCell_j8r0gt5xuzk2a800gft3(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -523,17 +523,17 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_5ossf1uah1fb77o14lku, .table th.tinytable_css_5ossf1uah1fb77o14lku { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_dqlu1urt3jmi1wx6kmaf, .table th.tinytable_css_dqlu1urt3jmi1wx6kmaf { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_9kng46uccumzcpgkuiu8, .table th.tinytable_css_9kng46uccumzcpgkuiu8 { text-align: center; }
-      .table td.tinytable_css_2cwiey3t4na6v7l0xt9r, .table th.tinytable_css_2cwiey3t4na6v7l0xt9r { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_r5ylfgzgigyg043lx3cx, .table th.tinytable_css_r5ylfgzgigyg043lx3cx { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_2xhd3s6og1jrcr0tiiha, .table th.tinytable_css_2xhd3s6og1jrcr0tiiha { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_ffndqmp8xj46rzmalgit, .table th.tinytable_css_ffndqmp8xj46rzmalgit { text-align: left; }
-      .table td.tinytable_css_u5flfvxuttxidftdyxcw, .table th.tinytable_css_u5flfvxuttxidftdyxcw { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_8y1zv2wo24tahcowsiqt, .table th.tinytable_css_8y1zv2wo24tahcowsiqt { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_csi5dd09u2d7zinz7xb1, .table th.tinytable_css_csi5dd09u2d7zinz7xb1 { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_8i02blb7rtvpzbdtgpu5, .table th.tinytable_css_8i02blb7rtvpzbdtgpu5 { text-align: center; }
+      .table td.tinytable_css_pjb373t6eu08dr4gwyin, .table th.tinytable_css_pjb373t6eu08dr4gwyin { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_pl7kuvg21k5ofv6x3usy, .table th.tinytable_css_pl7kuvg21k5ofv6x3usy { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_5tjj5goeecjljejblxww, .table th.tinytable_css_5tjj5goeecjljejblxww { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_6lq3y9s572a17bakimx4, .table th.tinytable_css_6lq3y9s572a17bakimx4 { text-align: left; }
+      .table td.tinytable_css_gzgxyslkgw94i230wxo1, .table th.tinytable_css_gzgxyslkgw94i230wxo1 { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_hqg44m60m4wbxryfuf5n" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_j8r0gt5xuzk2a800gft3" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -693,10 +693,10 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <p>接下来，我们需要为代理设置系统环境变量。</p>
 <p><strong>Windows用户：</strong></p>
 <ol type="1">
-<li><p>打开Windows开始菜单并搜索”Env”。</p></li>
-<li><p>点击”编辑系统环境变量”。</p></li>
-<li><p>在系统属性窗口中，点击”环境变量”按钮。</p></li>
-<li><p>在环境变量窗口中，在”系统变量”部分下，点击”新建”按钮。</p></li>
+<li><p>打开Windows开始菜单并搜索<code>Env</code>。</p></li>
+<li><p>点击<code>编辑系统环境变量</code>。</p></li>
+<li><p>在系统属性窗口中，点击<code>环境变量</code>按钮。</p></li>
+<li><p>在环境变量窗口中，在<code>系统变量</code>部分下，点击<code>新建</code>按钮。</p></li>
 <li><p>在新建系统变量窗口中，输入<code>HTTP_PROXY</code>作为变量名，<code>http://127.0.0.1:xxxx</code>作为变量值。点击确定。（将<code>xxxx</code>替换为您代理使用的端口号。）</p></li>
 <li><p>重复步骤5，创建另一个名为<code>HTTPS_PROXY</code>的系统变量，值相同为<code>http://127.0.0.1:xxxx</code>。</p></li>
 <li><p>重复步骤5，创建另一个名为<code>NO_PROXY</code>的系统变量，值为<code>localhost,127.0.0.1</code>。</p></li>
@@ -721,13 +721,13 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <li><p>打开Positron。</p></li>
 <li><p>点击左下角的”管理”图标。</p></li>
 <li><p>点击”设置”打开设置选项卡。</p></li>
-<li><p>在设置选项卡中，搜索”channel”，将”releases”切换为”dailies”。</p></li>
+<li><p>在设置选项卡中，搜索<code>channel</code>，将<code>releases</code>切换为<code>dailies</code>。</p></li>
 <li><p>点击左下角的”管理”图标。点击”检查更新”将Positron更新到最新版本。更新完成后，重启Positron。</p></li>
 <li><p>重复步骤2和3再次打开设置选项卡。</p></li>
-<li><p>在设置选项卡中，搜索”assistant”。勾选”Enable Positron Assistant”选项。</p></li>
+<li><p>在设置选项卡中，搜索<code>assistant</code>。勾选<code>Enable Positron Assistant</code>选项。</p></li>
 <li><p>点击左侧边栏的”聊天”图标打开聊天选项卡。</p></li>
 <li><p>在聊天选项卡中，点击”添加模型提供商”按钮。</p></li>
-<li><p>在配置语言模型提供商窗口中，选择”GitHub Copilot”。点击”登录”。</p></li>
+<li><p>在配置语言模型提供商窗口中，选择<code>GitHub Copilot</code>。点击”登录”。</p></li>
 <li><p>在GitHub登录页面中，输入您的GitHub凭据进行登录。</p></li>
 <li><p>登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。</p></li>
 </ol>
@@ -737,7 +737,7 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <p>接下来，我们需要安装R包管理器来管理R包。</p>
 <ol type="1">
 <li><p>打开Positron。点击左侧边栏的”扩展”图标。</p></li>
-<li><p>搜索”Positron R Package Manager”。点击”安装”来安装扩展。</p></li>
+<li><p>搜索<code>Positron R Package Manager</code>。点击”安装”来安装扩展。</p></li>
 <li><p>扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。</p></li>
 <li><p>将📖图标拖拽到右侧的辅助边栏中。</p></li>
 </ol>
@@ -755,11 +755,11 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <h2 class="anchored" data-anchor-id="获取orcid模板">获取ORCID模板</h2>
 <p>现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。</p>
 <ol type="1">
-<li><p>打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的”终端”。</p></li>
-<li><p>在终端中，输入以下命令并按回车：“quarto add kv9898/orcid”。</p></li>
-<li><p>当询问是否信任作者并继续时，输入”Y”。</p></li>
+<li><p>打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的<code>终端</code>。</p></li>
+<li><p>在终端中，输入以下命令并按回车：<code>quarto add kv9898/orcid</code>。</p></li>
+<li><p>当询问是否信任作者并继续时，输入<code>Y</code>。</p></li>
 <li><p>现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：<a href="https://github.com/kv9898/orcid/blob/main/example.qmd">ORCID模板</a>。</p></li>
-<li><p>点击顶部栏的”预览”尝试编译文档。按照终端中的说明安装任何缺失的包。</p></li>
+<li><p>点击顶部栏的<code>预览</code>尝试编译文档。按照终端中的说明安装任何缺失的包。</p></li>
 </ol>
 </section>
 <section id="yaml头部" class="level2">
@@ -927,7 +927,7 @@ font-style: inherit;">$</span> {<span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#eq-regression}  #方程标签应该有前缀"eq-"</span></span></code></pre></div></div>
 <p><span id="eq-regression"><img src="https://latex.codecogs.com/png.latex?%0Ampg%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20%5Ccdot%20%E9%87%8D%E9%87%8F%20+%20%5Cbeta_2%20%5Ccdot%20%E6%B0%94%E7%BC%B8%E6%95%B0%20+%20%5Cepsilon%0A%5Ctag%7B1%7D"></span></p>
-<p>我们也可以使用”&amp;“来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：</p>
+<p>我们也可以使用<code>&amp;</code>来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
@@ -1101,8 +1101,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <script>
 
-      function styleCell_5qpt0vj848n483mf5mgb(i, j, css_id) {
-          var table = document.getElementById("tinytable_5qpt0vj848n483mf5mgb");
+      function styleCell_qb90ytted93t054zvquq(i, j, css_id) {
+          var table = document.getElementById("tinytable_qb90ytted93t054zvquq");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -1111,8 +1111,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_5qpt0vj848n483mf5mgb(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_5qpt0vj848n483mf5mgb");
+      function spanCell_qb90ytted93t054zvquq(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_qb90ytted93t054zvquq");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -1143,20 +1143,20 @@ Table&nbsp;1: 回归结果：燃油效率模型
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_0lzsqzn8qww0a9agwfdn',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_ldipogp8ir872g31li0w',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_4g6iyvf7hmrnl8ujqf97',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_i3g9qubqrrrb477agxy6',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_w6fd6o8jnr306lqvtbe6',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_t3vg29ip73lgdpvqyi5b',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_5yzwv2orxht1cxlvnkcf',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_ciqlha172gzc646f3grt',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_q3xw46xdkp0drxoej4d5',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_6ymxljdu6sziciabrl7g',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_hisznwdcphqggpws1phy',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_b97o0w76buby9nmtn7ad',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_ttrtkw833wx895s58ze2',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_f481o2fn58frz1gpnos7',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_h82kw37nstvjl9t2pfrv',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_q3qd51oyn4fdvmekif7u',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_5qpt0vj848n483mf5mgb(cell.i, cell.j, group.css_id);
+                  styleCell_qb90ytted93t054zvquq(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -1164,17 +1164,17 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_0lzsqzn8qww0a9agwfdn, .table th.tinytable_css_0lzsqzn8qww0a9agwfdn { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_ldipogp8ir872g31li0w, .table th.tinytable_css_ldipogp8ir872g31li0w { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_4g6iyvf7hmrnl8ujqf97, .table th.tinytable_css_4g6iyvf7hmrnl8ujqf97 { text-align: center; }
-      .table td.tinytable_css_i3g9qubqrrrb477agxy6, .table th.tinytable_css_i3g9qubqrrrb477agxy6 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_w6fd6o8jnr306lqvtbe6, .table th.tinytable_css_w6fd6o8jnr306lqvtbe6 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_t3vg29ip73lgdpvqyi5b, .table th.tinytable_css_t3vg29ip73lgdpvqyi5b { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_5yzwv2orxht1cxlvnkcf, .table th.tinytable_css_5yzwv2orxht1cxlvnkcf { text-align: left; }
-      .table td.tinytable_css_ciqlha172gzc646f3grt, .table th.tinytable_css_ciqlha172gzc646f3grt { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_q3xw46xdkp0drxoej4d5, .table th.tinytable_css_q3xw46xdkp0drxoej4d5 { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_6ymxljdu6sziciabrl7g, .table th.tinytable_css_6ymxljdu6sziciabrl7g { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_hisznwdcphqggpws1phy, .table th.tinytable_css_hisznwdcphqggpws1phy { text-align: center; }
+      .table td.tinytable_css_b97o0w76buby9nmtn7ad, .table th.tinytable_css_b97o0w76buby9nmtn7ad { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_ttrtkw833wx895s58ze2, .table th.tinytable_css_ttrtkw833wx895s58ze2 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_f481o2fn58frz1gpnos7, .table th.tinytable_css_f481o2fn58frz1gpnos7 { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_h82kw37nstvjl9t2pfrv, .table th.tinytable_css_h82kw37nstvjl9t2pfrv { text-align: left; }
+      .table td.tinytable_css_q3qd51oyn4fdvmekif7u, .table th.tinytable_css_q3qd51oyn4fdvmekif7u { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_5qpt0vj848n483mf5mgb" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_qb90ytted93t054zvquq" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
