@@ -228,21 +228,21 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "加入Github教育计划",
-    "text": "加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击”Join GitHub Education”按钮。\n按照说明验证您的学生身份并完成申请过程。"
+    "text": "加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击Join GitHub Education按钮。\n按照说明验证您的学生身份并完成申请过程。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
     "href": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "更新Positron并设置Github Copilot Chat",
-    "text": "更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的”管理”图标。\n点击”设置”打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的”管理”图标。点击”检查更新”将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的”聊天”图标打开聊天选项卡。\n在聊天选项卡中，点击”添加模型提供商”按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击”登录”。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
+    "text": "更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的管理图标。\n点击设置打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的管理齿轮图标。点击检查更新将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的聊天图标打开聊天选项卡。\n在聊天选项卡中，点击添加模型提供商按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击登录。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
     "href": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "安装R包管理器",
-    "text": "安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的”扩展”图标。\n搜索Positron R Package Manager。点击”安装”来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
+    "text": "安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的扩展图标。\n搜索Positron R Package Manager。点击安装来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装zotero",
