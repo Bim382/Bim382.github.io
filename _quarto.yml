@@ -63,7 +63,7 @@ website:
 
   page-footer:  
     left: >-
-     &#169; 2024 Yuxin Fu  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Dianyi Yang's](https://rubuky.com/) and [Silvia Canelón's](https://silviacanelon.com/) template.<br>
+     &#169; 2024 Yuxin Fu  &#8729; Made with [Quarto](https://quarto.org).<br>Based on [Dianyi Yang's](https://rubuky.com/) and [Silvia Canelón's](https://silviacanelon.com/) template.<br> Website icon from [Tropico 6](https://store.steampowered.com/app/492720/Tropico_6/).<br>
     center: |
       <a class="link-dark me-1" href="https://github.com/Bim382" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://www.youtube.com/@bim382" title="youtube" target="_blank" rel="noopener">{{< fa brands youtube >}}</a>

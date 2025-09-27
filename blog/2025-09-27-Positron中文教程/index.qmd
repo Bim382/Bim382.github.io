@@ -5,7 +5,7 @@ author:
 - name: Dianyi Yang
   orcid: 0009-0004-4652-3429
 title: "研究入门：如何成为现代定量社会科学家？"
-subtitle: "Positron、Quarto、Github Copilot和Zotero完全指南"
+subtitle: "Positron、Quarto、Github Copilot和Zotero实用指南"
 date: '2025-09-27'
 categories:
   - Positron
