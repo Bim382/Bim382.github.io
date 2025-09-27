@@ -666,7 +666,7 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 
 
 
-<p>本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的全面指导。</p>
+<p>本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。</p>
 <section id="安装" class="level1">
 <h1>安装</h1>
 <p>本节将指导您安装和设置Positron、Quarto和Zotero，用于撰写定量学术研究论文。</p>
@@ -691,7 +691,6 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <section id="设置系统环境变量" class="level2">
 <h2 class="anchored" data-anchor-id="设置系统环境变量">设置系统环境变量</h2>
 <p>接下来，我们需要为代理设置系统环境变量。</p>
-<p><strong>Windows用户：</strong></p>
 <ol type="1">
 <li><p>打开Windows开始菜单并搜索<code>Env</code>。</p></li>
 <li><p>点击<code>编辑系统环境变量</code>。</p></li>
@@ -702,8 +701,6 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <li><p>重复步骤5，创建另一个名为<code>NO_PROXY</code>的系统变量，值为<code>localhost,127.0.0.1</code>。</p></li>
 <li><p>点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。</p></li>
 </ol>
-<p><strong>Mac用户：</strong></p>
-<p>正在完善中。</p>
 </section>
 <section id="加入github教育计划" class="level2">
 <h2 class="anchored" data-anchor-id="加入github教育计划">加入Github教育计划</h2>
@@ -745,7 +742,17 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <section id="安装zotero" class="level2">
 <h2 class="anchored" data-anchor-id="安装zotero">安装Zotero</h2>
 <p>最后，我们需要下载并安装Zotero来管理参考文献。</p>
-<p>正在完善中。</p>
+<ol type="1">
+<li><p>从<a href="https://www.zotero.org/download/">Zotero下载页面</a>下载适用于您操作系统的Zotero安装程序。</p></li>
+<li><p>运行安装程序并按照屏幕上的说明完成安装。</p></li>
+<li><p>打开Zotero，打开<code>编辑</code>-<code>设置</code>，创建及登录一个帐户以同步您的参考文献，点击左上角<code>新建分类</code>在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。</p></li>
+<li><p>下载并解压<a href="https://github.com/syt2/zotero-addons/releases/latest/download/zotero-addons.xpi">Zotero Addons插件</a>。</p></li>
+<li><p>打开Zotero，点击顶部菜单栏的<code>工具</code>，选择<code>插件</code>，点击<code>齿轮</code>，选择<code>从文件安装插件</code>，选择步骤3中下载的<code>.xpi</code>文件。</p></li>
+<li><p>选择<code>工具</code>-<code>插件市场</code>，安装<code>Better BibTex for Zotero</code>插件以获得更好的BibTex支持。</p></li>
+<li><p>在文库中右键点击标题栏，勾选<code>引用</code>以显示引用名称。</p></li>
+<li><p>选择<code>编辑</code>-<code>设置</code>-<code>Better BibTex</code>，在<code>引用格式公式</code>中，保留<code>auth.lower + year</code>。</p></li>
+<li><p>右键点击想要导出的文献库，选择<code>导出分类</code>，勾选<code>保持更新</code>，将文件命名为<code>references.bib</code>并保存到您的论文项目文件夹中。</p></li>
+</ol>
 </section>
 </section>
 <section id="使用方法" class="level1">
@@ -765,44 +772,274 @@ work as a modern quantitative social scientist?</em> <a href="https://bim382.git
 <section id="yaml头部" class="level2">
 <h2 class="anchored" data-anchor-id="yaml头部">YAML头部</h2>
 <p>您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。</p>
-<p>正在完善中。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb1-2">title<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Orcid Template <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改文章标题</span></span>
+<span id="cb1-3">subtitle<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> with affiliation <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改文章副标题</span></span>
+<span id="cb1-4">date<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> last<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>modified <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'</span></span>
+<span id="cb1-5">authors<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-6">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Dianyi Yang <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改作者姓名</span></span>
+<span id="cb1-7">    email<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> dianyi.yang<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">@</span>politics.ox.ac.uk <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改作者电子邮箱</span></span>
+<span id="cb1-8">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0004-4652-3429</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改作者ORCID</span></span>
+<span id="cb1-9">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改作者所属机构</span></span>
+<span id="cb1-10">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择所属机构，必须与下面的affiliations部分中的id匹配</span></span>
+<span id="cb1-11">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择所属机构，必须与下面的affiliations部分中的id匹配</span></span>
+<span id="cb1-12">    corresponding<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改为通讯作者</span></span>
+<span id="cb1-13">    equal<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>contributor<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改为并列贡献作者</span></span>
+<span id="cb1-14">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Yang Dianyi <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#可添加多位作者</span></span>
+<span id="cb1-15">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0004-4652-3429</span></span>
+<span id="cb1-16">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> </span>
+<span id="cb1-17">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox</span>
+<span id="cb1-18">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Someone <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span></span>
+<span id="cb1-19">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-20">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox</span>
+<span id="cb1-21">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec</span>
+<span id="cb1-22">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0009-9108-5436</span></span>
+<span id="cb1-23">    equal<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>contributor<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true</span>
+<span id="cb1-24"></span>
+<span id="cb1-25">affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#设置所属机构</span></span>
+<span id="cb1-26">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#更改所属机构代号</span></span>
+<span id="cb1-27">    name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Department of Politics and International Relations, University of Oxford</span>
+<span id="cb1-28">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#可设置多个所属机构</span></span>
+<span id="cb1-29">    name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Second Institute</span>
+<span id="cb1-30">format<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择编译格式</span></span>
+<span id="cb1-31">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#native: default #编译为本地HTML格式</span></span>
+<span id="cb1-32">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#docx: default #编译为Word格式</span></span>
+<span id="cb1-33">  orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>pdf<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#编译为PDF格式</span></span>
+<span id="cb1-34">    keep<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>tex<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择是否保留.tex文件，投稿期刊通常需要</span></span>
+<span id="cb1-35">    number<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>sections<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择是否对章节编号</span></span>
+<span id="cb1-36">    cover<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择是否包含封面，如果true，值为cover.pdf</span></span>
+<span id="cb1-37">    toc<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择是否包含目录</span></span>
+<span id="cb1-38">    toc<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>newpage<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#选择目录是否另起一页</span></span>
+<span id="cb1-39">bibliography<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> references.bib <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#设置参考文献文件</span></span>
+<span id="cb1-40">csl<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> extra<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>apa.csl <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#设置引用格式</span></span>
+<span id="cb1-41">abstract<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> This is an abstract. <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#修改摘要内容</span></span>
+<span id="cb1-42">keywords<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> a, b, c <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#修改关键词</span></span>
+<span id="cb1-43">acknowledgements<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> This is an acknowledgement. <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#修改致谢内容</span></span>
+<span id="cb1-44"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div></div>
 </section>
 <section id="回归分析示例" class="level2">
 <h2 class="anchored" data-anchor-id="回归分析示例">回归分析示例</h2>
 <p>以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。</p>
 <p>首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。</p>
 <p>点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 为散点图分配标签以便交叉引用</span></span>
-<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 图表标签应该有前缀"fig-"</span></span>
-<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| label: fig-scatter</span></span>
-<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 为散点图分配标题</span></span>
-<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| fig-cap: "汽车重量与燃油效率的关系"</span></span>
-<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 仅对图表输出设置echo、warning和message为false</span></span>
-<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| echo: false</span></span>
-<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| warning: false</span></span>
-<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| message: false</span></span>
-<span id="cb1-10"><span class="co" style="color: #5E5E5E;
+<span id="cb2-10"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 安装必要的包</span></span>
-<span id="cb1-11"><span class="fu" style="color: #4758AB;
+<span id="cb2-11"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">install.packages</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -811,19 +1048,19 @@ background-color: null;
 font-style: inherit;">"ggplot2"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"dplyr"</span>))</span>
-<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 如果包已安装，可以跳过上面的行</span></span>
-<span id="cb1-13"><span class="fu" style="color: #4758AB;
+<span id="cb2-13"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(ggplot2)</span>
-<span id="cb1-14"><span class="fu" style="color: #4758AB;
+<span id="cb2-14"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(dplyr)</span>
-<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 创建描述性统计图表</span></span>
-<span id="cb1-16"><span class="fu" style="color: #4758AB;
+<span id="cb2-16"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(mtcars, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -834,7 +1071,7 @@ background-color: null;
 font-style: inherit;">y =</span> mpg)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-17">  <span class="fu" style="color: #4758AB;
+<span id="cb2-17">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -849,7 +1086,7 @@ background-color: null;
 font-style: inherit;">3</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-18">  <span class="fu" style="color: #4758AB;
+<span id="cb2-18">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_smooth</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -866,28 +1103,28 @@ background-color: null;
 font-style: inherit;">"blue"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-19">  <span class="fu" style="color: #4758AB;
+<span id="cb2-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb1-20">    <span class="at" style="color: #657422;
+<span id="cb2-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"重量 (1000磅)"</span>,</span>
-<span id="cb1-21">    <span class="at" style="color: #657422;
+<span id="cb2-21">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"每加仑英里数"</span>,</span>
-<span id="cb1-22">    <span class="at" style="color: #657422;
+<span id="cb2-22">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"气缸数"</span></span>
-<span id="cb1-23">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb2-23">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+<span id="cb2-24">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 <div class="cell">
@@ -905,12 +1142,12 @@ Figure&nbsp;1: 汽车重量与燃油效率的关系
 </div>
 </div>
 <p>接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号<code>$$ ... $$</code>括起来，并使用<code>{#label}</code>分配标签以便交叉引用。</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">$</span></span>
-<span id="cb2-2">mpg <span class="ot" style="color: #003B4F;
+<span id="cb3-2">mpg <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> \beta_0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -919,7 +1156,7 @@ background-color: null;
 font-style: inherit;">+</span> \beta_2 \cdot 气缸数 <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> \epsilon</span>
-<span id="cb2-3"><span class="sc" style="color: #5E5E5E;
+<span id="cb3-3"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
@@ -928,13 +1165,13 @@ background-color: null;
 font-style: inherit;">#eq-regression}  #方程标签应该有前缀"eq-"</span></span></code></pre></div></div>
 <p><span id="eq-regression"><img src="https://latex.codecogs.com/png.latex?%0Ampg%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20%5Ccdot%20%E9%87%8D%E9%87%8F%20+%20%5Cbeta_2%20%5Ccdot%20%E6%B0%94%E7%BC%B8%E6%95%B0%20+%20%5Cepsilon%0A%5Ctag%7B1%7D"></span></p>
 <p>我们也可以使用<code>&amp;</code>来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">$</span></span>
-<span id="cb3-2">\begin{aligned}</span>
-<span id="cb3-3"><span class="dv" style="color: #AD0000;
+<span id="cb4-2">\begin{aligned}</span>
+<span id="cb4-3"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -947,7 +1184,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">3</span>\\</span>
-<span id="cb3-4"><span class="dv" style="color: #AD0000;
+<span id="cb4-4"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -960,7 +1197,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">7</span>\\</span>
-<span id="cb3-5"><span class="dv" style="color: #AD0000;
+<span id="cb4-5"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">11</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -973,8 +1210,8 @@ background-color: null;
 font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">6</span></span>
-<span id="cb3-6">\end{aligned}</span>
-<span id="cb3-7"><span class="sc" style="color: #5E5E5E;
+<span id="cb4-6">\end{aligned}</span>
+<span id="cb4-7"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
@@ -985,40 +1222,40 @@ font-style: inherit;">#eq-group}</span></span></code></pre></div></div>
 <p>这三个方程现在作为一组引用并在等号处对齐：</p>
 <p><span id="eq-group"><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A1+2&amp;=3%5C%5C%0A3+4&amp;=7%5C%5C%0A11&amp;=5+6%0A%5Cend%7Baligned%7D%0A%5Ctag%7B2%7D"></span></p>
 <p>最后，让我们创建一个回归表来总结我们的回归结果。我们将使用<code>modelsummary</code>包来创建格式良好的回归表。</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 为回归表分配标签以便交叉引用</span></span>
-<span id="cb4-2"><span class="co" style="color: #5E5E5E;
+<span id="cb5-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 表格标签应该有前缀"tbl-"</span></span>
-<span id="cb4-3"><span class="co" style="color: #5E5E5E;
+<span id="cb5-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| label: tbl-regression</span></span>
-<span id="cb4-4"><span class="co" style="color: #5E5E5E;
+<span id="cb5-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 为回归表分配标题</span></span>
-<span id="cb4-5"><span class="co" style="color: #5E5E5E;
+<span id="cb5-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| tbl-cap: "回归结果：燃油效率模型"</span></span>
-<span id="cb4-6"><span class="co" style="color: #5E5E5E;
+<span id="cb5-6"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 仅对图表输出设置echo、warning和message为false</span></span>
-<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+<span id="cb5-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| echo: false</span></span>
-<span id="cb4-8"><span class="co" style="color: #5E5E5E;
+<span id="cb5-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| warning: false</span></span>
-<span id="cb4-9"><span class="co" style="color: #5E5E5E;
+<span id="cb5-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| message: false</span></span>
-<span id="cb4-10"><span class="fu" style="color: #4758AB;
+<span id="cb5-10"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(modelsummary)</span>
-<span id="cb4-11"><span class="co" style="color: #5E5E5E;
+<span id="cb5-11"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 拟合回归模型</span></span>
-<span id="cb4-12">model1 <span class="ot" style="color: #003B4F;
+<span id="cb5-12">model1 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1027,7 +1264,7 @@ background-color: null;
 font-style: inherit;">~</span> wt, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-13">model2 <span class="ot" style="color: #003B4F;
+<span id="cb5-13">model2 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1038,7 +1275,7 @@ background-color: null;
 font-style: inherit;">+</span> cyl, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-14">model3 <span class="ot" style="color: #003B4F;
+<span id="cb5-14">model3 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1051,13 +1288,13 @@ background-color: null;
 font-style: inherit;">+</span> hp, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-15"><span class="co" style="color: #5E5E5E;
+<span id="cb5-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># 创建回归表</span></span>
-<span id="cb4-16"><span class="fu" style="color: #4758AB;
+<span id="cb5-16"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">modelsummary</span>(</span>
-<span id="cb4-17">  <span class="fu" style="color: #4758AB;
+<span id="cb5-17">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -1072,12 +1309,12 @@ background-color: null;
 font-style: inherit;">"模型3"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> model3),</span>
-<span id="cb4-18">  <span class="at" style="color: #657422;
+<span id="cb5-18">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">stars =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">TRUE</span>,</span>
-<span id="cb4-19">  <span class="at" style="color: #657422;
+<span id="cb5-19">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">gof_map =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1088,7 +1325,7 @@ background-color: null;
 font-style: inherit;">"r.squared"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"adj.r.squared"</span>)</span>
-<span id="cb4-20">)</span></code></pre></div></div>
+<span id="cb5-20">)</span></code></pre></div></div>
 <div class="cell" data-tbl-pos="H">
 <div id="tbl-regression" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-tbl-pos="H">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -1101,8 +1338,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <script>
 
-      function styleCell_xgevk5gmr087qryp5pqu(i, j, css_id) {
-          var table = document.getElementById("tinytable_xgevk5gmr087qryp5pqu");
+      function styleCell_67hx2skf7ws2o1pgjfak(i, j, css_id) {
+          var table = document.getElementById("tinytable_67hx2skf7ws2o1pgjfak");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -1111,8 +1348,8 @@ Table&nbsp;1: 回归结果：燃油效率模型
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_xgevk5gmr087qryp5pqu(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_xgevk5gmr087qryp5pqu");
+      function spanCell_67hx2skf7ws2o1pgjfak(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_67hx2skf7ws2o1pgjfak");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -1143,20 +1380,20 @@ Table&nbsp;1: 回归结果：燃油效率模型
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_231g8hbwk5t83e0k2hec',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_ar2w7dauju75xt21w126',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_n37f3zjk4oe6fln4k899',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_alexzsbiszvzeh6wgh6a',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_pkkwvgtpgt4l5qjxrn1p',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_y00xpyp2itl0oo978kc4',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_nzj5fj30lgqn990rdgcw',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_35n2gbizmvx2otatxd28',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_8089af8hthz901ao1g7a',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_jhu0wij5un00bbdhu7cn',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_bykl9dlstv0o93vn9d34',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_0mi15ld4086v6ga5hlf9',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_ujzmtp1z0fw3zrc2yvje',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_rjrm8d6gkn2e74b4tgxw',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_l1drkoxbk8zacbxi0313',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_wgszcmcsztxxvkfun7qu',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_xgevk5gmr087qryp5pqu(cell.i, cell.j, group.css_id);
+                  styleCell_67hx2skf7ws2o1pgjfak(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -1164,17 +1401,17 @@ Table&nbsp;1: 回归结果：燃油效率模型
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_231g8hbwk5t83e0k2hec, .table th.tinytable_css_231g8hbwk5t83e0k2hec { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_ar2w7dauju75xt21w126, .table th.tinytable_css_ar2w7dauju75xt21w126 { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_n37f3zjk4oe6fln4k899, .table th.tinytable_css_n37f3zjk4oe6fln4k899 { text-align: center; }
-      .table td.tinytable_css_alexzsbiszvzeh6wgh6a, .table th.tinytable_css_alexzsbiszvzeh6wgh6a { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_pkkwvgtpgt4l5qjxrn1p, .table th.tinytable_css_pkkwvgtpgt4l5qjxrn1p { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_y00xpyp2itl0oo978kc4, .table th.tinytable_css_y00xpyp2itl0oo978kc4 { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_nzj5fj30lgqn990rdgcw, .table th.tinytable_css_nzj5fj30lgqn990rdgcw { text-align: left; }
-      .table td.tinytable_css_35n2gbizmvx2otatxd28, .table th.tinytable_css_35n2gbizmvx2otatxd28 { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_8089af8hthz901ao1g7a, .table th.tinytable_css_8089af8hthz901ao1g7a { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_jhu0wij5un00bbdhu7cn, .table th.tinytable_css_jhu0wij5un00bbdhu7cn { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_bykl9dlstv0o93vn9d34, .table th.tinytable_css_bykl9dlstv0o93vn9d34 { text-align: center; }
+      .table td.tinytable_css_0mi15ld4086v6ga5hlf9, .table th.tinytable_css_0mi15ld4086v6ga5hlf9 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_ujzmtp1z0fw3zrc2yvje, .table th.tinytable_css_ujzmtp1z0fw3zrc2yvje { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_rjrm8d6gkn2e74b4tgxw, .table th.tinytable_css_rjrm8d6gkn2e74b4tgxw { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_l1drkoxbk8zacbxi0313, .table th.tinytable_css_l1drkoxbk8zacbxi0313 { text-align: left; }
+      .table td.tinytable_css_wgszcmcsztxxvkfun7qu, .table th.tinytable_css_wgszcmcsztxxvkfun7qu { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_xgevk5gmr087qryp5pqu" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_67hx2skf7ws2o1pgjfak" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -1266,10 +1503,32 @@ Table&nbsp;1: 回归结果：燃油效率模型
 </section>
 <section id="文献综述示例" class="level2">
 <h2 class="anchored" data-anchor-id="文献综述示例">文献综述示例</h2>
-<p>正在完善中。</p>
+<p>以下是使用Quarto进行文献引用的示例。</p>
+<p>首先，确保您已经按照前面的说明将<code>references.bib</code>文件添加到您的项目中，并在YAML头部中正确设置了<code>bibliography</code>字段。</p>
+<p>其次，确保您已经下载并安装了对应引用格式的<code>*.csl</code>文件，并在YAML头部中正确设置了<code>csl</code>字段。引用格式可以从<a href="https://github.com/citation-style-language/styles">CSL仓库</a>下载。</p>
+<p>现在，您可以在文本中使用<code>@引用键</code>来引用文献。我们可以将引用放在句首。例如：<code>@lake2011</code> <span class="citation" data-cites="lake2011">Lake (2011)</span> 认为国际关系研究中的“主义”之争是有害的。</p>
+<p>或者，我们也可以将引用放在句末：国际关系研究中的“主义”之争是有害的<code>[@lake2011]</code><span class="citation" data-cites="lake2011">(Lake, 2011)</span>。</p>
+<p>如果要引用多个文章，可以使用逗号分隔引用键，例如：<code>[@lake2011, @hale2020]</code> <span class="citation" data-cites="lake2011 hale2020">(Hale, 2020; Lake, 2011)</span>。</p>
+<p>最后，在文档的末尾添加以下内容以生成参考文献列表：</p>
+<pre><code># References {.unnumbered}
 
-
+::: {#refs}
+:::
+</code></pre>
 </section>
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-hale2020" class="csl-entry">
+Hale, T. (2020). Transnational <span>Actors</span> and <span>Transnational Governance</span> in <span>Global Environmental Politics</span>. <em>Annual Review of Political Science</em>, <em>23</em>(1), 203–220. <a href="https://doi.org/10.1146/annurev-polisci-050718-032644">https://doi.org/10.1146/annurev-polisci-050718-032644</a>
+</div>
+<div id="ref-lake2011" class="csl-entry">
+Lake, D. A. (2011). Why <span>“isms”</span> <span>Are Evil</span>: <span>Theory</span>, <span>Epistemology</span>, and <span>Academic Sects</span> as <span>Impediments</span> to <span>Understanding</span> and <span>Progress1</span>: <span>Why</span> <span>“isms”</span> are <span>Evil</span>. <em>International Studies Quarterly</em>, <em>55</em>(2), 465–480. <a href="https://doi.org/10.1111/j.1468-2478.2011.00661.x">https://doi.org/10.1111/j.1468-2478.2011.00661.x</a>
+</div>
+</div>
+
+
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,

@@ -39,7 +39,7 @@
     "href": "blog/index.html",
     "title": "My Travel Logs",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\nToturial\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n8 min\n\n\n\n\n\n\n\n\n\n\n\n研究入门：如何成为现代定量社会科学家？\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\n教程\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\nToturial\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n8 min\n\n\n\n\n\n\n\n\n\n\n\n研究入门：如何成为现代定量社会科学家？\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\n教程\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
   },
   {
     "objectID": "blog/2025-09-27-PositronHandbook/index.html",
@@ -207,7 +207,7 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "",
-    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的全面指导。"
+    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
@@ -221,7 +221,7 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "设置系统环境变量",
-    "text": "设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\nWindows用户：\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。\n\nMac用户：\n正在完善中。"
+    "text": "设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
@@ -249,7 +249,7 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html#安装zotero",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "安装Zotero",
-    "text": "安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n正在完善中。"
+    "text": "安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
@@ -263,7 +263,7 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "YAML头部",
-    "text": "YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n正在完善中。"
+    "text": "YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n---\ntitle: Orcid Template #更改文章标题\nsubtitle: with affiliation #更改文章副标题\ndate: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'\nauthors:\n  - name: Dianyi Yang #更改作者姓名\n    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱\n    orcid: 0009-0004-4652-3429 #更改作者ORCID\n    affiliations: #更改作者所属机构\n      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配\n      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配\n    corresponding: true #更改为通讯作者\n    equal-contributor: true #更改为并列贡献作者\n  - name: Yang Dianyi #可添加多位作者\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #设置所属机构\n  - id: ox #更改所属机构代号\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #可设置多个所属机构\n    name: Second Institute\nformat: #选择编译格式\n  #native: default #编译为本地HTML格式\n  #docx: default #编译为Word格式\n  orcid-pdf: #编译为PDF格式\n    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要\n    number-sections: true #选择是否对章节编号\n    cover: false #选择是否包含封面，如果true，值为cover.pdf\n    toc: false #选择是否包含目录\n    toc-newpage: false #选择目录是否另起一页\nbibliography: references.bib #设置参考文献文件\ncsl: extra/apa.csl #设置引用格式\nabstract: This is an abstract. #修改摘要内容\nkeywords: a, b, c #修改关键词\nacknowledgements: This is an acknowledgement. #修改致谢内容\n---"
   },
   {
     "objectID": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
@@ -277,7 +277,7 @@
     "href": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
     "title": "研究入门：如何成为现代定量社会科学家？",
     "section": "文献综述示例",
-    "text": "文献综述示例\n正在完善中。"
+    "text": "文献综述示例\n以下是使用Quarto进行文献引用的示例。\n首先，确保您已经按照前面的说明将references.bib文件添加到您的项目中，并在YAML头部中正确设置了bibliography字段。\n其次，确保您已经下载并安装了对应引用格式的*.csl文件，并在YAML头部中正确设置了csl字段。引用格式可以从CSL仓库下载。\n现在，您可以在文本中使用@引用键来引用文献。我们可以将引用放在句首。例如：@lake2011 @lake2011 认为国际关系研究中的“主义”之争是有害的。\n或者，我们也可以将引用放在句末：国际关系研究中的“主义”之争是有害的[@lake2011][@lake2011]。\n如果要引用多个文章，可以使用逗号分隔引用键，例如：[@lake2011, @hale2020] [@lake2011; @hale2020]。\n最后，在文档的末尾添加以下内容以生成参考文献列表：\n# References {.unnumbered}\n\n::: {#refs}\n:::"
   },
   {
     "objectID": "contact.html",

@@ -20,7 +20,8 @@ links:
   - icon: play-circle
     name: 视频教程
     url: https://www.bilibili.com/video/BV1RBWPzjELj
-bibiography: references.bib
+bibliography: references.bib
+csl: apa.csl
 ---
 
 本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。
