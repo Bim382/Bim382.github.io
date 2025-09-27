@@ -20,9 +20,10 @@ links:
   - icon: play-circle
     name: 视频教程
     url: https://www.bilibili.com/video/BV1RBWPzjELj
+bibiography: references.bib
 ---
 
-本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的全面指导。
+本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。
 
 # 安装
 
@@ -46,8 +47,6 @@ links:
 
 接下来，我们需要为代理设置系统环境变量。
 
-**Windows用户：**
-
 1. 打开Windows开始菜单并搜索`Env`。
 
 2. 点击`编辑系统环境变量`。
@@ -63,10 +62,6 @@ links:
 7. 重复步骤5，创建另一个名为`NO_PROXY`的系统变量，值为`localhost,127.0.0.1`。
 
 8. 点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。
-
-**Mac用户：**
-
-正在完善中。
 
 ## 加入Github教育计划
 
@@ -122,7 +117,23 @@ links:
 
 最后，我们需要下载并安装Zotero来管理参考文献。
 
-正在完善中。
+1. 从[Zotero下载页面](https://www.zotero.org/download/)下载适用于您操作系统的Zotero安装程序。
+
+2. 运行安装程序并按照屏幕上的说明完成安装。
+
+3. 打开Zotero，打开`编辑`-`设置`，创建及登录一个帐户以同步您的参考文献，点击左上角`新建分类`在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。
+
+4. 下载并解压[Zotero Addons插件](https://github.com/syt2/zotero-addons/releases/latest/download/zotero-addons.xpi)。
+
+5. 打开Zotero，点击顶部菜单栏的`工具`，选择`插件`，点击`齿轮`，选择`从文件安装插件`，选择步骤3中下载的`.xpi`文件。
+
+6. 选择`工具`-`插件市场`，安装`Better BibTex for Zotero`插件以获得更好的BibTex支持。
+
+7. 在文库中右键点击标题栏，勾选`引用`以显示引用名称。
+
+8. 选择`编辑`-`设置`-`Better BibTex`，在`引用格式公式`中，保留`auth.lower + year`。
+
+9. 右键点击想要导出的文献库，选择`导出分类`，勾选`保持更新`，将文件命名为`references.bib`并保存到您的论文项目文件夹中。
 
 # 使用方法
 
@@ -146,7 +157,53 @@ links:
 
 您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。
 
-正在完善中。
+```r
+---
+title: Orcid Template #更改文章标题
+subtitle: with affiliation #更改文章副标题
+date: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'
+authors:
+  - name: Dianyi Yang #更改作者姓名
+    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱
+    orcid: 0009-0004-4652-3429 #更改作者ORCID
+    affiliations: #更改作者所属机构
+      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配
+      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配
+    corresponding: true #更改为通讯作者
+    equal-contributor: true #更改为并列贡献作者
+  - name: Yang Dianyi #可添加多位作者
+    orcid: 0009-0004-4652-3429
+    affiliations: 
+      - ref: ox
+  - name: Someone else
+    affiliations:
+      - ref: ox
+      - ref: sec
+    orcid: 0009-0009-9108-5436
+    equal-contributor: true
+
+affiliations: #设置所属机构
+  - id: ox #更改所属机构代号
+    name: Department of Politics and International Relations, University of Oxford
+  - id: sec #可设置多个所属机构
+    name: Second Institute
+format: #选择编译格式
+  #native: default #编译为本地HTML格式
+  #docx: default #编译为Word格式
+  orcid-pdf: #编译为PDF格式
+    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要
+    number-sections: true #选择是否对章节编号
+    cover: false #选择是否包含封面，如果true，值为cover.pdf
+    toc: false #选择是否包含目录
+    toc-newpage: false #选择目录是否另起一页
+bibliography: references.bib #设置参考文献文件
+csl: extra/apa.csl #设置引用格式
+abstract: This is an abstract. #修改摘要内容
+keywords: a, b, c #修改关键词
+acknowledgements: This is an acknowledgement. #修改致谢内容
+---
+
+```
 
 ## 回归分析示例
 
@@ -290,4 +347,28 @@ modelsummary(
 
 ## 文献综述示例
 
-正在完善中。
+以下是使用Quarto进行文献引用的示例。
+
+首先，确保您已经按照前面的说明将`references.bib`文件添加到您的项目中，并在YAML头部中正确设置了`bibliography`字段。
+
+其次，确保您已经下载并安装了对应引用格式的`*.csl`文件，并在YAML头部中正确设置了`csl`字段。引用格式可以从[CSL仓库](https://github.com/citation-style-language/styles)下载。
+
+现在，您可以在文本中使用`@引用键`来引用文献。我们可以将引用放在句首。例如：`@lake2011` @lake2011 认为国际关系研究中的“主义”之争是有害的。
+
+或者，我们也可以将引用放在句末：国际关系研究中的“主义”之争是有害的`[@lake2011]`[@lake2011]。
+
+如果要引用多个文章，可以使用逗号分隔引用键，例如：`[@lake2011, @hale2020]` [@lake2011; @hale2020]。
+
+最后，在文档的末尾添加以下内容以生成参考文献列表：
+
+```
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+```
+# References {.unnumbered}
+
+::: {#refs}
+:::
