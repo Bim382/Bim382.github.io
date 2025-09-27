@@ -74,7 +74,7 @@ links:
 
 1. 打开网络浏览器，访问[GitHub Education](https://github.com/education)。
 
-2. 点击"Join GitHub Education"按钮。
+2. 点击`Join GitHub Education`按钮。
 
 3. 按照说明验证您的学生身份并完成申请过程。
 
@@ -84,23 +84,23 @@ links:
 
 1. 打开Positron。
 
-2. 点击左下角的"管理"图标。
+2. 点击左下角的`管理`图标。
 
-3. 点击"设置"打开设置选项卡。
+3. 点击`设置`打开设置选项卡。
 
 4. 在设置选项卡中，搜索`channel`，将`releases`切换为`dailies`。
 
-5. 点击左下角的"管理"图标。点击"检查更新"将Positron更新到最新版本。更新完成后，重启Positron。
+5. 点击左下角的`管理`齿轮图标。点击`检查更新`将Positron更新到最新版本。更新完成后，重启Positron。
 
 6. 重复步骤2和3再次打开设置选项卡。
 
 7. 在设置选项卡中，搜索`assistant`。勾选`Enable Positron Assistant`选项。
 
-8. 点击左侧边栏的"聊天"图标打开聊天选项卡。
+8. 点击左侧边栏的`聊天`图标打开聊天选项卡。
 
-9. 在聊天选项卡中，点击"添加模型提供商"按钮。
+9. 在聊天选项卡中，点击`添加模型提供商`按钮。
 
-10. 在配置语言模型提供商窗口中，选择`GitHub Copilot`。点击"登录"。
+10. 在配置语言模型提供商窗口中，选择`GitHub Copilot`。点击`登录`。
 
 11. 在GitHub登录页面中，输入您的GitHub凭据进行登录。
 
@@ -110,9 +110,9 @@ links:
 
 接下来，我们需要安装R包管理器来管理R包。
 
-1. 打开Positron。点击左侧边栏的"扩展"图标。
+1. 打开Positron。点击左侧边栏的`扩展`图标。
 
-2. 搜索`Positron R Package Manager`。点击"安装"来安装扩展。
+2. 搜索`Positron R Package Manager`。点击`安装`来安装扩展。
 
 3. 扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。
 
