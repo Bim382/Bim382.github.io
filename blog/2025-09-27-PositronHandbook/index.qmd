@@ -52,8 +52,6 @@ First, we need to download and install R, Positron and Quarto.
 
 Next, we need to set up the system environment variables for proxys.
 
-**For Windows:**
-
 1. Open the Windows Start Menu and search for `Env`.
 
 2. Click on `Edit the system environment variables`.
@@ -69,10 +67,6 @@ Next, we need to set up the system environment variables for proxys.
 7. Repeat step 5 to create another system variable named `NO_PROXY` with the value `localhost,127.0.0.1`.
 
 8. Click OK to close the Environment Variables window. Click OK to close the System Properties window.
-
-**For Mac:**
-
-Work in progress.
 
 ## Join Github Eduction
 
@@ -124,7 +118,7 @@ Next, we need to install the R Package Manager to manage R packages.
 
 4. Drag the 📖 icon to the secondary sidebar on the right.
 
-## Install Zotero
+## Install Zotero {#sec-zotero}
 
 Finally, we need to download and install Zotero for managing references.
 
@@ -361,7 +355,7 @@ To create proper cross-references in Quarto, use the following syntax: `@label` 
 
 Here is an example of how to use Quarto for literature citations.
 
-First, make sure you have added the `references.bib` file to your project according to the previous instructions, and correctly set the `bibliography` field in the YAML header.
+First, make sure you have added the `references.bib` file to your project according to the previous instructions in @sec-zotero, and correctly set the `bibliography` field in the YAML header.
 
 Second, make sure you have downloaded and installed the corresponding citation format `*.csl` file, and correctly set the `csl` field in the YAML header. Citation formats can be downloaded from the [CSL repository](https://github.com/citation-style-language/styles).
 
