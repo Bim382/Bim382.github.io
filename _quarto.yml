@@ -15,7 +15,7 @@ project:
 website:
   title: "Yuxin Fu"
   site-url: https://bim382.github.io
-  favicon: "assets/dianyi/tropico.ico"
+  favicon: "assets/dianyi/shush.ico"
   description: "Political Economy/Causal Inference/Game Theory."
 #  google-analytics: "G-J9JHQ6RJV3"
   #comments: 
@@ -31,7 +31,7 @@ website:
        # dark: dark_dimmed
      #language: en
   navbar:
-    logo: assets/dianyi/tropico.png
+    logo: assets/dianyi/shush.png
     tools:
     #- icon: github
     #  href: https://www.github.com/kv9898/website
