@@ -303,10 +303,10 @@ window.Quarto = {
 <p>Next, we need to set up the system environment variables for proxys.</p>
 <p><strong>For Windows:</strong></p>
 <ol type="1">
-<li><p>Open the Windows Start Menu and search for “Env”.</p></li>
-<li><p>Click on “Edit the system environment variables”.</p></li>
-<li><p>In the System Properties window, click on the “Environment Variables” button.</p></li>
-<li><p>In the Environment Variables window, under the “System variables” section, click on the “New” button.</p></li>
+<li><p>Open the Windows Start Menu and search for <code>Env</code>.</p></li>
+<li><p>Click on <code>Edit the system environment variables</code>.</p></li>
+<li><p>In the System Properties window, click on the <code>Environment Variables</code> button.</p></li>
+<li><p>In the Environment Variables window, under the <code>System variables</code> section, click on the <code>New</code> button.</p></li>
 <li><p>In the New System Variable window, enter <code>HTTP_PROXY</code> as the Variable name and <code>http://127.0.0.1:xxxx</code> as the Variable value. Click OK. (Replace <code>xxxx</code> with the port number you are using for your proxy.)</p></li>
 <li><p>Repeat step 5 to create another system variable named <code>HTTPS_PROXY</code> with the same value <code>http://127.0.0.1:xxxx</code>.</p></li>
 <li><p>Repeat step 5 to create another system variable named <code>NO_PROXY</code> with the value <code>localhost,127.0.0.1</code>.</p></li>
@@ -320,7 +320,7 @@ window.Quarto = {
 <p>To use Github Copilot, we need to join the Github Education program.</p>
 <ol type="1">
 <li><p>Open your web browser and go to <a href="https://github.com/education">GitHub Education</a>.</p></li>
-<li><p>Click on the “Join GitHub Education” button.</p></li>
+<li><p>Click on the <code>Join GitHub Education</code> button.</p></li>
 <li><p>Follow the instructions to verify your student status and complete the application process.</p></li>
 </ol>
 </section>
@@ -329,15 +329,15 @@ window.Quarto = {
 <p>Now, we need to update Positron and set up Github Copilot Chat.</p>
 <ol type="1">
 <li><p>Open Positron.</p></li>
-<li><p>Click on the “Manage” Icon on the bottom left corner.</p></li>
-<li><p>Click on “Settings” to open the Settings tab.</p></li>
-<li><p>In the Settings tab, search for “channel”, and switch the “releases” to “dailies”.</p></li>
-<li><p>Click on the “Manage” Icon on the bottom left corner. Click on “Check for Updates” to update Positron to the latest version. After the update is complete, restart Positron.</p></li>
+<li><p>Click on the <code>Manage</code> Icon on the bottom left corner.</p></li>
+<li><p>Click on <code>Settings</code> to open the Settings tab.</p></li>
+<li><p>In the Settings tab, search for <code>channel</code>, and switch the <code>releases</code> to <code>dailies</code>.</p></li>
+<li><p>Click on the <code>Manage</code> Icon on the bottom left corner. Click on <code>Check for Updates</code> to update Positron to the latest version. After the update is complete, restart Positron.</p></li>
 <li><p>Repeat step 2 &amp; 3 to open the Settings tab again.</p></li>
-<li><p>In the Settings tab, search for “assistant”. Check on the box “Enable Positron Assistant”.</p></li>
-<li><p>Click on the “Chat” Icon on the left sidebar to open the Chat tab.</p></li>
-<li><p>In the Chat tab, click on “add model provider” button.</p></li>
-<li><p>In the Configure Language Model Provider window, select “GitHub Copilot”. Click on “Sign in”.</p></li>
+<li><p>In the Settings tab, search for <code>assistant</code>. Check on the box <code>Enable Positron Assistant</code>.</p></li>
+<li><p>Click on the <code>Chat</code> Icon on the left sidebar to open the Chat tab.</p></li>
+<li><p>In the Chat tab, click on <code>add model provider</code> button.</p></li>
+<li><p>In the Configure Language Model Provider window, select <code>GitHub Copilot</code>. Click on <code>Sign in</code>.</p></li>
 <li><p>In the GitHub login page, enter your GitHub credentials to sign in.</p></li>
 <li><p>After signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding.</p></li>
 </ol>
@@ -346,8 +346,8 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="install-r-package-manager">Install R Package Manager</h2>
 <p>Next, we need to install the R Package Manager to manage R packages.</p>
 <ol type="1">
-<li><p>Open Positron. Click on the “Extensions” Icon on the left sidebar.</p></li>
-<li><p>Search for “Positron R Package Manager”. Click on “Install” to install the extension.</p></li>
+<li><p>Open Positron. Click on the <code>Extensions</code> Icon on the left sidebar.</p></li>
+<li><p>Search for <code>Positron R Package Manager</code>. Click on <code>Install</code> to install the extension.</p></li>
 <li><p>Once the extension is installed and activated, you can find the R Package Manager 📖 icon on the left sidebar.</p></li>
 <li><p>Drag the 📖 icon to the secondary sidebar on the right.</p></li>
 </ol>
@@ -365,11 +365,11 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="fetch-orcid-template">Fetch ORCID Template</h2>
 <p>Now, every time before you start writing a new paper, we could install the ORCID template for better formatting.</p>
 <ol type="1">
-<li><p>Open Positron, create a qmd file as your transcript. Click on “TERMINAL” on the bottom sidebar.</p></li>
-<li><p>In the terminal, type the following command and press Enter: “quarto add kv9898/orcid”.</p></li>
-<li><p>Enter “Y” when asked to trust the authors and to continue.</p></li>
+<li><p>Open Positron, create a qmd file as your transcript. Click on <code>TERMINAL</code> on the bottom sidebar.</p></li>
+<li><p>In the terminal, type the following command and press Enter: <code>quarto add kv9898/orcid</code>.</p></li>
+<li><p>Enter <code>Y</code> when asked to trust the authors and to continue.</p></li>
 <li><p>You can now work on an ORCID template. Copy and paste the example syntax from here: <a href="https://github.com/kv9898/orcid/blob/main/example.qmd">ORCID Template</a>.</p></li>
-<li><p>Click “Preview” on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.</p></li>
+<li><p>Click <code>Preview</code> on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.</p></li>
 </ol>
 </section>
 <section id="yaml-header" class="level2">
@@ -381,7 +381,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="an-example-regression-analysis">An Example Regression Analysis</h2>
 <p>Here is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.</p>
 <p>First, let’s examine the relationship between car weight and fuel efficiency using a scatter plot.</p>
-<p>Insert an r code cell by clicking the “Insert Code Cell” button on the top bar, and copy and paste the following code into the code cell:</p>
+<p>Insert an r code cell by clicking the <code>Insert Code Cell</code> button on the top bar, and copy and paste the following code into the code cell:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Assign a label to the scatter plot for cross-referencing</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Labels for figures should have the prefix "fig-"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-scatter</span></span>
@@ -427,7 +427,7 @@ Figure&nbsp;1: Relationship between Car Weight and Fuel Efficiency
 <p><span id="eq-regression"><span class="math display">\[
 mpg = \beta_0 + \beta_1 \cdot weight + \beta_2 \cdot cylinders + \epsilon
 \tag{1}\]</span></span></p>
-<p>We can also use “&amp;” to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:</p>
+<p>We can also use <code>&amp;</code> to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="sc">$</span><span class="er">$</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>\begin{aligned}</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">+</span><span class="dv">2</span><span class="sc">&amp;</span><span class="er">=</span><span class="dv">3</span>\\</span>
@@ -477,8 +477,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <script>
 
-      function styleCell_hqg44m60m4wbxryfuf5n(i, j, css_id) {
-          var table = document.getElementById("tinytable_hqg44m60m4wbxryfuf5n");
+      function styleCell_j8r0gt5xuzk2a800gft3(i, j, css_id) {
+          var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -487,8 +487,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_hqg44m60m4wbxryfuf5n(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_hqg44m60m4wbxryfuf5n");
+      function spanCell_j8r0gt5xuzk2a800gft3(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -519,20 +519,20 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_5ossf1uah1fb77o14lku',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_dqlu1urt3jmi1wx6kmaf',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_9kng46uccumzcpgkuiu8',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_2cwiey3t4na6v7l0xt9r',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_r5ylfgzgigyg043lx3cx',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_2xhd3s6og1jrcr0tiiha',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_ffndqmp8xj46rzmalgit',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_u5flfvxuttxidftdyxcw',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_8y1zv2wo24tahcowsiqt',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_csi5dd09u2d7zinz7xb1',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_8i02blb7rtvpzbdtgpu5',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_pjb373t6eu08dr4gwyin',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_pl7kuvg21k5ofv6x3usy',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_5tjj5goeecjljejblxww',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_6lq3y9s572a17bakimx4',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_gzgxyslkgw94i230wxo1',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_hqg44m60m4wbxryfuf5n(cell.i, cell.j, group.css_id);
+                  styleCell_j8r0gt5xuzk2a800gft3(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -540,17 +540,17 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_5ossf1uah1fb77o14lku, .table th.tinytable_css_5ossf1uah1fb77o14lku { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_dqlu1urt3jmi1wx6kmaf, .table th.tinytable_css_dqlu1urt3jmi1wx6kmaf { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_9kng46uccumzcpgkuiu8, .table th.tinytable_css_9kng46uccumzcpgkuiu8 { text-align: center; }
-      .table td.tinytable_css_2cwiey3t4na6v7l0xt9r, .table th.tinytable_css_2cwiey3t4na6v7l0xt9r { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_r5ylfgzgigyg043lx3cx, .table th.tinytable_css_r5ylfgzgigyg043lx3cx { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_2xhd3s6og1jrcr0tiiha, .table th.tinytable_css_2xhd3s6og1jrcr0tiiha { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_ffndqmp8xj46rzmalgit, .table th.tinytable_css_ffndqmp8xj46rzmalgit { text-align: left; }
-      .table td.tinytable_css_u5flfvxuttxidftdyxcw, .table th.tinytable_css_u5flfvxuttxidftdyxcw { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_8y1zv2wo24tahcowsiqt, .table th.tinytable_css_8y1zv2wo24tahcowsiqt { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_csi5dd09u2d7zinz7xb1, .table th.tinytable_css_csi5dd09u2d7zinz7xb1 { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_8i02blb7rtvpzbdtgpu5, .table th.tinytable_css_8i02blb7rtvpzbdtgpu5 { text-align: center; }
+      .table td.tinytable_css_pjb373t6eu08dr4gwyin, .table th.tinytable_css_pjb373t6eu08dr4gwyin { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_pl7kuvg21k5ofv6x3usy, .table th.tinytable_css_pl7kuvg21k5ofv6x3usy { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_5tjj5goeecjljejblxww, .table th.tinytable_css_5tjj5goeecjljejblxww { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_6lq3y9s572a17bakimx4, .table th.tinytable_css_6lq3y9s572a17bakimx4 { text-align: left; }
+      .table td.tinytable_css_gzgxyslkgw94i230wxo1, .table th.tinytable_css_gzgxyslkgw94i230wxo1 { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_hqg44m60m4wbxryfuf5n" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_j8r0gt5xuzk2a800gft3" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
