@@ -23,6 +23,9 @@ links:
   - icon: play-circle
     name: Video
     url: https://www.bilibili.com/video/BV1RBWPzjELj
+bibliography: references.bib
+csl: apa.csl
+number-sections: true
 ---
 
 This handbook provides a comprehensive guide for installing, configuring, and using Positron, Quarto, and Zotero for writing quantitative academic research papers.
@@ -125,7 +128,23 @@ Next, we need to install the R Package Manager to manage R packages.
 
 Finally, we need to download and install Zotero for managing references.
 
-Work in progress.
+1. Download the Zotero installer for your operating system from the [Zotero Download page](https://www.zotero.org/download/).
+
+2. Run the installer and follow the on-screen instructions to complete the installation.
+
+3. Open Zotero, go to `Edit` - `Preferences`, create and log into an account to sync your references. Click `New Collection` in the top left corner to create a new collection in My Library, then click the magic wand icon on the right to add any literature by DOI to that collection.
+
+4. Download and extract the [Zotero Addons plugin](https://github.com/syt2/zotero-addons/releases/latest/download/zotero-addons.xpi).
+
+5. Open Zotero, click on `Tools` in the top menu bar, select `Add-ons`, click the `gear` icon, select `Install Add-on From File`, and choose the `.xpi` file downloaded in step 4.
+
+6. Select `Tools` - `Add-on Market`, install the `Better BibTeX for Zotero` plugin for better BibTeX support.
+
+7. In the library, right-click on the title bar and check `Citation Key` to display citation names.
+
+8. Select `Edit` - `Preferences` - `Better BibTeX`, in the `Citation key format`, keep `auth.lower + year`.
+
+9. Right-click on the literature library you want to export, select `Export Collection`, check `Keep updated`, name the file `references.bib` and save it to your paper project folder.
 
 # Usage
 
@@ -149,7 +168,53 @@ Now, every time before you start writing a new paper, we could install the ORCID
 
 You can make changes to the default YAML header to fit your needs. Refer to the comments on the code in the template for more information.
 
-Work in progress.
+```r
+---
+title: Orcid Template #Change article title
+subtitle: with affiliation #Change article subtitle
+date: last-modified #Set article date to last modified time, or manually set to specific date, e.g., '2024-06-01'
+authors:
+  - name: Dianyi Yang #Change author name
+    email: dianyi.yang@politics.ox.ac.uk #Change author email
+    orcid: 0009-0004-4652-3429 #Change author ORCID
+    affiliations: #Change author affiliations
+      - ref: ox #Select affiliation, must match id in affiliations section below
+      - ref: sec #Select affiliation, must match id in affiliations section below
+    corresponding: true #Set as corresponding author
+    equal-contributor: true #Set as equal contributor
+  - name: Yang Dianyi #Can add multiple authors
+    orcid: 0009-0004-4652-3429
+    affiliations: 
+      - ref: ox
+  - name: Someone else
+    affiliations:
+      - ref: ox
+      - ref: sec
+    orcid: 0009-0009-9108-5436
+    equal-contributor: true
+
+affiliations: #Set affiliations
+  - id: ox #Change affiliation code
+    name: Department of Politics and International Relations, University of Oxford
+  - id: sec #Can set multiple affiliations
+    name: Second Institute
+format: #Choose compilation format
+  #native: default #Compile to native HTML format
+  #docx: default #Compile to Word format
+  orcid-pdf: #Compile to PDF format
+    keep-tex: true #Choose whether to keep .tex file, usually required for journal submission
+    number-sections: true #Choose whether to number sections
+    cover: false #Choose whether to include cover, if true, value is cover.pdf
+    toc: false #Choose whether to include table of contents
+    toc-newpage: false #Choose whether table of contents starts on new page
+bibliography: references.bib #Set bibliography file
+csl: extra/apa.csl #Set citation format
+abstract: This is an abstract. #Modify abstract content
+keywords: a, b, c #Modify keywords
+acknowledgements: This is an acknowledgement. #Modify acknowledgements content
+---
+
+```
 
 ## An Example Regression Analysis
 
@@ -294,6 +359,33 @@ To create proper cross-references in Quarto, use the following syntax: `@label` 
 
 ## An Example Literature Review
 
-Work in progress.
+Here is an example of how to use Quarto for literature citations.
+
+First, make sure you have added the `references.bib` file to your project according to the previous instructions, and correctly set the `bibliography` field in the YAML header.
+
+Second, make sure you have downloaded and installed the corresponding citation format `*.csl` file, and correctly set the `csl` field in the YAML header. Citation formats can be downloaded from the [CSL repository](https://github.com/citation-style-language/styles).
+
+Now, you can use `@citation_key` in the text to cite literature. We can place citations at the beginning of sentences. For example:
+
+`@lake2011` @lake2011 argues that the "isms" debate in international relations research is harmful.
+
+Or, we can also place citations at the end of sentences:
+
+The "isms" debate in international relations research is harmful `[@lake2011]` [@lake2011].
+
+To cite multiple articles, use comma-separated citation keys, for example:
+
+Here are two good articles `[@lake2011, @hale2020]` [@lake2011; @hale2020].
+
+Finally, add the following content at the end of the document to generate a reference list:
+
+```r
+# References {.unnumbered} #Add unnumbered references section
+
+::: {#refs} #Place references here, not at the end of document
+:::
+
+```
+# References {.unnumbered}
 
 

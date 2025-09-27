@@ -26,11 +26,11 @@
 
 
 <p>This handbook provides a comprehensive guide for installing, configuring, and using Positron, Quarto, and Zotero for writing quantitative academic research papers.</p>
-<section id="installation" class="level1">
-<h1>Installation</h1>
+<section id="installation" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Installation</h1>
 <p>This section will guide you through the installation and setup of Positron, Quarto, and Zotero for writing quantitative academic research papers.</p>
-<section id="install-r-positron-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="install-r-positron-quarto">Install R &amp; Positron &amp; Quarto</h2>
+<section id="install-r-positron-quarto" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="install-r-positron-quarto"><span class="header-section-number">1.1</span> Install R &amp; Positron &amp; Quarto</h2>
 <p>First, we need to download and install R, Positron and Quarto.</p>
 <ol type="1">
 <li><p>Follow the instructions on <a href="https://mirrors.tuna.tsinghua.edu.cn/CRAN/">CRAN mirror</a> to download and install R.</p></li>
@@ -47,8 +47,8 @@
 <li>Follow the instructions on <a href="https://quarto.org/docs/get-started/">Quarto Get Started</a> to download and install Quarto.</li>
 </ol>
 </section>
-<section id="set-up-system-environment-variables" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-system-environment-variables">Set up System Environment Variables</h2>
+<section id="set-up-system-environment-variables" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="set-up-system-environment-variables"><span class="header-section-number">1.2</span> Set up System Environment Variables</h2>
 <p>Next, we need to set up the system environment variables for proxys.</p>
 <p><strong>For Windows:</strong></p>
 <ol type="1">
@@ -64,8 +64,8 @@
 <p><strong>For Mac:</strong></p>
 <p>Work in progress.</p>
 </section>
-<section id="join-github-eduction" class="level2">
-<h2 class="anchored" data-anchor-id="join-github-eduction">Join Github Eduction</h2>
+<section id="join-github-eduction" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="join-github-eduction"><span class="header-section-number">1.3</span> Join Github Eduction</h2>
 <p>To use Github Copilot, we need to join the Github Education program.</p>
 <ol type="1">
 <li><p>Open your web browser and go to <a href="https://github.com/education">GitHub Education</a>.</p></li>
@@ -73,8 +73,8 @@
 <li><p>Follow the instructions to verify your student status and complete the application process.</p></li>
 </ol>
 </section>
-<section id="update-positron-and-set-up-github-copilot-chat" class="level2">
-<h2 class="anchored" data-anchor-id="update-positron-and-set-up-github-copilot-chat">Update Positron and Set Up Github Copilot Chat</h2>
+<section id="update-positron-and-set-up-github-copilot-chat" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="update-positron-and-set-up-github-copilot-chat"><span class="header-section-number">1.4</span> Update Positron and Set Up Github Copilot Chat</h2>
 <p>Now, we need to update Positron and set up Github Copilot Chat.</p>
 <ol type="1">
 <li><p>Open Positron.</p></li>
@@ -91,8 +91,8 @@
 <li><p>After signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding.</p></li>
 </ol>
 </section>
-<section id="install-r-package-manager" class="level2">
-<h2 class="anchored" data-anchor-id="install-r-package-manager">Install R Package Manager</h2>
+<section id="install-r-package-manager" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="install-r-package-manager"><span class="header-section-number">1.5</span> Install R Package Manager</h2>
 <p>Next, we need to install the R Package Manager to manage R packages.</p>
 <ol type="1">
 <li><p>Open Positron. Click on the <code>Extensions</code> Icon on the left sidebar.</p></li>
@@ -101,17 +101,27 @@
 <li><p>Drag the 📖 icon to the secondary sidebar on the right.</p></li>
 </ol>
 </section>
-<section id="install-zotero" class="level2">
-<h2 class="anchored" data-anchor-id="install-zotero">Install Zotero</h2>
+<section id="install-zotero" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="install-zotero"><span class="header-section-number">1.6</span> Install Zotero</h2>
 <p>Finally, we need to download and install Zotero for managing references.</p>
-<p>Work in progress.</p>
+<ol type="1">
+<li><p>Download the Zotero installer for your operating system from the <a href="https://www.zotero.org/download/">Zotero Download page</a>.</p></li>
+<li><p>Run the installer and follow the on-screen instructions to complete the installation.</p></li>
+<li><p>Open Zotero, go to <code>Edit</code> - <code>Preferences</code>, create and log into an account to sync your references. Click <code>New Collection</code> in the top left corner to create a new collection in My Library, then click the magic wand icon on the right to add any literature by DOI to that collection.</p></li>
+<li><p>Download and extract the <a href="https://github.com/syt2/zotero-addons/releases/latest/download/zotero-addons.xpi">Zotero Addons plugin</a>.</p></li>
+<li><p>Open Zotero, click on <code>Tools</code> in the top menu bar, select <code>Add-ons</code>, click the <code>gear</code> icon, select <code>Install Add-on From File</code>, and choose the <code>.xpi</code> file downloaded in step 4.</p></li>
+<li><p>Select <code>Tools</code> - <code>Add-on Market</code>, install the <code>Better BibTeX for Zotero</code> plugin for better BibTeX support.</p></li>
+<li><p>In the library, right-click on the title bar and check <code>Citation Key</code> to display citation names.</p></li>
+<li><p>Select <code>Edit</code> - <code>Preferences</code> - <code>Better BibTeX</code>, in the <code>Citation key format</code>, keep <code>auth.lower + year</code>.</p></li>
+<li><p>Right-click on the literature library you want to export, select <code>Export Collection</code>, check <code>Keep updated</code>, name the file <code>references.bib</code> and save it to your paper project folder.</p></li>
+</ol>
 </section>
 </section>
-<section id="usage" class="level1">
-<h1>Usage</h1>
+<section id="usage" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Usage</h1>
 <p>This section will guide you through the usage of Positron, Quarto, and Zotero for writing quantitative academic research papers.</p>
-<section id="fetch-orcid-template" class="level2">
-<h2 class="anchored" data-anchor-id="fetch-orcid-template">Fetch ORCID Template</h2>
+<section id="fetch-orcid-template" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="fetch-orcid-template"><span class="header-section-number">2.1</span> Fetch ORCID Template</h2>
 <p>Now, every time before you start writing a new paper, we could install the ORCID template for better formatting.</p>
 <ol type="1">
 <li><p>Open Positron, create a qmd file as your transcript. Click on <code>TERMINAL</code> on the bottom sidebar.</p></li>
@@ -121,47 +131,277 @@
 <li><p>Click <code>Preview</code> on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages.</p></li>
 </ol>
 </section>
-<section id="yaml-header" class="level2">
-<h2 class="anchored" data-anchor-id="yaml-header">YAML header</h2>
+<section id="yaml-header" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="yaml-header"><span class="header-section-number">2.2</span> YAML header</h2>
 <p>You can make changes to the default YAML header to fit your needs. Refer to the comments on the code in the template for more information.</p>
-<p>Work in progress.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb1-2">title<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Orcid Template <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change article title</span></span>
+<span id="cb1-3">subtitle<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> with affiliation <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change article subtitle</span></span>
+<span id="cb1-4">date<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> last<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>modified <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set article date to last modified time, or manually set to specific date, e.g., '2024-06-01'</span></span>
+<span id="cb1-5">authors<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-6">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Dianyi Yang <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change author name</span></span>
+<span id="cb1-7">    email<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> dianyi.yang<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">@</span>politics.ox.ac.uk <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change author email</span></span>
+<span id="cb1-8">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0004-4652-3429</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change author ORCID</span></span>
+<span id="cb1-9">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change author affiliations</span></span>
+<span id="cb1-10">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Select affiliation, must match id in affiliations section below</span></span>
+<span id="cb1-11">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Select affiliation, must match id in affiliations section below</span></span>
+<span id="cb1-12">    corresponding<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set as corresponding author</span></span>
+<span id="cb1-13">    equal<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>contributor<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set as equal contributor</span></span>
+<span id="cb1-14">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Yang Dianyi <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Can add multiple authors</span></span>
+<span id="cb1-15">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0004-4652-3429</span></span>
+<span id="cb1-16">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> </span>
+<span id="cb1-17">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox</span>
+<span id="cb1-18">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Someone <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span></span>
+<span id="cb1-19">    affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb1-20">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox</span>
+<span id="cb1-21">      <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> ref<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec</span>
+<span id="cb1-22">    orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0009-0009-9108-5436</span></span>
+<span id="cb1-23">    equal<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>contributor<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true</span>
+<span id="cb1-24"></span>
+<span id="cb1-25">affiliations<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set affiliations</span></span>
+<span id="cb1-26">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> ox <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Change affiliation code</span></span>
+<span id="cb1-27">    name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Department of Politics and International Relations, University of Oxford</span>
+<span id="cb1-28">  <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> id<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> sec <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Can set multiple affiliations</span></span>
+<span id="cb1-29">    name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> Second Institute</span>
+<span id="cb1-30">format<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose compilation format</span></span>
+<span id="cb1-31">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#native: default #Compile to native HTML format</span></span>
+<span id="cb1-32">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#docx: default #Compile to Word format</span></span>
+<span id="cb1-33">  orcid<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>pdf<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Compile to PDF format</span></span>
+<span id="cb1-34">    keep<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>tex<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose whether to keep .tex file, usually required for journal submission</span></span>
+<span id="cb1-35">    number<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>sections<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> true <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose whether to number sections</span></span>
+<span id="cb1-36">    cover<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose whether to include cover, if true, value is cover.pdf</span></span>
+<span id="cb1-37">    toc<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose whether to include table of contents</span></span>
+<span id="cb1-38">    toc<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>newpage<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> false <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Choose whether table of contents starts on new page</span></span>
+<span id="cb1-39">bibliography<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> references.bib <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set bibliography file</span></span>
+<span id="cb1-40">csl<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> extra<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>apa.csl <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Set citation format</span></span>
+<span id="cb1-41">abstract<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> This is an abstract. <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Modify abstract content</span></span>
+<span id="cb1-42">keywords<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> a, b, c <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Modify keywords</span></span>
+<span id="cb1-43">acknowledgements<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> This is an acknowledgement. <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Modify acknowledgements content</span></span>
+<span id="cb1-44"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div></div>
 </section>
-<section id="an-example-regression-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="an-example-regression-analysis">An Example Regression Analysis</h2>
+<section id="an-example-regression-analysis" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="an-example-regression-analysis"><span class="header-section-number">2.3</span> An Example Regression Analysis</h2>
 <p>Here is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.</p>
 <p>First, let’s examine the relationship between car weight and fuel efficiency using a scatter plot.</p>
 <p>Insert an r code cell by clicking the <code>Insert Code Cell</code> button on the top bar, and copy and paste the following code into the code cell:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Assign a label to the scatter plot for cross-referencing</span></span>
-<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+<span id="cb2-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Labels for figures should have the prefix "fig-"</span></span>
-<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| label: fig-scatter</span></span>
-<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Assign a caption to the scatter plot</span></span>
-<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| fig-cap: "Relationship between Car Weight and Fuel Efficiency"</span></span>
-<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Set echo, warning, and message to false for the plot output only</span></span>
-<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| echo: false</span></span>
-<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| warning: false</span></span>
-<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| message: false</span></span>
-<span id="cb1-10"><span class="co" style="color: #5E5E5E;
+<span id="cb2-10"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Install the necessary packages</span></span>
-<span id="cb1-11"><span class="fu" style="color: #4758AB;
+<span id="cb2-11"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">install.packages</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -170,19 +410,19 @@ background-color: null;
 font-style: inherit;">"ggplot2"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"dplyr"</span>))</span>
-<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># If the packages are already installed, you can skip the above line</span></span>
-<span id="cb1-13"><span class="fu" style="color: #4758AB;
+<span id="cb2-13"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(ggplot2)</span>
-<span id="cb1-14"><span class="fu" style="color: #4758AB;
+<span id="cb2-14"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(dplyr)</span>
-<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Create descriptive statistics plot</span></span>
-<span id="cb1-16"><span class="fu" style="color: #4758AB;
+<span id="cb2-16"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(mtcars, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -193,7 +433,7 @@ background-color: null;
 font-style: inherit;">y =</span> mpg)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-17">  <span class="fu" style="color: #4758AB;
+<span id="cb2-17">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
@@ -208,7 +448,7 @@ background-color: null;
 font-style: inherit;">3</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-18">  <span class="fu" style="color: #4758AB;
+<span id="cb2-18">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_smooth</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -225,28 +465,28 @@ background-color: null;
 font-style: inherit;">"blue"</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-19">  <span class="fu" style="color: #4758AB;
+<span id="cb2-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb1-20">    <span class="at" style="color: #657422;
+<span id="cb2-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Weight (1000 lbs)"</span>,</span>
-<span id="cb1-21">    <span class="at" style="color: #657422;
+<span id="cb2-21">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Miles per Gallon"</span>,</span>
-<span id="cb1-22">    <span class="at" style="color: #657422;
+<span id="cb2-22">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Cylinders"</span></span>
-<span id="cb1-23">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb2-23">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+<span id="cb2-24">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
 <div class="cell">
@@ -264,12 +504,12 @@ Figure&nbsp;1: Relationship between Car Weight and Fuel Efficiency
 </div>
 </div>
 <p>Next, we’ll perform a regression analysis. Equations written in syntax should be covered by double dollar signs <code>$$ ... $$</code> and be assigned a label using <code>{#label}</code> for cross-referencing.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">$</span></span>
-<span id="cb2-2">mpg <span class="ot" style="color: #003B4F;
+<span id="cb3-2">mpg <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> \beta_0 <span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -278,7 +518,7 @@ background-color: null;
 font-style: inherit;">+</span> \beta_2 \cdot cylinders <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> \epsilon</span>
-<span id="cb2-3"><span class="sc" style="color: #5E5E5E;
+<span id="cb3-3"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
@@ -287,13 +527,13 @@ background-color: null;
 font-style: inherit;">#eq-regression}  #Labels for equations should have the prefix "eq-"</span></span></code></pre></div></div>
 <p><span id="eq-regression"><img src="https://latex.codecogs.com/png.latex?%0Ampg%20=%20%5Cbeta_0%20+%20%5Cbeta_1%20%5Ccdot%20weight%20+%20%5Cbeta_2%20%5Ccdot%20cylinders%20+%20%5Cepsilon%0A%5Ctag%7B1%7D"></span></p>
 <p>We can also use <code>&amp;</code> to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">$</span></span>
-<span id="cb3-2">\begin{aligned}</span>
-<span id="cb3-3"><span class="dv" style="color: #AD0000;
+<span id="cb4-2">\begin{aligned}</span>
+<span id="cb4-3"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -306,7 +546,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">3</span>\\</span>
-<span id="cb3-4"><span class="dv" style="color: #AD0000;
+<span id="cb4-4"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -319,7 +559,7 @@ background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">7</span>\\</span>
-<span id="cb3-5"><span class="dv" style="color: #AD0000;
+<span id="cb4-5"><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">11</span><span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -332,8 +572,8 @@ background-color: null;
 font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">6</span></span>
-<span id="cb3-6">\end{aligned}</span>
-<span id="cb3-7"><span class="sc" style="color: #5E5E5E;
+<span id="cb4-6">\end{aligned}</span>
+<span id="cb4-7"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span><span class="er" style="color: #AD0000;
 background-color: null;
@@ -344,40 +584,40 @@ font-style: inherit;">#eq-group}</span></span></code></pre></div></div>
 <p>The three equations are now quoted as one group and aligned at the equal signs:</p>
 <p><span id="eq-group"><img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Baligned%7D%0A1+2&amp;=3%5C%5C%0A3+4&amp;=7%5C%5C%0A11&amp;=5+6%0A%5Cend%7Baligned%7D%0A%5Ctag%7B2%7D"></span></p>
 <p>Finally, let’s create a regression table to summarize our regression results. We will use the <code>modelsummary</code> package to create a well-formatted regression table.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Assign a label to the regression table for cross-referencing</span></span>
-<span id="cb4-2"><span class="co" style="color: #5E5E5E;
+<span id="cb5-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Labels for tables should have the prefix "tbl-"</span></span>
-<span id="cb4-3"><span class="co" style="color: #5E5E5E;
+<span id="cb5-3"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| label: tbl-regression</span></span>
-<span id="cb4-4"><span class="co" style="color: #5E5E5E;
+<span id="cb5-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Assign a caption to the regression table</span></span>
-<span id="cb4-5"><span class="co" style="color: #5E5E5E;
+<span id="cb5-5"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| tbl-cap: "Regression Results: Fuel Efficiency Model"</span></span>
-<span id="cb4-6"><span class="co" style="color: #5E5E5E;
+<span id="cb5-6"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Set echo, warning, and message to false for the plot output only</span></span>
-<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+<span id="cb5-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| echo: false</span></span>
-<span id="cb4-8"><span class="co" style="color: #5E5E5E;
+<span id="cb5-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| warning: false</span></span>
-<span id="cb4-9"><span class="co" style="color: #5E5E5E;
+<span id="cb5-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#| message: false</span></span>
-<span id="cb4-10"><span class="fu" style="color: #4758AB;
+<span id="cb5-10"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">library</span>(modelsummary)</span>
-<span id="cb4-11"><span class="co" style="color: #5E5E5E;
+<span id="cb5-11"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Fit regression models</span></span>
-<span id="cb4-12">model1 <span class="ot" style="color: #003B4F;
+<span id="cb5-12">model1 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -386,7 +626,7 @@ background-color: null;
 font-style: inherit;">~</span> wt, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-13">model2 <span class="ot" style="color: #003B4F;
+<span id="cb5-13">model2 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -397,7 +637,7 @@ background-color: null;
 font-style: inherit;">+</span> cyl, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-14">model3 <span class="ot" style="color: #003B4F;
+<span id="cb5-14">model3 <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -410,13 +650,13 @@ background-color: null;
 font-style: inherit;">+</span> hp, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">data =</span> mtcars)</span>
-<span id="cb4-15"><span class="co" style="color: #5E5E5E;
+<span id="cb5-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Create regression table</span></span>
-<span id="cb4-16"><span class="fu" style="color: #4758AB;
+<span id="cb5-16"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">modelsummary</span>(</span>
-<span id="cb4-17">  <span class="fu" style="color: #4758AB;
+<span id="cb5-17">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">list</span>(<span class="st" style="color: #20794D;
 background-color: null;
@@ -431,12 +671,12 @@ background-color: null;
 font-style: inherit;">"Model 3"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> model3),</span>
-<span id="cb4-18">  <span class="at" style="color: #657422;
+<span id="cb5-18">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">stars =</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">TRUE</span>,</span>
-<span id="cb4-19">  <span class="at" style="color: #657422;
+<span id="cb5-19">  <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">gof_map =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -447,7 +687,7 @@ background-color: null;
 font-style: inherit;">"r.squared"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"adj.r.squared"</span>)</span>
-<span id="cb4-20">)</span></code></pre></div></div>
+<span id="cb5-20">)</span></code></pre></div></div>
 <div class="cell" data-tbl-pos="H">
 <div id="tbl-regression" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-tbl-pos="H">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -460,8 +700,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <script>
 
-      function styleCell_j8r0gt5xuzk2a800gft3(i, j, css_id) {
-          var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
+      function styleCell_h9c5smu9zqpgsj0872o5(i, j, css_id) {
+          var table = document.getElementById("tinytable_h9c5smu9zqpgsj0872o5");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -470,8 +710,8 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_j8r0gt5xuzk2a800gft3(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_j8r0gt5xuzk2a800gft3");
+      function spanCell_h9c5smu9zqpgsj0872o5(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_h9c5smu9zqpgsj0872o5");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -502,20 +742,20 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_8y1zv2wo24tahcowsiqt',}, 
-          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_csi5dd09u2d7zinz7xb1',}, 
-          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_8i02blb7rtvpzbdtgpu5',}, 
-          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_pjb373t6eu08dr4gwyin',}, 
-          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_pl7kuvg21k5ofv6x3usy',}, 
-          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_5tjj5goeecjljejblxww',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_6lq3y9s572a17bakimx4',}, 
-          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_gzgxyslkgw94i230wxo1',}, 
+          { positions: [ { i: '11', j: 2 }, { i: '11', j: 1 }, { i: '11', j: 3 },  ], css_id: 'tinytable_css_qvis8xh14xucmepc2cev',}, 
+          { positions: [ { i: '8', j: 3 }, { i: '8', j: 2 }, { i: '8', j: 1 },  ], css_id: 'tinytable_css_hxsswishmfi5yct4sy6g',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '2', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '3', j: 1 }, { i: '4', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 2 }, { i: '1', j: 2 }, { i: '2', j: 2 }, { i: '3', j: 2 }, { i: '4', j: 2 }, { i: '5', j: 2 }, { i: '6', j: 2 }, { i: '7', j: 2 }, { i: '9', j: 3 }, { i: '10', j: 3 }, { i: '10', j: 2 }, { i: '3', j: 3 }, { i: '4', j: 3 }, { i: '1', j: 3 }, { i: '2', j: 3 }, { i: '7', j: 3 }, { i: '5', j: 3 }, { i: '6', j: 3 },  ], css_id: 'tinytable_css_mrscfnu3lsnr4rmkze1b',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 3 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_cajm3bzdm9u0zw9pooh2',}, 
+          { positions: [ { i: '11', j: 0 },  ], css_id: 'tinytable_css_kzacf25vtxruoogttv02',}, 
+          { positions: [ { i: '8', j: 0 },  ], css_id: 'tinytable_css_c83vilfmkys9u9wkxxq2',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '5', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '9', j: 0 }, { i: '10', j: 0 },  ], css_id: 'tinytable_css_6hs2hv446lwhwfei90q4',}, 
+          { positions: [ { i: '0', j: 0 },  ], css_id: 'tinytable_css_bxuda38mdve8qkv808wb',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_j8r0gt5xuzk2a800gft3(cell.i, cell.j, group.css_id);
+                  styleCell_h9c5smu9zqpgsj0872o5(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -523,17 +763,17 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_8y1zv2wo24tahcowsiqt, .table th.tinytable_css_8y1zv2wo24tahcowsiqt { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_csi5dd09u2d7zinz7xb1, .table th.tinytable_css_csi5dd09u2d7zinz7xb1 { text-align: center; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_8i02blb7rtvpzbdtgpu5, .table th.tinytable_css_8i02blb7rtvpzbdtgpu5 { text-align: center; }
-      .table td.tinytable_css_pjb373t6eu08dr4gwyin, .table th.tinytable_css_pjb373t6eu08dr4gwyin { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
-      .table td.tinytable_css_pl7kuvg21k5ofv6x3usy, .table th.tinytable_css_pl7kuvg21k5ofv6x3usy { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_5tjj5goeecjljejblxww, .table th.tinytable_css_5tjj5goeecjljejblxww { text-align: left; border-bottom: solid black 0.05em; }
-      .table td.tinytable_css_6lq3y9s572a17bakimx4, .table th.tinytable_css_6lq3y9s572a17bakimx4 { text-align: left; }
-      .table td.tinytable_css_gzgxyslkgw94i230wxo1, .table th.tinytable_css_gzgxyslkgw94i230wxo1 { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_qvis8xh14xucmepc2cev, .table th.tinytable_css_qvis8xh14xucmepc2cev { text-align: center; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_hxsswishmfi5yct4sy6g, .table th.tinytable_css_hxsswishmfi5yct4sy6g { text-align: center; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_mrscfnu3lsnr4rmkze1b, .table th.tinytable_css_mrscfnu3lsnr4rmkze1b { text-align: center; }
+      .table td.tinytable_css_cajm3bzdm9u0zw9pooh2, .table th.tinytable_css_cajm3bzdm9u0zw9pooh2 { text-align: center; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_kzacf25vtxruoogttv02, .table th.tinytable_css_kzacf25vtxruoogttv02 { text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_c83vilfmkys9u9wkxxq2, .table th.tinytable_css_c83vilfmkys9u9wkxxq2 { text-align: left; border-bottom: solid black 0.05em; }
+      .table td.tinytable_css_6hs2hv446lwhwfei90q4, .table th.tinytable_css_6hs2hv446lwhwfei90q4 { text-align: left; }
+      .table td.tinytable_css_bxuda38mdve8qkv808wb, .table th.tinytable_css_bxuda38mdve8qkv808wb { text-align: left; border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
     <div class="container">
-      <table class="table table-borderless" id="tinytable_j8r0gt5xuzk2a800gft3" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_h9c5smu9zqpgsj0872o5" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
               <tr>
@@ -623,15 +863,47 @@ Table&nbsp;1: Regression Results: Fuel Efficiency Model
 <p>The equations, figures, and tables are automatically numbered in a correct sequence, and could be cross-referenced in the text.</p>
 <p>To create proper cross-references in Quarto, use the following syntax: <code>@label</code> at where you want to make cross references, where <em>label</em> is the label you assigned to the figure, table, or equation. For instance, <code>@eq-regression</code> refers to the regression equation Equation&nbsp;1, <code>@eq-group</code> refers to the group of equations Equation&nbsp;2, <code>@fig-scatter</code> refers to the scatter plot Figure&nbsp;1, and <code>@tbl-regression</code> refers to the regression table Table&nbsp;1. You could refer to <a href="https://quarto.org/docs/authoring/cross-references.html#overview">Quarto Cross-References Documentation</a> for more information on cross-reference.</p>
 </section>
-<section id="an-example-literature-review" class="level2">
-<h2 class="anchored" data-anchor-id="an-example-literature-review">An Example Literature Review</h2>
-<p>Work in progress.</p>
+<section id="an-example-literature-review" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="an-example-literature-review"><span class="header-section-number">2.4</span> An Example Literature Review</h2>
+<p>Here is an example of how to use Quarto for literature citations.</p>
+<p>First, make sure you have added the <code>references.bib</code> file to your project according to the previous instructions, and correctly set the <code>bibliography</code> field in the YAML header.</p>
+<p>Second, make sure you have downloaded and installed the corresponding citation format <code>*.csl</code> file, and correctly set the <code>csl</code> field in the YAML header. Citation formats can be downloaded from the <a href="https://github.com/citation-style-language/styles">CSL repository</a>.</p>
+<p>Now, you can use <code>@citation_key</code> in the text to cite literature. We can place citations at the beginning of sentences. For example:</p>
+<p><code>@lake2011</code> <span class="citation" data-cites="lake2011">Lake (2011)</span> argues that the “isms” debate in international relations research is harmful.</p>
+<p>Or, we can also place citations at the end of sentences:</p>
+<p>The “isms” debate in international relations research is harmful <code>[@lake2011]</code> <span class="citation" data-cites="lake2011">(Lake, 2011)</span>.</p>
+<p>To cite multiple articles, use comma-separated citation keys, for example:</p>
+<p>Here are two good articles <code>[@lake2011, @hale2020]</code> <span class="citation" data-cites="lake2011 hale2020">(Hale, 2020; Lake, 2011)</span>.</p>
+<p>Finally, add the following content at the end of the document to generate a reference list:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># References {.unnumbered} #Add unnumbered references section</span></span>
+<span id="cb6-2"></span>
+<span id="cb6-3"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:::</span> {<span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#refs} #Place references here, not at the end of document</span></span>
+<span id="cb6-4"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:::</span></span></code></pre></div></div>
+</section>
+</section>
+<section id="references" class="level1 unnumbered">
+
+
 
 
 </section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-hale2020" class="csl-entry">
+Hale, T. (2020). Transnational <span>Actors</span> and <span>Transnational Governance</span> in <span>Global Environmental Politics</span>. <em>Annual Review of Political Science</em>, <em>23</em>(1), 203–220. <a href="https://doi.org/10.1146/annurev-polisci-050718-032644">https://doi.org/10.1146/annurev-polisci-050718-032644</a>
+</div>
+<div id="ref-lake2011" class="csl-entry">
+Lake, D. A. (2011). Why <span>“isms”</span> <span>Are Evil</span>: <span>Theory</span>, <span>Epistemology</span>, and <span>Academic Sects</span> as <span>Impediments</span> to <span>Understanding</span> and <span>Progress1</span>: <span>Why</span> <span>“isms”</span> are <span>Evil</span>. <em>International Studies Quarterly</em>, <em>55</em>(2), 465–480. <a href="https://doi.org/10.1111/j.1468-2478.2011.00661.x">https://doi.org/10.1111/j.1468-2478.2011.00661.x</a>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
   author = {Fu, Yuxin and Yang, Dianyi},
   title = {Research 101: {How} to Work as a Modern Quantitative Social
     Scientist?},
