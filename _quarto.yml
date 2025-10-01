@@ -18,14 +18,14 @@ website:
   favicon: "assets/dianyi/shush.ico"
   description: "Political Economy/Causal Inference/Game Theory."
 #  google-analytics: "G-J9JHQ6RJV3"
-  #comments: 
-    #giscus:
-     # repo: kv9898/website
-     # repo-id: R_kgDOMx274g
-      #category: general
-     # category-id: DIC_kwDOMx274s4Ciftj
-      #mapping: title
-     # reactions-enabled: true
+  comments: 
+    giscus:
+      repo: Bim382/Bim382.github.io
+     repo-id: R_kgDOP2zUAg
+      category: general
+     category-id: DIC_kwDOP2zUAs4CwG7x
+      mapping: title
+      reactions-enabled: true
       #theme:
        # light: light
        # dark: dark_dimmed
@@ -33,8 +33,8 @@ website:
   navbar:
     logo: assets/dianyi/shush.png
     tools:
-    #- icon: github
-    #  href: https://www.github.com/kv9898/website
+    - icon: github
+      href: https://www.github.com/Bim382/Bim382.github.io
     right:
       - text: About
         aria-label: "About Me"
@@ -58,8 +58,8 @@ website:
       #  aria-label: "Project Portfolio"
       #  href: project/index.qmd
 
-  #repo-url: https://github.com/kv9898/website
-  #repo-actions: [source, issue]
+  repo-url: https://github.com/Bim382/bim382.github.io
+  repo-actions: [source, issue]
 
   page-footer:  
     left: >-
