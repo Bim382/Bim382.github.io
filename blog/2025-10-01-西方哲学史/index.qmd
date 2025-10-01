@@ -4,7 +4,7 @@ author:
   orcid: 0009-0003-0905-0207
 title: "变得有文化：西方哲学史入门"
 subtitle: "古希腊古罗马哲学篇"
-date: '2025-09-29'
+date: '2025-10-01'
 categories:
   - 哲学史
   - 教程
@@ -12,7 +12,7 @@ categories:
   - 古罗马
 image: featured.jpg
 google-scholar: false
-number-sections: true
+number-sections: false 
 ---
 
 # 前言 {.unnumbered}
