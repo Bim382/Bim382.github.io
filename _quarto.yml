@@ -26,10 +26,10 @@ website:
      category-id: DIC_kwDOP2zUAs4CwG7x
       mapping: title
       reactions-enabled: true
-      #theme:
-       # light: light
-       # dark: dark_dimmed
-     #language: en
+      theme:
+        light: light
+        dark: dark_dimmed
+     language: en
   navbar:
     logo: assets/dianyi/shush.png
     tools:
