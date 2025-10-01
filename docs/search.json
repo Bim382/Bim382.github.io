@@ -42,6 +42,167 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n\n哲学史\n\n教程\n\n古希腊\n\n古罗马\n\n\n\n\n\n\nOct 1, 2025\n\n\nYuxin Fu\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\nToturial\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n11 min\n\n\n\n\n\n\n\n\n\n\n\n研究入门：现代定量社会科学家如何工作？\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\n教程\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n4 min\n\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
   },
   {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html",
+    "href": "blog/2025-09-27-Positron中文教程/index.html",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "",
+    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.1 安装R、Positron和Quarto",
+    "text": "1.1 安装R、Positron和Quarto\n首先，我们需要下载并安装R、Positron和Quarto。\n\n按照CRAN镜像上的说明下载并安装R。\n按照Positron下载页面上的说明下载Positron。\n运行安装程序并安装Positron。当被要求时，请勾选所有选项。\n\n\n\n\n勾选所有选项\n\n\n\n按照Quarto入门指南上的说明下载并安装Quarto。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.2 设置系统环境变量",
+    "text": "1.2 设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.3 加入Github教育计划",
+    "text": "1.3 加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击Join GitHub Education按钮。\n按照说明验证您的学生身份并完成申请过程。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.4 更新Positron并设置Github Copilot Chat",
+    "text": "1.4 更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的管理图标。\n点击设置打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的管理齿轮图标。点击检查更新将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的聊天图标打开聊天选项卡。\n在聊天选项卡中，点击添加模型提供商按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击登录。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.5 安装R包管理器",
+    "text": "1.5 安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的扩展图标。\n搜索Positron R Package Manager。点击安装来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.6 安装Zotero",
+    "text": "1.6 安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.1 获取ORCID模板",
+    "text": "2.1 获取ORCID模板\n现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。\n\n打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的终端。\n在终端中，输入以下命令并按回车：quarto add kv9898/orcid。\n当询问是否信任作者并继续时，输入Y。\n现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：ORCID模板。\n点击顶部栏的预览尝试编译文档。按照终端中的说明安装任何缺失的包。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.2 YAML头部",
+    "text": "2.2 YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n---\ntitle: Orcid Template #更改文章标题\nsubtitle: with affiliation #更改文章副标题\ndate: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'\nauthors:\n  - name: Dianyi Yang #更改作者姓名\n    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱\n    orcid: 0009-0004-4652-3429 #更改作者ORCID\n    affiliations: #更改作者所属机构\n      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配\n      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配\n    corresponding: true #更改为通讯作者\n    equal-contributor: true #更改为并列贡献作者\n  - name: Yang Dianyi #可添加多位作者\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #设置所属机构\n  - id: ox #更改所属机构代号\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #可设置多个所属机构\n    name: Second Institute\nformat: #选择编译格式\n  #native: default #编译为本地HTML格式\n  #docx: default #编译为Word格式\n  orcid-pdf: #编译为PDF格式\n    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要\n    number-sections: true #选择是否对章节编号\n    cover: false #选择是否包含封面，如果true，值为cover.pdf\n    toc: false #选择是否包含目录\n    toc-newpage: false #选择目录是否另起一页\nbibliography: references.bib #设置参考文献文件\ncsl: extra/apa.csl #设置引用格式\nabstract: This is an abstract. #修改摘要内容\nkeywords: a, b, c #修改关键词\nacknowledgements: This is an acknowledgement. #修改致谢内容\n---"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.3 回归分析示例",
+    "text": "2.3 回归分析示例\n以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。\n首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。\n点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：\n# 为散点图分配标签以便交叉引用\n# 图表标签应该有前缀\"fig-\"\n#| label: fig-scatter\n# 为散点图分配标题\n#| fig-cap: \"汽车重量与燃油效率的关系\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\n# 安装必要的包\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# 如果包已安装，可以跳过上面的行\nlibrary(ggplot2)\nlibrary(dplyr)\n# 创建描述性统计图表\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"重量 (1000磅)\",\n    y = \"每加仑英里数\",\n    color = \"气缸数\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: 汽车重量与燃油效率的关系\n\n\n\n\n\n接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号$$ ... $$括起来，并使用{#label}分配标签以便交叉引用。\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n$$ {#eq-regression}  #方程标签应该有前缀\"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n\\tag{1}\\]\n我们也可以使用&来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\n注意这里我们使用\\begin{aligned} ... \\end{aligned}来对齐一组方程，使用\\\\表示换行，使用&表示对齐点。\n这三个方程现在作为一组引用并在等号处对齐：\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\n最后，让我们创建一个回归表来总结我们的回归结果。我们将使用modelsummary包来创建格式良好的回归表。\n# 为回归表分配标签以便交叉引用\n# 表格标签应该有前缀\"tbl-\"\n#| label: tbl-regression\n# 为回归表分配标题\n#| tbl-cap: \"回归结果：燃油效率模型\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# 拟合回归模型\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# 创建回归表\nmodelsummary(\n  list(\"模型1\" = model1, \"模型2\" = model2, \"模型3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: 回归结果：燃油效率模型\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                模型1\n                模型2\n                模型3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\n方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。\n要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用@标签，其中标签是您分配给图表、表格或方程的标签。例如，@eq-regression引用回归方程 Equation 1，@eq-group引用方程组 Equation 2，@fig-scatter引用散点图 Figure 1，@tbl-regression引用回归表 Table 1。您可以参考Quarto交叉引用文档获取更多交叉引用信息。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.4 文献综述示例",
+    "text": "2.4 文献综述示例\n以下是使用Quarto进行文献引用的示例。\n首先，确保您已经按照前面 Section 1.6 的说明将references.bib文件添加到您的项目中，并在YAML头部中正确设置了bibliography字段。\n其次，确保您已经下载并添加了对应引用格式的*.csl文件，并在YAML头部中正确设置了csl字段。引用格式文件可以从CSL仓库下载。\n现在，您可以在文本中使用@引用键来引用文献。我们可以将引用放在句首。例如：\n@lake2011 Lake (2011) 认为国际关系研究中的“主义”之争是有害的。\n或者，我们也可以将引用放在句末：\n国际关系研究中的“主义”之争是有害的[@lake2011](Lake, 2011)。\n如果要引用多个文章，可以使用逗号分隔引用键，例如：\n这里有两篇好文章[@lake2011, @hale2020] (Hale, 2020; Lake, 2011)。\n最后，在文档的末尾添加以下内容以生成参考文献列表：\n# References {.unnumbered} #添加没有编号的参考文献部分\n\n::: {#refs} #将参考文献放这个位置，而不是文档的末尾\n:::"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html",
+    "href": "blog/2023-11-15-FranceVisa/index.html",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "银行流水不足三个月并不会影响递签。\n\n\n实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。\n\n\n\n\n\n\n法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件\n\n\n\n\n\n\n\nTLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。\n\n\n\n\n\n\n所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "href": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "href": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "TLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "href": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Yuxin Fu",
+    "section": "",
+    "text": "Hello, this is Yuxin! Nice to meet you.\n\nI’m so far interested in the following areas:\n\n\nPolitical Economy\n\n\nPolitical Communication\n\n\nConflict Resolution\n\n\nCausal Inference\n\n\nGame Theory\n\n\nData Science\n\n\nMachine Learning\n\n\nText Analysis"
+  },
+  {
+    "objectID": "about/index.html#more-about-my-thoughts",
+    "href": "about/index.html#more-about-my-thoughts",
+    "title": "Yuxin Fu",
+    "section": "More about my thoughts",
+    "text": "More about my thoughts\nWork in progress …"
+  },
+  {
+    "objectID": "about/index.html#lately",
+    "href": "about/index.html#lately",
+    "title": "Yuxin Fu",
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n古希腊古罗马哲学篇\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPapers\n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\n\n\nNo matching items\n\nSee all →"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Accessibility commitment",
+    "section": "",
+    "text": "Travel back to the home page or about page."
+  },
+  {
+    "objectID": "accessibility.html#feedback",
+    "href": "accessibility.html#feedback",
+    "title": "Accessibility commitment",
+    "section": "Feedback",
+    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
+  },
+  {
+    "objectID": "accessibility.html#accessibility-practices",
+    "href": "accessibility.html#accessibility-practices",
+    "title": "Accessibility commitment",
+    "section": "Accessibility practices",
+    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
+  },
+  {
+    "objectID": "accessibility.html#work-related-to-accessibility",
+    "href": "accessibility.html#work-related-to-accessibility",
+    "title": "Accessibility commitment",
+    "section": "Work related to accessibility",
+    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
+  },
+  {
+    "objectID": "accessibility.html#footnotes",
+    "href": "accessibility.html#footnotes",
+    "title": "Accessibility commitment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
+  },
+  {
     "objectID": "blog/2025-09-27-PositronHandbook/index.html",
     "href": "blog/2025-09-27-PositronHandbook/index.html",
     "title": "Research 101: How to work as a modern quantitative social scientist?",
@@ -117,335 +278,6 @@
     "title": "Research 101: How to work as a modern quantitative social scientist?",
     "section": "2.4 An Example Literature Review",
     "text": "2.4 An Example Literature Review\nHere is an example of how to use Quarto for literature citations.\nFirst, make sure you have added the references.bib file to your project according to the previous instructions in Section 1.6, and correctly set the bibliography field in the YAML header.\nSecond, make sure you have downloaded and installed the corresponding citation format *.csl file, and correctly set the csl field in the YAML header. Citation formats can be downloaded from the CSL repository.\nNow, you can use @citation_key in the text to cite literature. We can place citations at the beginning of sentences. For example:\n@lake2011 Lake (2011) argues that the “isms” debate in international relations research is harmful.\nOr, we can also place citations at the end of sentences:\nThe “isms” debate in international relations research is harmful [@lake2011] (Lake, 2011).\nTo cite multiple articles, use comma-separated citation keys, for example:\nHere are two good articles [@lake2011, @hale2020] (Hale, 2020; Lake, 2011).\nFinally, add the following content at the end of the document to generate a reference list:\n# References {.unnumbered} #Add unnumbered references section\n\n::: {#refs} #Place references here, not at the end of document\n:::"
-  },
-  {
-    "objectID": "accessibility.html",
-    "href": "accessibility.html",
-    "title": "Accessibility commitment",
-    "section": "",
-    "text": "Travel back to the home page or about page."
-  },
-  {
-    "objectID": "accessibility.html#feedback",
-    "href": "accessibility.html#feedback",
-    "title": "Accessibility commitment",
-    "section": "Feedback",
-    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
-  },
-  {
-    "objectID": "accessibility.html#accessibility-practices",
-    "href": "accessibility.html#accessibility-practices",
-    "title": "Accessibility commitment",
-    "section": "Accessibility practices",
-    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
-  },
-  {
-    "objectID": "accessibility.html#work-related-to-accessibility",
-    "href": "accessibility.html#work-related-to-accessibility",
-    "title": "Accessibility commitment",
-    "section": "Work related to accessibility",
-    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
-  },
-  {
-    "objectID": "accessibility.html#footnotes",
-    "href": "accessibility.html#footnotes",
-    "title": "Accessibility commitment",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Yuxin Fu",
-    "section": "",
-    "text": "Hello, this is Yuxin! Nice to meet you.\n\nI’m so far interested in the following areas:\n\n\nPolitical Economy\n\n\nPolitical Communication\n\n\nConflict Resolution\n\n\nCausal Inference\n\n\nGame Theory\n\n\nData Science\n\n\nMachine Learning\n\n\nText Analysis"
-  },
-  {
-    "objectID": "about/index.html#more-about-my-thoughts",
-    "href": "about/index.html#more-about-my-thoughts",
-    "title": "Yuxin Fu",
-    "section": "More about my thoughts",
-    "text": "More about my thoughts\nWork in progress …"
-  },
-  {
-    "objectID": "about/index.html#lately",
-    "href": "about/index.html#lately",
-    "title": "Yuxin Fu",
-    "section": "Lately …",
-    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\nA Handbook for Positron, Quarto, Github Copilot and Zotero\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPapers\n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\n\n\nNo matching items\n\nSee all →"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html",
-    "href": "blog/2023-11-15-FranceVisa/index.html",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "银行流水不足三个月并不会影响递签。\n\n\n实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。\n\n\n\n\n\n\n法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件\n\n\n\n\n\n\n\nTLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。\n\n\n\n\n\n\n所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#时间线",
-    "href": "blog/2023-11-15-FranceVisa/index.html#时间线",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
-    "href": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "TLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#准备材料",
-    "href": "blog/2023-11-15-FranceVisa/index.html#准备材料",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html",
-    "href": "blog/2025-09-27-Positron中文教程/index.html",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "",
-    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.1 安装R、Positron和Quarto",
-    "text": "1.1 安装R、Positron和Quarto\n首先，我们需要下载并安装R、Positron和Quarto。\n\n按照CRAN镜像上的说明下载并安装R。\n按照Positron下载页面上的说明下载Positron。\n运行安装程序并安装Positron。当被要求时，请勾选所有选项。\n\n\n\n\n勾选所有选项\n\n\n\n按照Quarto入门指南上的说明下载并安装Quarto。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.2 设置系统环境变量",
-    "text": "1.2 设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.3 加入Github教育计划",
-    "text": "1.3 加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击Join GitHub Education按钮。\n按照说明验证您的学生身份并完成申请过程。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.4 更新Positron并设置Github Copilot Chat",
-    "text": "1.4 更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的管理图标。\n点击设置打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的管理齿轮图标。点击检查更新将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的聊天图标打开聊天选项卡。\n在聊天选项卡中，点击添加模型提供商按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击登录。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.5 安装R包管理器",
-    "text": "1.5 安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的扩展图标。\n搜索Positron R Package Manager。点击安装来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装zotero",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#安装zotero",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.6 安装Zotero",
-    "text": "1.6 安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.1 获取ORCID模板",
-    "text": "2.1 获取ORCID模板\n现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。\n\n打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的终端。\n在终端中，输入以下命令并按回车：quarto add kv9898/orcid。\n当询问是否信任作者并继续时，输入Y。\n现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：ORCID模板。\n点击顶部栏的预览尝试编译文档。按照终端中的说明安装任何缺失的包。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.2 YAML头部",
-    "text": "2.2 YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n---\ntitle: Orcid Template #更改文章标题\nsubtitle: with affiliation #更改文章副标题\ndate: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'\nauthors:\n  - name: Dianyi Yang #更改作者姓名\n    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱\n    orcid: 0009-0004-4652-3429 #更改作者ORCID\n    affiliations: #更改作者所属机构\n      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配\n      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配\n    corresponding: true #更改为通讯作者\n    equal-contributor: true #更改为并列贡献作者\n  - name: Yang Dianyi #可添加多位作者\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #设置所属机构\n  - id: ox #更改所属机构代号\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #可设置多个所属机构\n    name: Second Institute\nformat: #选择编译格式\n  #native: default #编译为本地HTML格式\n  #docx: default #编译为Word格式\n  orcid-pdf: #编译为PDF格式\n    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要\n    number-sections: true #选择是否对章节编号\n    cover: false #选择是否包含封面，如果true，值为cover.pdf\n    toc: false #选择是否包含目录\n    toc-newpage: false #选择目录是否另起一页\nbibliography: references.bib #设置参考文献文件\ncsl: extra/apa.csl #设置引用格式\nabstract: This is an abstract. #修改摘要内容\nkeywords: a, b, c #修改关键词\nacknowledgements: This is an acknowledgement. #修改致谢内容\n---"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.3 回归分析示例",
-    "text": "2.3 回归分析示例\n以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。\n首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。\n点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：\n# 为散点图分配标签以便交叉引用\n# 图表标签应该有前缀\"fig-\"\n#| label: fig-scatter\n# 为散点图分配标题\n#| fig-cap: \"汽车重量与燃油效率的关系\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\n# 安装必要的包\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# 如果包已安装，可以跳过上面的行\nlibrary(ggplot2)\nlibrary(dplyr)\n# 创建描述性统计图表\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"重量 (1000磅)\",\n    y = \"每加仑英里数\",\n    color = \"气缸数\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: 汽车重量与燃油效率的关系\n\n\n\n\n\n接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号$$ ... $$括起来，并使用{#label}分配标签以便交叉引用。\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n$$ {#eq-regression}  #方程标签应该有前缀\"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n\\tag{1}\\]\n我们也可以使用&来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\n注意这里我们使用\\begin{aligned} ... \\end{aligned}来对齐一组方程，使用\\\\表示换行，使用&表示对齐点。\n这三个方程现在作为一组引用并在等号处对齐：\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\n最后，让我们创建一个回归表来总结我们的回归结果。我们将使用modelsummary包来创建格式良好的回归表。\n# 为回归表分配标签以便交叉引用\n# 表格标签应该有前缀\"tbl-\"\n#| label: tbl-regression\n# 为回归表分配标题\n#| tbl-cap: \"回归结果：燃油效率模型\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# 拟合回归模型\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# 创建回归表\nmodelsummary(\n  list(\"模型1\" = model1, \"模型2\" = model2, \"模型3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: 回归结果：燃油效率模型\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                模型1\n                模型2\n                模型3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\n方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。\n要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用@标签，其中标签是您分配给图表、表格或方程的标签。例如，@eq-regression引用回归方程 Equation 1，@eq-group引用方程组 Equation 2，@fig-scatter引用散点图 Figure 1，@tbl-regression引用回归表 Table 1。您可以参考Quarto交叉引用文档获取更多交叉引用信息。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.4 文献综述示例",
-    "text": "2.4 文献综述示例\n以下是使用Quarto进行文献引用的示例。\n首先，确保您已经按照前面 Section 1.6 的说明将references.bib文件添加到您的项目中，并在YAML头部中正确设置了bibliography字段。\n其次，确保您已经下载并添加了对应引用格式的*.csl文件，并在YAML头部中正确设置了csl字段。引用格式文件可以从CSL仓库下载。\n现在，您可以在文本中使用@引用键来引用文献。我们可以将引用放在句首。例如：\n@lake2011 Lake (2011) 认为国际关系研究中的“主义”之争是有害的。\n或者，我们也可以将引用放在句末：\n国际关系研究中的“主义”之争是有害的[@lake2011](Lake, 2011)。\n如果要引用多个文章，可以使用逗号分隔引用键，例如：\n这里有两篇好文章[@lake2011, @hale2020] (Hale, 2020; Lake, 2011)。\n最后，在文档的末尾添加以下内容以生成参考文献列表：\n# References {.unnumbered} #添加没有编号的参考文献部分\n\n::: {#refs} #将参考文献放这个位置，而不是文档的末尾\n:::"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact ",
-    "section": "",
-    "text": "You can also contact me via yfu382@outlook.com \n    \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
-  },
-  {
-    "objectID": "papers/index.html",
-    "href": "papers/index.html",
-    "title": "Papers",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\nDemocracy\n\nTerrorism\n\nCivil Liberty\n\nPhysical Integrity\n\n\n\n\n\n\nDec 9, 2024\n\n\nYuxin Fu\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "tools/2024-10-28-ShinySortable/index.html",
-    "href": "tools/2024-10-28-ShinySortable/index.html",
-    "title": "Python package: shiny-sortable",
-    "section": "",
-    "text": "This is a shinylive example of the usage of the Python package shiny-sortable, which is a Python wrapper of the SortableJS library. To install the package, run in CI:\npip install shiny-sortable\nMore information can be found in the GitHub repo.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| components: [editor, viewer]\n## file: app.py\nfrom shiny import *\nimport shiny_sortable as sortable\nfrom pathlib import Path\n\n@sortable.make(updatable=True)\ndef sortable_list(inputID):\n    list = ui.tags.ol(\n        ui.tags.li(\"Item 1\", **{'data-id': '1'}),\n        ui.tags.li(\"Item 2\", **{'data-id': '2'}),\n        ui.tags.li(\"Item 3\", **{'data-id': '3'}),\n        id=inputID\n    )\n    return list\n\napp_ui = ui.page_fluid(\n    sortable_list(\"list\"),\n    ui.output_text_verbatim(id = \"text\"),\n    ui.input_action_button(\"reset\", \"Reset\"),\n    ui.head_content(ui.include_js(Path(__file__).parent / \"light-dark.js\")), # This is just for the dark mode\n)\n\ndef server(input, output, session):\n    list_order = reactive.value(\"\")\n    @output\n    @render.text\n    def text():\n        return list_order()\n\n    @reactive.effect\n    @reactive.event(input.list)\n    def _():\n        list_order.set(input.list())\n\n    @reactive.effect\n    @reactive.event(input.reset)\n    async def _():\n        await sortable.update(session, \"list\", [\"1\", \"2\", \"3\"])\n\n\napp = App(app_ui, server)\n\n## file: requirements.txt\nshiny-sortable\n\n## file: light-dark.js\nwindow.parent.addEventListener(\"quarto-color-mode\", function(event) {\n    document.documentElement.dataset.bsTheme = event.detail.mode;\n    if (event.detail.mode === \"dark\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#16242f\"); // custom dark background color\n    }  else if (event.detail.mode === \"light\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#f9fffe\"); // custom light background color\n    }\n})\nwindow.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Python Package: Shiny-Sortable},\n  date = {2024-10-28},\n  url = {https://bim382.github.io/tools/2024-10-28-ShinySortable/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, October 28). Python package: shiny-sortable. https://bim382.github.io/tools/2024-10-28-ShinySortable/"
-  },
-  {
-    "objectID": "tools/2025-02-10-Belbin/index.html",
-    "href": "tools/2025-02-10-Belbin/index.html",
-    "title": "贝尔宾团队角色自我认知问卷",
-    "section": "",
-    "text": "贝尔宾团队角色自我认知问卷是自 1981 年以来各组织用来提高团队绩效的性格测试。通过了解您个人的团队角色，您的团队可以评估您合作的效率，并确定团队角色分配中的差距和重叠，这些差距和重叠可能会对您的成功产生影响。贝尔宾团队角色自我认知问卷将帮助您通过选择能够自然地完成任务的人来减少对外部激励的需求。\n贝尔宾自评文件是一份以行为为基础导向的测评问卷。请用15-20分钟时间完成该问卷。请注意：这里没有好坏之分，尝试以你目前的实际情况回答，而不是你未来想成为的状态来回答问题。请仔细回答，但不要过度分析自己。\n贝尔宾自评有7个部分，每个部分有10个句子，每一部分你要选出任意数量符合您当前状态的句子，并给每个句子打出0-10的评分。 本程序将根据您的答案为您和九个不同的角色类型打适配分数。\n\n\n\n\n\n\n\n\n\n角色名称\n大类\n角色作用\n可容许弱点\n\n\n\n\n智多星（PL）\n思考型\n有创造力，想象力，灵活解决问题\n弱于沟通和管理普通人，不守常规\n\n\n外交家（RI）\n人本型\n外向、热情、善交际、探索机会、建立联系\n热情一过及失去兴趣\n\n\n协调者（CO）\n人本型\n成熟、自信、信任、一个的主持人，阐明目标、促进决策\n不必是最聪明或最有创造性的成员\n\n\n鞭策者（SH）\n行动型\n灵活、开朗、执着、怀疑、施压、出主意\n易怒、脾气急\n\n\n审议者（ME）\n思考型\n严肃、有策略、有眼光、考虑周到、判断准确\n缺少激发别人的动力和能力\n\n\n执行者（IM）\n行动型\n自律、可靠、保守、把想法付诸实际行动\n有些不灵活、对新事物反应慢\n\n\n凝聚者（TW）\n人本型\n善交往、温和、感觉灵敏、容纳、倾听、解决摩擦\n关键时刻不果断\n\n\n完成者（CF）\n行动型\n苦干、谨慎、有条理、准时、仔细、精确\n关键时刻不果断\n\n\n专业师（SP）\n思考型\n心眼单一、自我激励、投入、提供知识和技能\n只在较窄的范围内做出贡献\n\n\n\n如果觉得有用，请您在本项目的Github 仓库🌟 给我一颗星！\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2025,\n  author = {Yang, Dianyi},\n  title = {贝尔宾团队角色自我认知问卷 {[}Belbin Team-Role\n    Self-Perception Inventory{]}},\n  date = {2025-02-10},\n  url = {https://bim382.github.io/tools/2025-02-10-Belbin/},\n  langid = {zh-CN}\n}\nFor attribution, please cite this work as:\nYang, D. (2025, February 10). 贝尔宾团队角色自我认知问卷 [Belbin\nTeam-Role Self-Perception Inventory]. https://bim382.github.io/tools/2025-02-10-Belbin/"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.6 安装Zotero",
-    "text": "1.6 安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html",
-    "href": "blog/2025-09-29-西方哲学史/index.html",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "",
-    "text": "本项目旨在为读者提供一份系统、易懂的西方哲学史入门指南，涵盖从古希腊到现代的主要哲学流派和思想家。通过对关键概念和历史背景的介绍，帮助读者建立起对西方哲学发展的整体认识。\n本项目主要脉络来自于大问题Dialetic的课程看透世界：100个哲学大概念开悟人生。文稿内容由作者与AI大模型协同完成。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#泰勒斯-水是万物的本原",
-    "href": "blog/2025-09-29-西方哲学史/index.html#泰勒斯-水是万物的本原",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "1.1 泰勒斯： 水是万物的本原",
-    "text": "1.1 泰勒斯： 水是万物的本原\n古希腊哲学的开端通常被认为是公元前6世纪的米利都学派，而其中最著名的代表人物是泰勒斯（Thales）。他提出了一个大胆的命题：“水是万物的本原”。\n\n1.1.1 什么是“本原”？\n“本原”（Arche）是理解早期希腊哲学的核心概念。它不仅指时间的开端或物质的来源，更是一种贯穿始终的根本原则。\n“一切存在着的东西由它而存在，最初由它生成，毁灭后又复归于它，万物虽然性质多变，但实体却始终如一。”（《形而上学》-亚里士多德）\n因此，追问 “本原”的哲学冲动，实质上是在纷繁杂乱的现象世界背后，寻找一个形而上学的、永恒不变的实在。这个实在是一切变化和多样的终极解释，是宇宙秩序的逻辑基石。\n循着泰勒斯的思路，后来的自然哲学家们展开了一场关于世界本质的智力竞赛。阿纳克西曼德认为本原是超越具体物质的 “无定”（Apeiron）；阿那克西美尼则主张 “气”（Air）是万物的始基；赫拉克利特认为是 “火”；恩培多克勒提出了 “水、火、土、气”四种元素；阿那克萨戈拉则认为是无数的 “种子”；到了德谟克里特，最终归结为不可再分的“原子”。尽管答案各异，但他们共享着同一种信念：可以用一个（或一些）不变的、本质性的事物，来解释无数变动着的、现象性的事物。\n\n\n1.1.2 自然哲学：用自然解释自然\n泰勒斯和他的继承者们被称为“自然哲学家”（Physiologoi），因为他们开创了一种全新的解释范式：用自然本身的力量和法则来解释自然，而非诉诸神祇的干预或超自然的力量。这在人类思想史上是一次哥白尼式的革命，它标志着理性精神的独立，是科学与哲学共同的源头。\n然而，这种解释范式也内含着它的时代局限性。由于直接从经验观察出发，他们倾向于将日常生活中熟悉的事物（如水、气、火）提升为宇宙的终极原理，这使得他们的理论带有一种“朴素唯物主义”的色彩，其中不乏直观的想象成分。后世的哲学，尤其是在柏拉图之后，逐渐超越了这种经验的束缚，转向了更为抽象的、超越于感官世界的形而上的探索。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#阿纳克西曼德万物的本原是无定",
-    "href": "blog/2025-09-29-西方哲学史/index.html#阿纳克西曼德万物的本原是无定",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "1.2 阿纳克西曼德：万物的本原是“无定”",
-    "text": "1.2 阿纳克西曼德：万物的本原是“无定”\n在泰勒斯之后，他的学生阿纳克西曼德（Anaximander）将关于本原的思考推向了一个更高的抽象层次。他认为，本原不可能是水、火之类的任何一种具体物质，因为任何具体物质都是有特定性质、有限定的。如果本原是水，就无法解释其对立面——火的存在。因此，真正的本原必须是“无定”（Apeiron）。\n“Apeiron”一词意为“无限定者”或“无限者”，它没有边界，没有特定的形态或性质，是一切具体事物从中产生又复归于其中的永恒母体。\n\n1.2.1 本质不可说\n阿纳克西曼德的创见在于，他认识到，作为一切限定事物之源头的东西，其本身必须是无限定的、不可描述的。这一思想的深远影响，贯穿了整个西方思想史。\n比如，在中世纪的基督教神学中，“无定”回响为“上帝是不可言说的”（Ineffable God）这一观念。否定神学（Negative Theology）认为，上帝的本质超越了人类语言和理性的极限，我们无法用任何正面的词汇去描述上帝是什么，只能通过否定他不是什么来间接趋近他的实在。例如，在描述上帝时，不说“上帝是善良的”、“上帝是智慧的”，而说“上帝不是有限的善”、“上帝不是无知的”、“上帝不是物质的”。正如托马斯·阿奎那在《神学大全》中指出：“我们不能说上帝是什么，只能说上帝不是什么。”因此，神学家会用“上帝是不可见的、不可分的、不可变的、无限的”等否定性表述，强调上帝超越一切人类经验和概念。\n近代，康德的“物自体”（Thing-in-itself）概念也与此遥相呼应。康德认为，我们只能认识经由我们感官和知性结构所呈现的“现象”，而事物本身的面貌则永远无法企及。甚至在当代物理学的奇点理论中，“奇点”同样被描述为一个密度无限大、时空曲率无限高、无法用现有物理定律描述的点。\n维特根斯坦在《逻辑哲学论》的结尾处说：“对于不可言说的东西，我们必须保持沉默。” “我们为什么会有“存在”的世界，而不是根本什么都没有？”这个终极问题似乎永远盘旋在人类理性的边界。阿纳克西曼德提出“无定”作为一切存在的本原，正是试图回答“存在从何而来”这个终极问题。“无定”不是某种具体的存在，而是超越一切限定、没有边界和性质的“无限者”。它既不是“有”，也不是“无”，而是“有”与“无”的根源。所有具体的存在都从“无定”中产生，最终又归于“无定”。因此，“无定”提供了一种哲学上的解释：存在之所以不是“全然无”，是因为有一个超越一切的本原作为一切存在的可能性和源泉。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#普罗泰戈拉人是万物的尺度",
-    "href": "blog/2025-09-29-西方哲学史/index.html#普罗泰戈拉人是万物的尺度",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.1 普罗泰戈拉：“人是万物的尺度”",
-    "text": "2.1 普罗泰戈拉：“人是万物的尺度”\n作为智者学派最著名的代表之一，普罗泰戈拉提出了一个颠覆性的口号：“人是万物的尺度。”\n\n2.1.1 核心思想：主观真理论\n普罗泰戈拉的完整命题是：“人是万物的尺度，是存在者存在的尺度，也是不存在者不存在的尺度。” 这句话彻底动摇了客观真理的根基，其核心意涵包括：\n\n真理的相对性：没有绝对、普遍的真理。对你有益、让你感觉舒适的就是你的真理；对我而言亦然。一阵风对穿着厚衣的人来说是温暖的，但对穿着单衣的人来说却是寒冷的，风本身无所谓冷暖。\n知识的来源是感觉：我们所有的知识都来源于我们个人的感觉经验，而感觉是主观且易变的。\n形而上学的终结：既然没有客观的实在，那么早期哲学家们去寻找世界统一本原的努力（无论是唯物主义还是唯心主义）都是徒劳的。普罗泰戈拉用“主观的逻各斯”（每个人自己的理性和标准）取代了“客观的逻各斯”（宇宙普遍的理性和秩序），从根本上否定了客观真理的存在。\n\n\n\n2.1.2 不可知论的宗教观\n对于当时希腊人生活中至关重要的神，普罗泰戈拉也持一种审慎的怀疑态度。他曾说：“关于神，我不知道他们是否存在，也不知道他们像什么样子。因为有很多事情阻碍了我们确切的知识，例如问题的晦涩和人生的短暂。” 这种不可知论的态度，在当时是极其大胆的。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#高尔吉亚修辞的力量与虚无主义",
-    "href": "blog/2025-09-29-西方哲学史/index.html#高尔吉亚修辞的力量与虚无主义",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.2 高尔吉亚：修辞的力量与虚无主义",
-    "text": "2.2 高尔吉亚：修辞的力量与虚无主义\n如果说普罗泰戈拉动摇了客观真理，那么另一位智者高尔吉亚则走得更远，他几乎彻底瓦解了“存在”本身。\n\n2.2.1 虚无主义三命题\n高尔吉亚以其著名的虚无主义“三命题”而闻名：\n\n无物存在（Nothing exists）。\n即便有物存在，人也无法认识它（If anything did exist, it could not be known）。\n即便可以被认识，也无法传达给别人（If it could be known, it could not be communicated）。\n\n这三个命题层层递进，不仅否定了客观世界的存在，也否定了人类认识和语言表达的可能性，将怀疑论推向了极致。\n\n\n2.2.2 修辞术的魔力：《海伦颂》\n高尔吉亚或许并不真的相信这三命题，其真正目的可能是为了展示语言（Logos）的巨大威力。在他看来，语言与真理无关，但它拥有如同魔法和药物一般的力量，能够说服、引诱甚至催眠听众的灵魂。\n在他的名篇《海伦颂》中，他运用华丽的辞藻和精妙的论证，为引燃特洛伊战争的“红颜祸水”海伦进行辩护，声称海伦是无辜的，因为她或是被神的意志所迫，或是被暴力所掳，或是被言语所说服。这篇演讲旨在证明，强大的修辞术可以颠覆一切既定的道德评判。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#自然physis与习俗nomos之辩",
-    "href": "blog/2025-09-29-西方哲学史/index.html#自然physis与习俗nomos之辩",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.3 自然（Physis）与习俗（Nomos）之辩",
-    "text": "2.3 自然（Physis）与习俗（Nomos）之辩\n智者学派引发的最深刻的讨论之一，是关于“自然”（Physis）与“习俗”（Nomos）的对立。\n\n自然（Physis）：指事物固有的、天然的本性，是普遍且永恒的。\n习俗（Nomos）：指人为制定的法律、道德、风俗和传统，是约定俗成的，因时因地而异。\n\n智者们普遍认为，人类社会的大部分规则都属于习俗，而非自然。例如，在某些城邦，偷窃被视为可耻的恶行，而在另一些场合（如斯巴达的少年训练），潜取反被用来奖掖机敏与勇敢，惩罚的不是偷窃本身而是“被抓住”的笨拙。又如，荷马史诗时代的英雄多以火葬为荣，而古典城邦时期则以土葬与墓志为常。还如，在雅典，合法婚姻与嫁妆制度、血统与公民权紧密相连（如公元前五世纪的公民法限定父母皆为雅典人），近亲婚普遍被禁；但在其他文化中，堂表亲婚并不罕见，甚至被鼓励以巩固财产与宗族。这些例子都表明道德和法律没有神圣或自然的起源，它们只是人类的创造物。\n这场辩论的激进之处在于，它暗示了“强者即正义”的可能性。一些智者（如柏拉图《理想国》中的特拉西马库斯）认为，所谓的“正义”不过是当权者为了自身利益而制定的习俗。如果一个强者有能力打破习俗的束缚，按照“自然”的法则（即弱肉强食）行事，那他便是正义的。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#智者学派的遗产与争议",
-    "href": "blog/2025-09-29-西方哲学史/index.html#智者学派的遗产与争议",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.4 智者学派的遗产与争议",
-    "text": "2.4 智者学派的遗产与争议\n\n2.4.1 历史贡献\n尽管备受争议，智者学派对西方思想的贡献是不可磨灭的：\n\n人本主义转向：他们将哲学的中心从宇宙自然转向了人、社会和文化，开启了人文主义的先河。\n批判精神的倡导：他们敢于挑战一切权威和传统，培养了批判性思维和辩证思维。他们的“反诘法”（即对任何一个论点都能提出相反的论点）是重要的思想训练。\n推动教育发展：他们是西方最早的职业教师，推动了高等教育的普及化和世俗化。\n\n\n\n2.4.2 饱受争议的缘由\n然而，从柏拉图、亚里士多德开始，智者学派就一直伴随着负面评价，其原因主要有：\n\n收费教学：在苏格拉底等人看来，智慧是不能用金钱衡量的，“智者”们收费教学是将神圣的知识商品化，是一种思想上的“卖淫”。\n道德相对主义：“智者”们对客观道德的消解，被认为会侵蚀社会根基，导致道德沦丧和政治投机。\n诡辩术的滥用：“智者”们过于强调修辞技巧，有时为了赢得辩论而不惜混淆是非，因此被批评为“诡辩家”。\n\n总而言之，智者学派像一场思想风暴，席卷了整个希腊世界。他们提出的尖锐问题：真理是客观的还是相对的？道德是源于自然还是习俗？迫使后来的哲学家，尤其是苏格拉底和柏拉图，必须做出回应，从而将西方哲学推向了一个新的高峰。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#苏格拉底方法思想的助产术",
-    "href": "blog/2025-09-29-西方哲学史/index.html#苏格拉底方法思想的助产术",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "3.1 苏格拉底方法：思想的“助产术”",
-    "text": "3.1 苏格拉底方法：思想的“助产术”\n苏格拉底自称其方法为“助产术”（Maieutics），因为他母亲是助产士。他认为自己不像智者那样向人头脑中灌输知识，而是像助产士一样，通过提问帮助对话者发现自己头脑中已有的真理，并“产下”思想的婴儿。\n他的对话通常以“反讽”开始。苏格拉底会伪装自己一无所知，向那些自以为是的“专家”（如政治家、将军、诗人）请教某个概念的定义，例如“什么是正义？”或“什么是勇敢？”。这种谦卑的姿态诱使对方毫无防备地给出自信满满的答案。\n一旦对方给出定义，苏格拉底便开始他核心的“诘问法”。他会通过一系列看似简单、实则环环相扣的问题，引导对方从自己最初的定义中推导出矛盾的结论，最终使其陷入困境（Aporia），承认自己其实并不知道该概念的真正含义。\n这个过程的目的不是为了羞辱对方，而是为了清除思想中的错误和偏见，使灵魂从虚假的知识中净化出来，为接受真正的智慧做好准备。这正是他作为“雅典牛虻”的使命：叮咬沉睡的人们，唤醒他们对自身无知的认识。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#认识你自己关照你的灵魂",
-    "href": "blog/2025-09-29-西方哲学史/index.html#认识你自己关照你的灵魂",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "3.2 “认识你自己”：关照你的灵魂",
-    "text": "3.2 “认识你自己”：关照你的灵魂\n“认识你自己”是铭刻在德尔菲神庙上的格言，苏格拉底将其作为自己一生哲学探索的纲领。这并非一条狭义的心理建议，而是一项整体性的生命任务：在理性省察中辨明我是谁、我应当如何活，以及我与他人、与城邦、与神圣之间的正当关系。\n\n3.2.1 神谕与无知的智慧\n苏格拉底的朋友卡瑞丰自德尔菲求得神谕，称“没有比苏格拉底更智慧的人了”。苏格拉底困惑不已，因为他坚信自己“一无所知”。\n为验证神谕，苏格拉底先造访政坛名流。那些政治家擅长谋略与演说，熟稔会场的节奏与民意的喧嚣，自信地给出关于“正义”“勇敢”“节制”的定义：正义就是“利友害敌”、勇敢就是“无所畏惧”。苏格拉底顺势追问：若朋友不义、敌人行善，仍应偏袒与打击吗？无所畏惧是否包括对愚行与羞耻的无畏？数问之下，定义自相矛盾，政治家的才干暴露为成事之术，而非衡量善恶的知识。\n苏格拉底随后走进诗人的圈子。他常在祭礼与竞赛上听他们朗诵，诗句瑰丽，节奏铿锵，能令听众涌泪、战栗。可当他把诗人从表演台上请到对话桌边，要求他们解释自己最得意的段落时，尴尬出现了：诗人往往只能复述内容或改换修辞，却难以说清“为何这样写才恰当”“这一句凭什么比另一句更好”。追问到创作根据时，他们更愿意诉诸“灵感”“神授”，而不是可传授的原则与方法。苏格拉底据此区分“被灵感牵引的创作”与“有规则、有可教程序的技艺”（technē）：如果诗歌是技艺，就该像木工、医术那样拥有明确的标准、步骤和成败诊断；若连创作者本人都不能说明其所以然，那么作品虽美，却未必出自可称为“知识”的把握。\n当苏格拉底把问题从具体诗句上提到普遍概念时，困境更显著。他请诗人给出“美”或“高贵”的可通用定义，诗人起初会罗列例子：英雄的牺牲、庄严的祭礼、端正的雕像、合拍的曲律。但苏格拉底要求的不是清单，而是能覆盖诸例又能排除伪例的“共同本质”。他随即变换场景：器物的匀称之美、身体的健康之美、灵魂的和谐之美，标准是否相同？若说“高贵”就是勇敢，那么无知而鲁莽的冒进算不算？若加上“合乎理性”，又如何处理战术性撤退的克制之“高贵”？在一连串跨域与反例的牵引下，诗人的“定义”要么退回到例子堆叠，要么自相冲突。苏格拉底据此判定：诗人或许能“做出”感人的作品，却难以“说明”作品背后的可通用理由；他们的创作更像是“被缪斯吸附”的磁石链条，而非掌握了可教授、可检验的技艺。正因为如此，诗人一旦离开诗坛而谈论城邦、德性和正义，便容易把作品带来的声望误当成普遍智慧，而苏格拉底的诘问则恰好揭示了这种错位。\n苏格拉底最后探访各色工匠。木匠熟悉受力与榫卯，能凭目测判断梁柱是否承重；铁匠把握火候与锻打次序，知道何时淬火何时回火；医者通晓体质与方药，能据脉象与症候调治疾患。这些技艺（technē）有明确对象、步骤与成败标准，因而精准而可验证。然而，当谈话从“如何做得好”转向“何为好”，许多工匠便不自觉地把专业领域的确定性外推为普遍的判断力：木匠以“笔直”“对称”为万物之美的根本，主张城邦亦当以绝对整齐为善；铁匠以“坚硬”“耐久”为首德，断言人亦当少变革多忍耐；医者以“平衡”“适度”为最高准则，推广到政制便倡言一切剧烈的改革皆属“伤身”。苏格拉底顺势追问：若“笔直”为美，曲线之琴身与拱券之桥为何更善承力与共鸣？若“坚硬”为德，何以柔韧之金属更抗断裂、善吸能？若“适度”为高，何以在疫病暴起之时，剧烈的干预反而救命？当他进一步要求给出“善”的可通用定义，并在不同场景下保持不相矛盾，工匠们常从技艺范畴的经验判断跳跃到价值结论，却缺少连接两者的论证桥梁；他们的答案一经角色互换与反例检验，便暴露出以行当隐喻包办世界的空泛。\n苏格拉底据此区分“技艺之知”（知道如何）与“德性之智”（知道为何）：前者面向特定对象与手段，后者指向目的与尺度；前者可传授为规程，后者须经对话澄清其理由。工匠的专业并不低下，但专业优势并不自动转化为对正义、幸福、最善政制的普遍智慧。真正的智慧不在于把匠场的范畴强行扩展到城邦与灵魂，而在于承认界限、经受诘问，在可公共检验的论证中说明“为何如此亦当如此”。在这一点上，苏格拉底的诘问法揭示了“从技艺到德性”的飞跃之难：没有清楚的定义与稳固的理由，专业自信往往只是跨域推断的幻觉。\n于是他明白：政治家的成功不等于德性的洞见，诗人的灵感不等于可说明的知识，工匠的熟练不等于普遍的智慧。他之所谓“较诸人更智慧”，只在于自知不知，不以局部之能冒充关于善的学问。\n由此他领悟到：若说他比他人“更智慧”，只在于他知道自己的无知。他不把局部技巧当作普遍真理，不以习俗当作善的尺度，不让意见冒充知识。这种“无知的智慧”不是消极的虚无，而是方法论的谦卑与求真：\n\n承认限度：概念含混、偏见常在，须经持续澄清；\n借助对话：以公共的理性讨论检验信念，而非凭权威与情绪；\n伦理优先：与其追逐自然奥秘，不如先澄清“何为善的生活”。\n\n苏格拉底常提及内在的“守护神之声”（daimonion）：当他将要误入歧途时，这声音会发出禁止的提醒。它不提供教条答案，却与理性的自省相辅相成，构成他实践哲学的日常警觉。\n\n\n3.2.2 “未经省察的人生不值得过”\n“未经省察的人生不值得过”，是苏格拉底为人的尊严所下的判语。他认为，人的独特之处在于有能力检视自己的信念与动机。只求享乐与功利、从不反思其理由与目的的生命，便丧失了理性的尊严。\n苏格拉底的“省察”至少包含三层：\n\n目标澄清：我追求的究竟是什么善，它是否真正值得？\n理由评估：我现有的信念与规范能否抵御反例与诘问？\n行动一致：当我知善之后，我的选择是否与之相称？\n\n这不是孤立的内省，而是一种公共德性，体现在与朋友、市民的理性对话中。通过持续训练，灵魂由意见（doxa）趋向知识（epistēmē），由随欲而动转向理性引导。“认识你自己”遂成为“关照你的灵魂”。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#德性即知识伦理学的理性基石",
-    "href": "blog/2025-09-29-西方哲学史/index.html#德性即知识伦理学的理性基石",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "3.3 “德性即知识”：伦理学的理性基石",
-    "text": "3.3 “德性即知识”：伦理学的理性基石\n苏格拉底伦理思想的核心可以用“德性即知识”来概括，它包含了一系列紧密关联的颠覆性命题。\n\n3.3.1 知道善，就会行善\n苏格拉底把“德性”理解为一种关于善与恶的可说明的知识，类似于一门可教授、可检验的技艺（technē）。就像真正懂医的人不会给病人下毒，真正懂航海的人不会故意把船驶向暗礁，同理，真正知道“何为善”的人，在抉择时自然会选择善的行动。这里的“知道”不是模糊的好恶感觉，而是能给出理由、能在反例检验中站得住脚、并能在多变处境中稳定指导行为的认识。苏格拉底的要点在于：理性知识具有内在的引导力，它不仅描绘目标，也校准手段，因而一旦“看清”善，灵魂便被其所吸引，行动与之合拍。\n\n\n3.3.2 无人故意作恶\n由此引申出他最具冲击力的命题：无人故意作恶。人们之所以做坏事，是因为他们无知，把眼前可得的快感、利益或安全感误认作“真正的好”，而没有看到它对灵魂的损害或对整体人生的破坏。所谓“知而不行”的软弱（akrasia），在苏格拉底看来，并非真的“知道”而又背叛了所知，而是“以为知道”——一种被情绪、欲望、短视和社会成见掩蔽的错觉。《普罗泰戈拉》中，他把道德抉择还原为“度量术”：若一个人能准确比较长远与当下的利害、灵魂之善与身体之欲，他就不会选错；选错恰表明他在衡量上发生了认识偏差。于是，矫正恶行的关键不是惩罚本身，而是教育与省察，让人“看见”何为真正有益，从而纠偏其判断。\n\n\n3.3.3 德性的统一性\n在苏格拉底的视野里，勇敢、节制、正义、智慧等德性并非彼此孤立的美德清单，而是“对善的知识”在不同场景中的具体展开。勇敢若脱离智慧，便可能堕为鲁莽；节制若不受正义引导，可能走向消极与吝啬；正义若不与智慧美德相贯通，便可能沦为僵化的成规。德性的统一，意味着它们共享一个内在核心——对“何为善”的正确理解与衡量能力，并在不同处境下体现为恰如其分的选择与行动。因此，培养德性的根本途径不是把各德性分别“训练”，而是通过对话与省察不断澄清“善”的标准，建立一套能在多样情境中保持一致性的理由结构。当灵魂由此获得条理与和谐，各种德性便像同一旋律的不同声部，彼此协调而成整体之美。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#哲学家的死亡最后的践行",
-    "href": "blog/2025-09-29-西方哲学史/index.html#哲学家的死亡最后的践行",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "3.4 哲学家的死亡：最后的践行",
-    "text": "3.4 哲学家的死亡：最后的践行\n苏格拉底的哲学与他的生命密不可分，而他的死亡则是其一生最好的注脚。\n\n3.4.1 审判与申辩\n公元前399年，苏格拉底被以“不敬神”和“腐蚀青年”的罪名告上法庭。在柏拉图的《申辩篇》中，苏格拉底拒绝了任何妥协或乞求怜悯。他坚称自己非但无罪，反而是神赐予雅典的礼物。他宣称，如果被释放，他将继续自己的哲学诘问，因为服从神（追求智慧）比服从人更重要。\n\n\n3.4.2 对死亡的态度\n在被判处死刑后，苏格拉底表现出惊人的平静。他认为，死亡无非两种可能：或是一种无梦的永眠，那便是极大的安宁；或是灵魂的迁徙，他将有机会去与荷马、赫西俄德等先贤继续讨论哲学。无论哪种，对于一个善者来说，都无需畏惧。\n\n\n3.4.3 《克力同篇》中的抉择\n他的朋友们已经为他安排好了越狱，但在《克力同篇》的对话中，苏格拉底拒绝了。他与拟人化的“雅典法律”进行了一场虚拟对话，论证了逃亡是一种破坏城邦法律、违背正义的行为。既然他一生都受益于城邦的法律，他就不能在法律做出对他不利的判决时背弃它。\n最终，苏格拉底平静地饮下毒堇汁，用自己的死亡，为他所信奉的“忠于正义”、“忠于理性”的哲学原则，画上了最完美的句号。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#理念论可见世界背后的真实存在",
-    "href": "blog/2025-09-29-西方哲学史/index.html#理念论可见世界背后的真实存在",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "4.1 理念论：可见世界背后的真实存在",
-    "text": "4.1 理念论：可见世界背后的真实存在\n柏拉图哲学的基石是他对实在（Reality）的划分。他认为世界并非我们感官所见的单一模样，而是由两个截然不同的领域构成：\n\n可见世界（The Visible World）：即我们通过感官所经验到的物理世界。这个世界中的一切事物都是变动不居、有生有灭、不完美的。我们看到的每一匹马都会衰老死亡，我们画的每一个圆都不可能绝对完美。它只是一个相对的、次要的实在领域。\n理念世界（The Intelligible World）：这是一个超越于感官经验的、只能通过纯粹理性才能把握的形而上世界。这个世界由一系列永恒不变、完美无瑕的“理念”（Forms / Ideas）构成。例如，“马的理念”、“圆的理念”、“美的理念”等。\n\n\n4.1.1 理念的特性与“分有”\n“理念”并非感官可见之物，而是永恒不变、只可由理性把握的“原型”（paradeigma）。它自同一而不生成不灭，提供了“何以为其所是”的稳定尺度：我们之所以能把纷繁的个别事物归在同一名称之下（诸圆为“圆”、诸正义为“正义”），就在于这些个别各自借由一种本体论的关系而联系到同一个理念。\n柏拉图以“分有”（methexis/participation）形容这种关系：可见世界中的事物之所以成为其类，乃因“分有”了相应理念的本质。一匹具体的马之所以是马，不在于它恰巧长得像别的马，而在于它分有“马之自体”；一桩行为之所以称为正义，不在于多数人一时赞许，而在于它分有“正义之自体”。分有并不是物理性的混合或切割，而是一种使个别获得“可为此名”的本体关联，由此理念成为两重意义的原因：一是存在的原因（个别之为“某类”的根据），二是认识的原因（我们得以有通用定义与可论证的知识）。\n同一理念可以被多样个别以不同程度地“分有”，于是便有了“更圆”“更美”“更正义”的层级差异，个别也因此带着“像—不像”的距离感而不断指向其原型。柏拉图在《理想国》中通过“床”的例子加以说明：有“床的理念”（唯一的原型），有工匠所制的具体床（对理念的摹拟），还有画家在画布上的床（对具体床的摹拟）；三者相去一层，现实程度与可知程度亦依次递减。理念之间并非彼此隔绝，它们存在“相互贯通”（koinonia）：如“正义”“美”“合宜”在同一行为中相互照映，但这一切的秩序与可知性，最终都要仰赖一个更高的原则“善”来统摄。\n\n\n4.1.2 善的理念：理念世界中的太阳\n在理念的层级之巅，是“善的理念”（the Form of the Good）。柏拉图以“太阳比喻”说明其地位：正如太阳在可见界赋予万物以可见性、温养与生长的能量，善的理念在可知界则赋予一切理念以可知性与存在的光辉。对于认识者，善使心智获得把握真理的“视力”；对于被认识的对象，善使其显露为“可被认识的真”。\n更进一步，柏拉图甚至说善“超越存在”（epekeina tēs ousias），就尊严与力量而言高于“有”，因为它不仅使我们认识诸理念，也使诸理念“为其所是”。即善不是诸多“理念”中的一个，而是让一切理念能“是其所是”、也能被我们认识的最终来源。它不只是某个存在者，而是“存在与可知”的根本条件，地位高于一切存在者本身。好比太阳之于可见界：太阳不是万物之一，却让万物得见、得生。\n于是，其他诸如“正义、美、真理”的理念，皆在善之光照下获得其尺度与完满。哲学教育的最高任务，便是引导灵魂由可见界的意见出发，经由数学等中介性学科的抽象训练，最终在辩证法的上升中直观善本身；唯有见到这一终极尺度者，方能在政治中正确安排其他一切善，故统治者“哲人王”的资格并非来自技艺的熟练或民意的拥戴，而来自对善的理念的直观与对城邦整体秩序的把握。由此，“太阳”的光不仅让我们“看见”，更让存在“得以存在”、知识“得以为知”，而哲学的使命，正是在这道光中辨明事物之所以然，并将之转化为灵魂与城邦的秩序。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#知识论回忆说与洞穴寓言",
-    "href": "blog/2025-09-29-西方哲学史/index.html#知识论回忆说与洞穴寓言",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "4.2 知识论：回忆说与洞穴寓言",
-    "text": "4.2 知识论：回忆说与洞穴寓言\n既然真实的世界是理念世界，那么我们如何才能认识它？柏拉图的知识论与他的理念论紧密相连。\n\n4.2.1 知识即回忆\n柏拉图将认识与理念论紧密缠合：若真实在于理念界，而感官世界只是其影与摹本，那么真正的知识就不可能来自感官的堆积，而必须诉诸灵魂对理念的把握。由此，“学习”被重写为一种“回忆”（anamnesis）：灵魂在入身之前曾直观理念，投生时遗忘，现世的求知不过是把被遮蔽的真理重新唤醒。\n所谓“回忆”，并非记起某个具体事件的记忆，而是从具体而不完美的事物中，认出其背后的“本身之物”。《斐多》以“自等本身”的例子阐明：我们见到等长的木棒或石块，却能判断它们“不够等同”，由此推知我们早已拥有“等同性本身”的尺度，否则便无法做出“未达标”的判断。可见，感官经验只是引发回忆的契机，不是理念知识的源头。\n在《米诺》中，苏格拉底请来一个未受几何教育的奴隶男孩，地上以木棍划线作图，从一块边长为2英尺的正方形开始（面积为4平方英尺），要求男孩找出一块“面积加倍”的正方形（目标面积为8）。男孩先凭直觉回答“把边长加倍到4”，苏格拉底引导他计算：边长加倍，面积变为16，并非8；男孩改说“边长取3”，面积成了9，仍非8。至此，直觉路径被否定，男孩陷入“困惑”（aporia）——这是苏格拉底助产术的关键节点：先拆除伪知，空出对真知的需要。\n苏格拉底接着不直接给答案，而是让男孩在原正方形上作对角线，并在四周以这条对角线为边，拼出一个新的大正方形。通过数格与对比，他让男孩自己看见：原正方形的四个同样大小的小三角形围成的新正方形，其边长恰好等于原来的对角线，而新正方形的面积正好是原来的两倍。整个过程不靠公式灌输，而是靠一连串可视化的提问与作图，让男孩从错误—修正—洞见的阶梯上升，最后自己“认出”命题：对角线能将正方形面积加倍。\n苏格拉底据此宣称：他并未向男孩“灌输”新知，只是唤起其灵魂中本有的真理。此处还提出一条关键区分：正确意见虽能导向正确行动，但如不以“原因的说明”（aitias logismos）拴系，便易流失；一旦给出可辩护的理由，正确意见便“被系住”，升级为知识。这说明知识不仅要“对”，还须“能说明其所以对”。\n教育因而被塑造成一场“转身”（periagōgē）：把灵魂从影像与意见转向理念与真理。《理想国》据此安排了完整的教育阶梯：算术、几何、立体几何、天文学、和声学等学科训练理智脱离感官依赖，以抽象思维习得“由假设出发、上升到非假设第一原理”的能力，最终在辩证法中直观“善”。数学不是目的，而是桥梁；它把心智从可见界的杂乱牵引到可知界的秩序。\n综合而言，回忆说为“知识何以可能”提供形而上学根基：知识是灵魂对理念的再把握。他勾勒出柏拉图的核心信念：只有当认识立足于理念、受“善”的光照，知识才配称为知识。\n\n\n4.2.2 洞穴寓言：从意见到知识的飞跃\n柏拉图在《理想国》中以洞穴寓言描绘灵魂受教育的全过程：\n一群人自幼被锁在洞穴里，颈脚被缚，只能直面洞壁。他们看到的只是身后火光照着木偶与器具在人为搬运下投射出的影子，并把影子当作真实。某日，其中一人被解开枷锁，艰难转身，看见刺眼的火和造影的木偶；再被强迫走出洞外，初遇阳光，只觉剧痛与眩晕，先借水中倒影与影像辨认事物，继而看清树木、动物与星月，最后才得以直视“太阳”本身——太阳象征理念界的最高原则“善”。若他重返洞中劝告同伴，因不适应黑暗而一时“看不清”，反被嘲笑、敌视，甚至遭到攻击。\n寓言的要旨在于：教育不是把“视力”灌给盲者，而是使灵魂“转身”（periagōgē）——从错误的对象转向应当观看的对象，从错置的爱好转向值得爱的事物。这一“转身”对应“分线比喻”的四级认识：\n\n最低一层是想象（Eikasia）：囚徒只见影像，把“像“当作”实”，靠熟练的识别与回忆混成一种伪知识。这是对图像、传闻、戏仿与框叙的轻信，认识对象最不真实、最不稳定。\n其上是信念（Pistis）：被松绑的囚徒回头看见能投影的器物与火，进而把可见界的具体事物当作真。我们日常生活的经验判断多停留于此：它较影像更真实，但仍处于生成与变易之中，缺乏可普遍说明的根据。\n再上是理智（Dianoia）：走出洞外，一时无法直视阳光的人，转而借助倒影与几何比例理解世界。数学式思维正是这种“中介性的理智”：它以抽象对象（数、形、比）工作，摆脱感官依赖，然而仍“带着假设工作”——从若干未经审查的公设推演结论，尚未追索其终极根据。\n最高一层是努斯（Noesis）：当眼能够承受日光时，人直视“太阳”，亦即以辩证法由“被假设的原理”一路追溯到“非假设的第一原则”（善），再由善出发统摄、组织其他理念，形成一个“能说明其所以然”的知识体系（epistēmē）。至此，认识摆脱了意见的偶然与数学的未审，成为真正的“可辩护的把握”。\n\n四级认识不仅是主观明暗的层次，更对应对象的本体论层级：影像与具体事物属于可见界，关联意见（doxa）；数学对象与理念属于可知界，关联知识（epistēmē）。教育的任务，正是引导灵魂由可见界迁升至可知界：先以音乐与体操端正情感与习性，再以算术、几何、立体几何、天文学、和声学训练抽象思维，最后由少数通过严苛筛选者进入辩证法的操练，学会“从假设上升到非假设的第一原则”，直观“善”。看见“善”的哲人并非因此可以退隐；恰恰相反，他负有“下返洞中”的政治义务，以法律与教育重整洞内秩序。也因此，寓言兼具政治寓意：洞中的木偶手与影戏暗喻煽动家与诡辩术，未经教育的民众易受幻象操纵；归来的哲人因“眼不适暗”而受嘲，隐指苏格拉底的遭遇，说明哲人政治的必要与危险并存。\n洞穴寓言与回忆说遥相呼应：感官所供给的只是引发回忆的契机，真正的知识来自灵魂对理念的再把握；“转身”的痛苦揭示了旧习与意见的强大牵引，而教育的成功取决于把爱好从影像与名利移向可知与善。最终，只有在“善”的光照下，存在才“得以为其所是”、知识才“得以为其所知”，灵魂与城邦才可能获得秩序。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#灵魂学说理性激情与欲望的战车",
-    "href": "blog/2025-09-29-西方哲学史/index.html#灵魂学说理性激情与欲望的战车",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "4.3 灵魂学说：理性、激情与欲望的战车",
-    "text": "4.3 灵魂学说：理性、激情与欲望的战车\n柏拉图在《理想国》中提出灵魂三分：理性（logos）、激情或血气（thymos）与欲望（epithumia）。在《斐德罗》中，他以“战车神话”形象化这一结构：\n灵魂如同一位驾车的御者与两匹性情迥异的骏马。御者象征理性，负责看清路向、统筹全局、制定尺度；右侧的白马高贵端正，爱荣誉、知羞耻，乐于服从号令，代表血气之力；左侧的黑马粗野倔强，耳根不正、口馋好色，牵恋金钱与享乐，代表多头欲望的牵拽。一个正义、和谐的灵魂，就是车夫（理性）在白马（激情）的帮助下，成功地驯服了黑马（欲望），使整个灵魂战车平稳地向着“善”飞升。而一个邪恶、混乱的灵魂，则是欲望失控，理性被激情和欲望所奴役的结果。\n“战车神话”的另一条线是爱（eros）的教育。灵魂在天上随神巡游，曾得见“正义自身”“美自身”等理念，于是长出羽翼；堕落入世后，见到具体而可感的美（常在所爱之人身上）便激起“回忆”，羽翼隐隐欲生。此时黑马拉向肉欲，白马以羞耻与敬畏自持，御者痛加缰勒，反复训练，终于使战车在克制中升华，将欲求转化为对灵魂之美的守护与对真理的渴慕。爱因此成了哲学家的发动机：不是压杀欲望，而是通过理性的引导与激情的配合，使欲望转换目标，成为攀升之力。\n这一图景也解释了“自制”（enkrateia）与“放纵”的心理机制。所谓“知恶而行恶”的软弱，往往是理性尚未真正把握“善”（或其声音微弱），激情与欲望在无正确教育的情况下各自为政，以短视的衡量压过长远之利。修养的要点不在一味压抑，而在于调整分工：给欲望以正当满足与次序，给激情以荣誉与纪律，使二者成为理性的臂膀。当白马与黑马都被驯至可听号令，战车不但不慢，反而最快；德性不是“少了什么”，而是“各得其所”的充盈。\n柏拉图通过灵魂三分比喻说明：通过教育、法度与日常训练，能够重建理性—激情—欲望的等级秩序；在审慎的引导下，让欲望转向更高的对象，让激情守护理性的判断，使灵魂的战车稳稳上升，向着“善”的光域前行。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#理想国正义的城邦与哲人王的统治",
-    "href": "blog/2025-09-29-西方哲学史/index.html#理想国正义的城邦与哲人王的统治",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "4.4 理想国：正义的城邦与哲人王的统治",
-    "text": "4.4 理想国：正义的城邦与哲人王的统治\n柏拉图的政治哲学可视为灵魂学说的放大写照：一个理想城邦（kallipolis）就是“正义”理念在社会尺度上的实现，其内部结构与一颗正义、和谐的灵魂完全同构。\n\n4.4.1 城邦的三大阶层\n灵魂由理性、激情与欲望三部分构成；相应地，城邦也分为三类承担不同职分与德性的公民群体。\n\n统治者相当于理性，肩负“看清整体之善并统筹安排”的职责，他们必须是认识过“善的理念”的哲学家，其典型德性是智慧；\n护卫者相当于激情，承担守卫城邦、贯彻命令的任务，德性是勇敢，尤其是“在痛苦与诱惑面前保存关于何者可畏、何者可为的正确信念”；\n生产者相当于欲望，负责农业、手工、贸易与财富生成，基本德性是节制，即承认理性之统辖、同意“应当由更善者统治”。\n\n柏拉图认为，当三者各司其职、互不僭越，城邦整体就达成了正义：正义并非某一件孤立之事，而是“各得其所”的秩序。\n\n\n4.4.2 哲人王的统治与教育\n哲人王的统治安排，缘于柏拉图对权力与私利纠缠的深切警惕。真正的统治者不是最会赢得选票的人，而是能直观“善”的少数，他们通过长期教育与筛选，从热爱真理、善于学习、稳重而不贪的青年中产生。\n为避免利益冲突与派系化，柏拉图为统治者与护卫者设计了严苛的“共同生活”：\n\n他们不得拥有金银与私产，不从事营利，不积蓄“家务”，而以节制为荣；\n家庭也被“公共化”，配偶与子女的归属按城邦安排，由公共的抚育体系接手，以免血缘小团体凌驾于公域之上。\n\n这些安排的理由是明确的：一旦统治者拥有“自己的金银”和“自己的小家”，他们就会以“我的”为尺度看世界，城邦随即碎裂为“富者之城”与“贫者之城”。柏拉图宁要“合唱的齐整”，不要“各唱各的调子”，因为统治的难处不在效率，而在如何持久地抵抗腐败与分裂。\n柏拉图对于理想国中的教育体制也有完整的设想与安排：\n在柏拉图的构想里，护卫者的养成自幼即以“音乐与体操”为经纬：音乐并非单指乐器与歌舞，而是广义的人文教养，通过神话、诗歌、旋法与节奏熏陶爱憎的秩序，使心灵学会爱真、善、美，厌弃虚伪、放荡与怯弱；因此需要审查叙事与旋律，摒弃使灵魂软化的调式（如柔靡的吕底亚、伊奥尼亚），保留能培植节制与勇毅的多利亚、弗里吉亚。体操亦非粗暴的肌力崇拜，而是节制的身心历练，令护卫者强而不虐、勇而不暴，能承受痛苦与诱惑而不折其志。通过音乐端正爱憎，通过体操稳固意志，激情（thymos）被教育成理性的忠诚助手，而非莽烈的暴君。\n在基础德性稳固之后，教育进入“转身”的第二阶段：以数学五科磨砺抽象理智，使心智逐步摆脱感官牵制。算术训练把握“同一之中之多”、多之中之同；平面几何与立体几何教人直面不依赖感官的形与比；天文学不是仰观可见天象的绚烂，而是在可知界中理解匀圆与比例的秩序；和声学亦不依赖悦耳的经验，而在数比中探求协和的必然。这一整组学科像是通往理念界的阶梯，要求学生“带着假设工作”并学会抽离与贯通。依《理想国》之程式，二十岁左右选拔出最善学者，使之研习十年；三十岁再筛选少数品格既定、理智坚实者，准其进入辩证法。\n辩证法是第三阶段，也是最高的学艺：不再满足于在假设之内推演，而是由假设出发逆流而上，追索到“非假设的第一原则”——善之理念；再从善出发，向下组织并统摄其他理念，使整个知识体系成为“能说明其所以然”的秩序。柏拉图谨慎地将辩证法推迟至三十岁之后，理由是过早的辩难（eristic）会使青年只会拆解权威却无以立其所当立，转批评为玩弄。他要求先有经年累月的品格训练与数学锻造，再以五年辩证操练成其“能见之眼”。此后，哲学家不得即位，而须再接受十五年现实政务与军事的历练，让“理念之见”在多变人事中受检验、学分寸。至五十岁，唯有极少数“既见善、又能持守”的人，方可承担统治之任，成为“哲人王”。\n柏拉图以“洞穴寓言”规定了哲人的政治义务：下返洞中。城市以最好的教育与资源抚育了哲学家，哲学家便当在立法上以“可普遍说明的理由”而非好恶为准，在教养上使下一代的爱与憎、勇与节，按共同尺度定向。正因法律与教育共同完成灵魂的“内在对齐”，政体方能久固；而统治者之所以合格，不在其技巧与声望，而在其判断背后有一个超越意见的尺度——善之理念，足以抵抗私利与派系的牵引，将个人的“我好”转化为城邦的“共同善”。\n\n\n4.4.3 政治体制的堕落\n柏拉图把政体看作灵魂秩序的放大版：灵魂里谁当家，城邦里就成什么法。理想国(Aristocracy)由理性主导、激情协助、欲望守分，所以正义就是“各司其职，各得其所”。但这种秩序不会自动保鲜。教育松懈、婚配失衡、习俗松动，会在一代代里积累偏差，政体就会从理性之治，滑到被血气、财富和放纵轮番主导，最后落到僭主的一己之欲。\n荣誉政体(Timocarcy)是理想国堕落的第一站：理性并未被驱逐，但退居次席，血气登上主位。转变的原因往往并不戏剧性，而是从教育与婚配的细微走样开始——音乐之教（节律、叙事、旋法）被削弱，体操与军备被过度强调；下一代护卫者由“以善为尺度”悄然改为“以胜为尺度”。城市的气质随之改变：尚武、整齐、服从命令，藐视柔弱与多思；在对外关系上好战求胜，在城内治理上严厉而有纪律，却对学术与哲学抱持戒心，视“多问其所以然”为削弱意志。荣誉政体的优点是能迅速动员、敢于牺牲、保持公共秩序；但它的判断标尺从“何为善”滑向“谁得胜”，把胜负当作善恶的替身，久之便难以反身自省、修正方向。\n再下一步是寡头政体(Oligarchy)。寡头政体承接荣誉政体而来：胜负的标尺进一步让位于财富的标尺。参政资格被明文系于财产门槛，选官与任职以“有产”为先；法律的重心从培养德性转向保障所有权与契约执行，债务奴役与没收条款严苛，贫者一旦失足便被逐出公域。城邦随之成为“两个城市”的并置体——“富者之城”与“贫者之城”同处一地而各有其心：富者以治安与资产安全为第一目标，贫者以生计与尊严为主要诉求，互不信任，时相摩擦。\n这种制度有其效率：节俭、储蓄、计算、规避风险成为公共美德，财政保守、账目分明、税赋有据，公共事务被压缩为“保值增值”的治理术；军备更多依赖雇佣兵，避免高风险的大战；教育偏好技艺与营利之学，鼓励金融与贸易才能。然而寡头政体的内在矛盾也随之加剧：它一方面提倡节制，另一方面默许对金钱的贪恋；对内以法维稳，却以严刑与资格审查将大量公民排除在政治共同体之外，形成长期的怨气堆积。柏拉图称其为“欲望上升但受算计与恐惧束缚”的城邦：统治者惧贫者之数，贫者惧法律之威，彼此以恐惧维持秩序。\n接着是民主政体(Democracy)。民主政体承接寡头政体的裂痕而生：债务、失业与被排除者的怨气长期积累，贫者以“平等与自由”为号召重写秩序。法律取消财产门槛，扩张公民资格；议事广场人声鼎沸，人人可言、万事可为，生活方式并列共存，从克己的禁欲到奢靡的享乐，从苦修的学派到诙谐的表演，皆得其所。权力以频繁轮替自豪，以限制任期和抽签分配职务为公平象征；但也因此形成强烈的短期倾向：统治者迎合当下意见，难以推进需要牺牲与延迟满足的长期工程。共同尺度随之松脱：当“善”的客观标准不被承认，公共判断多半退化为“多数赞成”的意见结算。\n民主的优点是自由，它释放创造力与个体差异，给被压抑的群体以发声空间；但它的脆弱也在自由的误解：把一切约束都当作专断的前兆，把必要的教育与节制视为“反自由”。对权威与专业的普遍不信任，催生一种“意见平权”的幻觉：医生与病人、舵手与乘客的判断被放在同一秤盘，技术性的长远决策被即时的热情淹没。媒体与演说在此成为关键制度事实：在“洞穴寓言”的意义上，影像与叙事更易操控人心，煽动者通过简化的对立、情绪化的标签与敌人想象凝聚支持，理性讨论难以维持所需的时间与注意力。法律仍在，但执行被人气与舆情左右；公域碎片化为一个个自我同温的圈层，公共理性所需的共同语汇日渐稀薄。\n僭主政体(Tyranny)是堕落链条的终点：在民主的极端自由中，公众对一切限制过敏，城邦失去共同尺度，煽动者以“保护自由”和“替民出气”为名汇聚人心。他先以慷慨施舍、免债减税收买支持，树立“敌人”转移矛盾，继而要求护卫与特权；当反对声起，他以清洗异己、恐吓审判巩固权力。法律由此反转：不再是共同尺度，而是僭主意志的工具。\n僭主的统治术围绕三个动作反复展开。第一，制造外敌与内奸。对外挑起冲突，以战事团结国内；对内标定“可恨之人”（富者、贤者、不同政见者），通过没收与清算来供养亲信，并在持续的恐惧中迫使沉默。第二，封堵贤言与断绝教育。贬斥能以理由争辩的人，把教育诬为洗脑，将公共讨论替换为口号与仪式，令城邦长期停留在“洞穴”的暗处，被影像与情绪牵引。第三，养成依附网络。以赏赐与职位网罗阿谀者，用密探与告密破坏信任，使公域碎裂为孤立的个人与派系，从而降低集体抵抗的可能。\n柏拉图的堕落谱系是一套灵魂诊断学：理性退位→血气当家→财富为王→任性称尊。决定走向的不是政体名称，而是教育、婚配与习俗能否把权力拴在“善”的尺度上；一旦这根绳松脱，城邦便沿惯性滑向僭主，反之方有止跌回升的可能。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#高尔吉亚虚无主义与修辞的力量",
-    "href": "blog/2025-09-29-西方哲学史/index.html#高尔吉亚虚无主义与修辞的力量",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.2 高尔吉亚：虚无主义与修辞的力量",
-    "text": "2.2 高尔吉亚：虚无主义与修辞的力量\n如果说普罗泰戈拉动摇了客观真理，那么另一位智者高尔吉亚则走得更远，他几乎彻底瓦解了“存在”本身。\n\n2.2.1 虚无主义三命题\n高尔吉亚以其著名的虚无主义“三命题”而闻名。这三步并非单纯的形而上断言，更像是一场修辞与怀疑的“表演式论证”，它借用并反转爱利亚学派（如巴门尼德）关于“存在”“一者”的论辩手法，层层推进，意在展示语言与说服的力量独立于真理而运作。\n\n无物存在（Nothing exists）\n\n论证大意：若“存在”存在，它要么是“无穷的”，要么是“有限的”；要么是“一”，要么是“多”。但无穷者无所不包、不可在何处，因而等于“无处是”，近似等同于“无”；有限者必以“非存在”为界，界定又诉诸“不存在”，陷入矛盾；“一”无法在自身或他者之中而不致悖论，“多”需以“非一”为条件，终亦自毁。结论是：用这些概念框架推不出一个自洽的“存在”。\n用大白话说，就是把“存在”逼到几种选项里，每个选项都卡壳：\n\n说它是“无限的”：无限没有边界、没有特定位置，分不出这里/那里、此物/彼物，等于啥都分不出来，像“什么都不是”。\n说它是“有限的”：有限就有边界。可边界在哪里画？边界外面只能是“非存在”。用“非存在”来界定“存在”，自相矛盾。\n说它是“唯一的一个”：只有一个就不能有部分；没有部分就没有大小、没有结构，等同于“啥也没有”。要是有大小又有部分，就不再是绝对的“一”。\n说它是“很多个”：很多就要彼此不同；不同要靠“不是那个”来区分，又得借助“非一”（不是同一个）来成立，多数就靠“不一”来支撑，逻辑上也不稳。\n\n所以，用这些概念框架（无限/有限、一/多）去定义“存在”，每条路都陷入矛盾，高尔吉亚据此说：你推不出一个自洽的“存在”。这是一种修辞性的“归谬”，意在展示概念/语言本身会把我们带进死胡同。\n\n即便有物存在，人也无法认识它（If anything did exist, it could not be known）\n\n论证大意：认识属于主体的心理状态（表象、感受、想法），而存在若为客观之物，则不与主体状态同一。感觉常常相互冲突、随境迁移（冷热、甜苦因人而异），说明“所知”依赖于知者的状态而非对象本身；若知识要等同于对象本身，则须主客同一，这是不可满足的。\n用大白话说：\n认识是在你心里发生的，是你的感觉和想法；而外面的东西（客观存在）不是你的感觉本身。 同一件东西，不同人感觉不一样（有人觉得热，有人不热；有人觉得甜，有人不甜），说明我们“知道到的样子”取决于我们自己的状态，不是事物本身长这样。 要想让“我的知识=事物本身”，就得让我的心直接变成那个事物本身（主客合一），这做不到，所以我们不可能把外物原封不动地“装进心里”。就好像对于同一张照片，不同滤镜看起来颜色不同。滤镜就是认识者的状态；照片就是客观对象。所以，我们至多把握对象的呈现/表象，而非物自身。\n\n即便可以被认识，也无法传达给别人（If it could be known, it could not be communicated）\n\n论证大意：语言由声音/符号构成，不等于事物本身；我心中的表象无法以同一性转移到他人心中，听者接收的是符号并据其自身经验诠释，非“我的同一经验”。因此，交流最多只能引发“相似”或“类比”的心象，而非“同一”之知。\n这一重论证指出了“物—念—言”的三重裂隙：事物与观念不同，观念与言语不同，听者之理解又不同于说者之意。由此语言与真理脱钩，修辞的说服并不以真为前提。\n这三个命题层层递进，不仅否定了客观世界的存在，也否定了人类认识和语言表达的可能性，将怀疑论推向了极致。\n\n\n2.2.2 修辞术的魔力：《海伦颂》\n高尔吉亚或许并不真的相信那著名的“三命题”，他更像是一位修辞艺术的魔术师，借助极端的怀疑论立场，来展示语言本身的巨大威力。在他看来，语言与真理的关系并不牢靠，甚至可以说语言与真理无关。语言不是用来揭示世界本质的工具，而是一种能够操控、塑造、甚至迷惑人心的力量。它如同魔法和药物，能够激发情感、改变信念、左右判断，甚至让人忘记自身的理性。\n在他的名篇《海伦颂》中，高尔吉亚以极富感染力的辞藻和精妙的逻辑，为特洛伊战争的“红颜祸水”海伦进行辩护。他列举了多种可能性：海伦之所以离开斯巴达，若神的安排或命定使之如此，人力不可违抗。对抗神意无异于不敬，故不应责海伦。若是以武力掳走，那么责任在强者与暴力之上。被害者并无自由裁量，谈不上有罪。若因爱情，则在神性力量或不可御的情动下，海伦不应承担道德过失。若因言语/说服，则被说服者乃受力者，说服者才是施力者。所以海伦无罪，演说者有责。高尔吉亚特别强调，言语的力量可以像药物一样作用于灵魂，使人丧失自主判断，甚至违背本意行事。\n通过这篇演讲，高尔吉亚用实际的修辞表演证明了修辞术的巨大魔力：它可以颠覆一切既定的道德评判，让人们对善恶、美丑、正义与非正义的看法发生根本动摇。高尔吉亚的修辞观，预示了后世关于语言、权力与真理关系的深刻讨论，也为西方思想史上的后续的怀疑主义和相对主义埋下了伏笔。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#苏格拉底的死亡哲学家的践行",
-    "href": "blog/2025-09-29-西方哲学史/index.html#苏格拉底的死亡哲学家的践行",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "3.4 苏格拉底的死亡：哲学家的践行",
-    "text": "3.4 苏格拉底的死亡：哲学家的践行\n苏格拉底的哲学与他的生命密不可分，而他的死亡则是其一生最好的注脚。审判、拒逃与赴死，是他一以贯之的理性与正义观在极端处境中的落实。\n\n3.4.1 审判与申辩\n公元前399年，苏格拉底被三位控告者起诉：米勒托（青年诗人，名义上的起诉人）、安纽图斯（有势力的民主派政治家）与莱孔（演说家）。罪名是“不敬神”（不承认城邦所承认的神祇、引入新的神灵）与“腐蚀青年”。雅典的法制程序为：五百名前后陪审员（以抽签产生）先就“有罪/无罪”投票，再就“刑罚”在控辩两造所提方案中表决。柏拉图《申辩篇》呈现了苏格拉底的辩辞：他拒绝迎合、拒绝卖弄感情，不携幼子涕泣求情，也不以“后不再哲学”为筹码。他自称是“神赐给雅典的牛虻”，以诘问刺醒沉睡的城邦良心；若要他停止哲学，就是要他违背神谕与本心。第一轮表决中，他被判有罪（传统说法约以小差距定罪）。进入量刑环节，按照惯例，被告可自提刑度以与检方的死刑相竞争。苏格拉底先半戏谑地提议：应当“在普吕塔涅翁享受公费供养”（英雄与奥运冠军的荣誉待遇），随后在友人劝说下改提罚金（三十米那），仍拒绝流放或沉默以苟安。最终，陪审团选择死刑。\n\n\n3.4.2 对死亡的态度\n在被判处死刑后，苏格拉底表现出惊人的平静。\n在《申辩篇》中，他将死亡界定为两种可能：要么像“无梦的长眠”，则是莫大的安宁；要么是“灵魂迁徙”，可与荷马、赫西俄德等先贤继续讨论正义与德性，两者皆无可畏惧。执行死刑因“德罗斯神船”未归而被延宕（祭礼期间不得行刑），此间他与门人昼夜讨论灵魂与理念。\n在《斐多篇》中，苏格拉底依次提出数个关于灵魂不朽的论证。\n\n其一是“相生相成”的循环论证：万物由其对立面而来，清醒来自睡眠，强壮来自虚弱，同理，生者亦自死者而来；若没有“由死返生”的环节，生成的链条就会在一端枯竭，世界终将静止为沉寂。\n其二是“回忆说”：我们在经验中见到许多近似的平等，却能判断它们“达不到真正的平等本身”，这表明我们对“自身相等”的理念早有把握；如此类推，对“美自身”“善自身”等的把握并非由感官经验创造，而是经由回忆唤起，指向灵魂在入身之前已与理念世界相接。\n其三是“同类相应论证”：凡可见、复合、可变者（身体）与不可见、单纯、恒常者（理念）分属两类；灵魂若能把握理念、向恒常求同，就更近似不可见的、不变的实体，因而在本性上较具长存的资格。\n最终他提出因果与本质的论证：灵魂是“赋予生命”的原则，而一个本质上“赋生命者”不容对立面的侵入（如火不容寒、三角不容四直角），因此灵魂作为“生之所由”，不可能接受“死”作为其本性之对立，所以灵魂不朽。\n\n在此论证框架下，苏格拉底把哲学比作“练习死亡”的工夫。所谓“死亡”，是灵魂与身体的分离；哲学则是生前尽可能让灵魂摆脱身体的牵缠，少受感官欲望、饥渴寒暑与名利荣辱的扰动，使判断不被快感与痛苦左右，以便纯粹地把握那些可理解、永恒不变的对象。真正的哲学家不轻贱生命，而是将生命用来预备那种“纯思”的状态：生时以理性训练灵魂，死时因此无所惧怯，因为死亡不过是完成了他长期操练的分离，使灵魂得以更贴近真理。\n\n\n3.4.3 越狱的抉择\n行刑前夜，老友克力同潜入狱中，已安排好越狱与流亡之计。苏格拉底却通过一则“雅典法律”人格化的对话拒绝逃亡：\n第一，他终身受益于城邦法，成年后并未选择离开，等于以行动与其订约，今在败诉时背弃，属“以不义报不义”；\n第二，逃亡伤害法律的威信与法序的延续，将以个案撕裂制度的公共性；\n第三，他坚持“宁受不义，不行不义”的原则——不以他人的错误为自己作恶的理由。法律的正当性源于“或说服之，或遵守之”，既未能以合法方式改变判决，便应服膺其后果。\n克力同在黎明潜入狱中，情急相劝，理由层层相逼：其一，民意可畏。若任你就刑，众人将讥我等朋友无能、贪财惜命，不愿花钱营救，名誉尽丧；其二，事已安排妥当。路费、人手、接应之处皆备，可去色萨利等地，那里旧友能庇护你安度晚年，且你年事已高，逃亡之辱不算什么；其三，判决不义。既然判决本不公，你服刑便是把不义坐实；其四，儿子与门人。若你死去，幼子失其父而教育无人，学生失其师而道业中断，你既有手段自救却不救，既不仁亦不智。\n苏格拉底的回答步步回到原则：第一，不以众口为准，而以贤者之见为准。多数人的毁誉不足以作“何为正当”的尺度，正当与否只看理由能否经受理性检验。第二，宁受不义，不行不义。判决或许不公，但以破坏法与城邦秩序自救，是以不义报不义，伤人先伤己之灵魂。第三，“或说服之，或遵守之”。他以人格化的“法律”与自己对话：自少受法之养成、享法之庇护，成年仍留雅典而不去他邦，等于与法律订下默契；若不服，理当在制度内申辩、说服，而非暗夜破狱。第四，逃亡并不能善终。良法之城不会接纳一位破法者，他只得去法度松弛之地，且将成为他人眼中的城邦败类；至于儿子与门人，留在雅典受友人照看与法律教化，远胜带着他们流离失所。最后，他重申“关键不在生，而在善地活”。苟且一生不值得与正当地死相比。故而面对“儿子、朋友、名誉”的重压，他仍以“正当理由”为唯一准绳，终不为所动。\n\n\n3.4.4 临终与遗言\n《斐多篇》记述了行刑当日的情景：狱吏端来毒堇汁，忍不住为其高贵的镇定而落泪；苏格拉底安慰他说“当作惯常事”，自去沐浴，以免死后麻烦妇人清洗；妻子桑西皮珂被劝离，以免悲恸扰乱。饮下毒汁后，他在狱吏指引下缓步行走，使药力上升；双足渐冷，他如常与友人讨论，并嘱托后事。最后，他对克力同说出著名的遗言：“我们欠阿斯克勒庇俄斯一只公鸡，务必还债，勿忘。”阿斯克勒庇俄斯是医神，古人多将此理解为：死亡像一剂良药，治愈了灵魂与肉身的分裂与烦扰；也有人解作“哲学之道业已完成”，需以祭祀致谢。说罢不久，他的呼吸止息，朋友们含泪目送。\n总括地看，苏格拉底以申辩拒绝求生迎合，以对话拒绝越狱巧计，以从容赴死拒绝对死亡的迷信与恐惧。他的生命在法庭、牢狱与行刑台上完成了命题的最终证明：忠于理性与正义不以成败论，哲学不是一种职业，而是一种活法。"
-  },
-  {
-    "objectID": "blog/2025-09-29-西方哲学史/index.html#自然与习俗之辩",
-    "href": "blog/2025-09-29-西方哲学史/index.html#自然与习俗之辩",
-    "title": "变得有文化：西方哲学史入门",
-    "section": "2.3 自然与习俗之辩",
-    "text": "2.3 自然与习俗之辩\n智者学派引发的最深刻的讨论之一，是关于“自然”（Physis）与“习俗”（Nomos）的对立。\n\n自然（Physis）：指事物固有的、天然的本性，是普遍且永恒的。\n习俗（Nomos）：指人为制定的法律、道德、风俗和传统，是约定俗成的，因时因地而异。\n\n智者们普遍认为，人类社会的大部分规则都属于习俗，而非自然。例如，在某些城邦，偷窃被视为可耻的恶行，而在另一些场合（如斯巴达的少年训练），潜取反被用来奖掖机敏与勇敢，惩罚的不是偷窃本身而是“被抓住”的笨拙。又如，荷马史诗时代的英雄多以火葬为荣，而古典城邦时期则以土葬与墓志为常。还如，在雅典，合法婚姻与嫁妆制度、血统与公民权紧密相连（如公元前五世纪的公民法限定父母皆为雅典人），近亲婚普遍被禁；但在其他文化中，堂表亲婚并不罕见，甚至被鼓励以巩固财产与宗族。这些例子都表明道德和法律没有神圣或自然的起源，它们只是人类的创造物。\n这场辩论的激进之处在于，它暗示了“强者即正义”的可能性。一些智者（如柏拉图《理想国》中的特拉西马库斯）认为，所谓的“正义”不过是当权者为了自身利益而制定的习俗。如果一个强者有能力打破习俗的束缚，按照“自然”的法则（即弱肉强食）行事，那他便是正义的。"
   },
   {
     "objectID": "blog/2025-10-01-西方哲学史/index.html",
@@ -607,5 +439,40 @@
     "title": "变得有文化：西方哲学史入门",
     "section": "4.7 章节小结",
     "text": "4.7 章节小结\n本章以苏格拉底之死为起点，展示柏拉图以理念论为基石，为知识与政治奠定客观尺度的努力。他将世界区分为可见界与可知界，认为个别事物之所以“为其所是”，在于“分有”永恒不变的理念，而诸理念的秩序最终受“善”的理念统摄。借由“太阳—分线—洞穴”三重比喻，柏拉图把教育理解为灵魂的“转身”：从影像与意见出发，经由数学的抽象训练，在辩证法中直观“善”。这同时奠定了哲人王统治的正当性——统治的资格不在权术或票望，而在对“善”的见到与对整体秩序的把握。\n柏拉图据灵魂三分构想城邦三阶层，以智慧、勇敢、节制对应统治者、护卫者与生产者，正义即“各司其职，各得其所”。为抵御私利与派系，他提出统治者与护卫者的共同生活，并以“高贵的谎言”与“金银铜铁的神话”为公共叙事，赋予分工以情感黏着与合法性。由此引出“叙事的力量”：政治秩序不能只靠强制，更需可被内心认同的共同故事；在现代语境中，叙事转而诉诸机会公平、程序正义与对不利者的制度性扶助，使差别在可监督、可纠偏的框架内获得伦理承受力。与此同时，柏拉图刻画了政体堕落的谱系：当理性退位、血气篡权、财富为王、自由滥放，城邦终滑向僭主，提示教育与习俗松弛的制度后果。\n关于爱，柏拉图将“欲求不朽”视为人之深层动因，区分“肉体之生育”与“灵魂之生育”，并以“爱的阶梯”说明如何由具体之美上升至“美本身”。所谓“柏拉图式爱情”，不是压抑肉体欲望，而是“爱智慧”，把求知本身视为至乐。\n综合来说，本章以“理念的客观尺度—灵魂的教育—城邦的秩序—叙事的正当化—爱与求知的升华”为脉络，呈现柏拉图形而上、政治学、灵魂学的完整构想。"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact ",
+    "section": "",
+    "text": "You can also contact me via yfu382@outlook.com \n    \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\nDemocracy\n\nTerrorism\n\nCivil Liberty\n\nPhysical Integrity\n\n\n\n\n\n\nDec 9, 2024\n\n\nYuxin Fu\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "tools/2024-10-28-ShinySortable/index.html",
+    "href": "tools/2024-10-28-ShinySortable/index.html",
+    "title": "Python package: shiny-sortable",
+    "section": "",
+    "text": "This is a shinylive example of the usage of the Python package shiny-sortable, which is a Python wrapper of the SortableJS library. To install the package, run in CI:\npip install shiny-sortable\nMore information can be found in the GitHub repo.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| components: [editor, viewer]\n## file: app.py\nfrom shiny import *\nimport shiny_sortable as sortable\nfrom pathlib import Path\n\n@sortable.make(updatable=True)\ndef sortable_list(inputID):\n    list = ui.tags.ol(\n        ui.tags.li(\"Item 1\", **{'data-id': '1'}),\n        ui.tags.li(\"Item 2\", **{'data-id': '2'}),\n        ui.tags.li(\"Item 3\", **{'data-id': '3'}),\n        id=inputID\n    )\n    return list\n\napp_ui = ui.page_fluid(\n    sortable_list(\"list\"),\n    ui.output_text_verbatim(id = \"text\"),\n    ui.input_action_button(\"reset\", \"Reset\"),\n    ui.head_content(ui.include_js(Path(__file__).parent / \"light-dark.js\")), # This is just for the dark mode\n)\n\ndef server(input, output, session):\n    list_order = reactive.value(\"\")\n    @output\n    @render.text\n    def text():\n        return list_order()\n\n    @reactive.effect\n    @reactive.event(input.list)\n    def _():\n        list_order.set(input.list())\n\n    @reactive.effect\n    @reactive.event(input.reset)\n    async def _():\n        await sortable.update(session, \"list\", [\"1\", \"2\", \"3\"])\n\n\napp = App(app_ui, server)\n\n## file: requirements.txt\nshiny-sortable\n\n## file: light-dark.js\nwindow.parent.addEventListener(\"quarto-color-mode\", function(event) {\n    document.documentElement.dataset.bsTheme = event.detail.mode;\n    if (event.detail.mode === \"dark\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#16242f\"); // custom dark background color\n    }  else if (event.detail.mode === \"light\") {\n        document.documentElement.style.setProperty('--bs-body-bg', \"#f9fffe\"); // custom light background color\n    }\n})\nwindow.parent.postMessage('ShinyColorQuery', '*'); // request Quarto theme color when Shinyapp is loaded\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Python Package: Shiny-Sortable},\n  date = {2024-10-28},\n  url = {https://bim382.github.io/tools/2024-10-28-ShinySortable/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, October 28). Python package: shiny-sortable. https://bim382.github.io/tools/2024-10-28-ShinySortable/"
+  },
+  {
+    "objectID": "tools/2025-02-10-Belbin/index.html",
+    "href": "tools/2025-02-10-Belbin/index.html",
+    "title": "贝尔宾团队角色自我认知问卷",
+    "section": "",
+    "text": "贝尔宾团队角色自我认知问卷是自 1981 年以来各组织用来提高团队绩效的性格测试。通过了解您个人的团队角色，您的团队可以评估您合作的效率，并确定团队角色分配中的差距和重叠，这些差距和重叠可能会对您的成功产生影响。贝尔宾团队角色自我认知问卷将帮助您通过选择能够自然地完成任务的人来减少对外部激励的需求。\n贝尔宾自评文件是一份以行为为基础导向的测评问卷。请用15-20分钟时间完成该问卷。请注意：这里没有好坏之分，尝试以你目前的实际情况回答，而不是你未来想成为的状态来回答问题。请仔细回答，但不要过度分析自己。\n贝尔宾自评有7个部分，每个部分有10个句子，每一部分你要选出任意数量符合您当前状态的句子，并给每个句子打出0-10的评分。 本程序将根据您的答案为您和九个不同的角色类型打适配分数。\n\n\n\n\n\n\n\n\n\n角色名称\n大类\n角色作用\n可容许弱点\n\n\n\n\n智多星（PL）\n思考型\n有创造力，想象力，灵活解决问题\n弱于沟通和管理普通人，不守常规\n\n\n外交家（RI）\n人本型\n外向、热情、善交际、探索机会、建立联系\n热情一过及失去兴趣\n\n\n协调者（CO）\n人本型\n成熟、自信、信任、一个的主持人，阐明目标、促进决策\n不必是最聪明或最有创造性的成员\n\n\n鞭策者（SH）\n行动型\n灵活、开朗、执着、怀疑、施压、出主意\n易怒、脾气急\n\n\n审议者（ME）\n思考型\n严肃、有策略、有眼光、考虑周到、判断准确\n缺少激发别人的动力和能力\n\n\n执行者（IM）\n行动型\n自律、可靠、保守、把想法付诸实际行动\n有些不灵活、对新事物反应慢\n\n\n凝聚者（TW）\n人本型\n善交往、温和、感觉灵敏、容纳、倾听、解决摩擦\n关键时刻不果断\n\n\n完成者（CF）\n行动型\n苦干、谨慎、有条理、准时、仔细、精确\n关键时刻不果断\n\n\n专业师（SP）\n思考型\n心眼单一、自我激励、投入、提供知识和技能\n只在较窄的范围内做出贡献\n\n\n\n如果觉得有用，请您在本项目的Github 仓库🌟 给我一颗星！\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2025,\n  author = {Yang, Dianyi},\n  title = {贝尔宾团队角色自我认知问卷 {[}Belbin Team-Role\n    Self-Perception Inventory{]}},\n  date = {2025-02-10},\n  url = {https://bim382.github.io/tools/2025-02-10-Belbin/},\n  langid = {zh-CN}\n}\nFor attribution, please cite this work as:\nYang, D. (2025, February 10). 贝尔宾团队角色自我认知问卷 [Belbin\nTeam-Role Self-Perception Inventory]. https://bim382.github.io/tools/2025-02-10-Belbin/"
   }
 ]
