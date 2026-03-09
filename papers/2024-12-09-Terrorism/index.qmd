@@ -12,9 +12,9 @@ categories:
 - Civil Liberty
 - Physical Integrity
 links:
-  - icon: file-pdf
-    name: PDF
-    url: Terrorism.pdf
+  #- icon: file-pdf
+  #  name: PDF
+   # url: Terrorism.pdf
 
 # citation:
  # type: article-journal
