@@ -500,14 +500,14 @@
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">二次使用</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">引用格式</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{fu2025,
   author = {Fu, Yuxin},
   title = {变得有文化：西方哲学史入门},
   date = {2025-10-01},
   url = {https://bim382.github.io/blog/2025-10-01-西方哲学史/},
-  langid = {en}
+  langid = {zh}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-fu2025" class="csl-entry quarto-appendix-citeas">
+</code></pre><div class="quarto-appendix-secondary-label">请按如下格式引用：</div><div id="ref-fu2025" class="csl-entry quarto-appendix-citeas">
 Fu, Y. (2025, October 1). <em>变得有文化：西方哲学史入门</em>. <a href="https://bim382.github.io/blog/2025-10-01-西方哲学史/">https://bim382.github.io/blog/2025-10-01-西方哲学史/</a>
 </div></div></section></div> ]]></description>
   <category>哲学史</category>

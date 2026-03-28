@@ -11,7 +11,7 @@ categories:
 image: featured.jpg
 google-scholar: false
 number-sections: true
-langid: zh
+lang: zh
 ---
 
 # 前言 {.unnumbered}
