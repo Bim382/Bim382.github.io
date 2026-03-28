@@ -12,6 +12,7 @@ image: featured.jpg
 google-scholar: false
 number-sections: true
 lang: zh
+reading-time: 30 min
 ---
 
 # 前言 {.unnumbered}
