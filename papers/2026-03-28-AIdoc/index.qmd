@@ -1,15 +1,15 @@
 ---
 author: 
+- name: Ying Qian
 - name: Yuxin Fu
   orcid: 0009-0003-0905-0207
-- name: Ying Qian
 - name: Yanting Chen
 - name: Ke Lu
-- name: Xin Zhao*
+- name: Xin Zhao
 date: 2026-03-28
 title: "Public acceptance of LLM-driven healthcare chatbots in China An empirical study"
 subtitle: with Ying Qian, Yanting Chen, Ke Lu, and Xin Zhao*
-image: featured.png
+image: cover.png
 categories:
 - Healthcare Chatbots
 - SEM
