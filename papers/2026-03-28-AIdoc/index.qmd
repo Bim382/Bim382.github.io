@@ -7,8 +7,8 @@ author:
 - name: Ke Lu
 - name: Xin Zhao
 date: 2026-03-28
-title: "Public acceptance of LLM-driven healthcare chatbots in China An empirical study"
-subtitle: with Ying Qian, Yanting Chen, Ke Lu, and Xin Zhao*
+title: 'Public acceptance of LLM-driven healthcare chatbots in China: An empirical study'
+subtitle: with Ying Qian, Yanting Chen, Ke Lu, and Xin Zhao
 image: cover.png
 categories:
 - Healthcare Chatbots
