@@ -9,6 +9,17 @@
     ]
   },
   {
+    "listing": "/about/index.html",
+    "items": [
+      "/blog/2025-10-01-西方哲学史/index.html",
+      "/blog/2025-09-27-PositronHandbook/index.html",
+      "/blog/2025-09-27-Positron中文教程/index.html",
+      "/blog/2023-11-15-FranceVisa/index.html",
+      "/papers/2026-03-28-AIdoc/index.html",
+      "/papers/2024-12-09-Terrorism/index.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2025-10-01-西方哲学史/index.html",
@@ -18,18 +29,9 @@
     ]
   },
   {
-    "listing": "/about/index.html",
-    "items": [
-      "/blog/2025-10-01-西方哲学史/index.html",
-      "/blog/2025-09-27-PositronHandbook/index.html",
-      "/blog/2025-09-27-Positron中文教程/index.html",
-      "/blog/2023-11-15-FranceVisa/index.html",
-      "/papers/2024-12-09-Terrorism/index.html"
-    ]
-  },
-  {
     "listing": "/papers/index.html",
     "items": [
+      "/papers/2026-03-28-AIdoc/index.html",
       "/papers/2024-12-09-Terrorism/index.html"
     ]
   }

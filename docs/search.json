@@ -21,263 +21,25 @@
     "text": "How to Use the Switch Challenge Solver\nThere are two ways of using the solver:\n\nDrag and Drop to enter the input and outshapes, then enter the middle part of the formula, which is potentially slower.\nEnter the full formula, which can be faster when you are more familiar as you have done more assessments (very bad humour).\n\nPlease leave a comment below or give me a star🌟 at the Github repository if you find this useful.\n\n\nUsing Drag and Drop\nSimilar to the problems, there are two rows of “shapes”, the row at the top is the inputs while the other one at the bottom is the outputs. By dragging and dropping the shapes, you can enter the input and output colours.\nFor the easiest problems (as the one below), once you have moved both rows of shapes, the answer is automatically displayed below the line edit:\n\n\n\nEasy problem\n\n\nPS: to clear the formula and answer, hit the ~/` button\nFor the harder question, you may need to enter the formula (from level 4 onward?) and hit Enter. In the formula, you need to replace the options with x：\n\n\n\nMedium problem\n\n\nThe solver can handle x in any position:\n\n\n\nHard problem\n\n\nFor the hardest questions with two choices, you need to make a guess about the first choice, and let the solver find the second choice. If the answer is not correct, you need to try again. You may need to try 3 times at most:\n\n\n\nHardest problem\n\n\nIn this case, the third option of the first choice is the correct answer. This implies that you need to try 3 times if you do from left to right.\n\n\nUsing the full formula\nThere are two ways of using the full formula, long form and short form. In both cases, ignore the shapes in the solver, they don’t do anything. You can even check the box at the top to hide the shapes.\nIn the long form, you enter the input and output colors.\nLet’s use the hard case as an example, the formula would be:\nybgr+1324+x+3241=gbyr\n\n\n\nLong Formula with GUI\n\n\nThe gist of the short formula form is that you encode the outcome (number after =) in such a way that it is a single switch from the input to the output. Note that you cannot use the short formula for the easiest problems (you solve it with your brain).\nLet’s use the hard case as an example:\n\n\n\nShort Formula with GUI\n\n\nYou can hide the shapes by checking the box at the top:\n\n\n\nHide shapes\n\n\n\n\n\n\nReuseCC BY-SA 4.0CitationBibTeX citation:@online{yang2024,\n  author = {Yang, Dianyi},\n  title = {Switch {Challenge} {Solver}},\n  date = {2024-09-23},\n  url = {https://bim382.github.io/tools/2024-09-23-SwitchChallenge/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nYang, D. (2024, September 23). Switch Challenge Solver. https://bim382.github.io/tools/2024-09-23-SwitchChallenge/"
   },
   {
-    "objectID": "papers/2024-12-09-Terrorism/index.html",
-    "href": "papers/2024-12-09-Terrorism/index.html",
-    "title": "Revisiting the Link between Democracy and Terrorism",
+    "objectID": "papers/2026-03-28-AIdoc/index.html",
+    "href": "papers/2026-03-28-AIdoc/index.html",
+    "title": "Public acceptance of LLM-driven healthcare chatbots in China:/ An empirical study",
     "section": "",
-    "text": "Abstract\nThis essay revisits the link between democracy and terrorism. Several related divided conclusions proposed in the past are re-examined with new data. An OLS regression with fixed effects and a 2SLS regression are adopted in this essay. The results confirms the common belief that democracy has a positive curvilinear relationship with terrorism. Countries respecting physical integrity would experience less terrorism. High levels of mobilization would inspire terrorism, and new systematic changes in the dynamic between democracy and terrorism remain to be further explored.\n\n\n\n\nCitationBibTeX citation:@online{fu2024,\n  author = {Fu, Yuxin},\n  title = {Revisiting the {Link} Between {Democracy} and {Terrorism}},\n  date = {2024-12-09},\n  url = {https://bim382.github.io/papers/2024-12-09-Terrorism/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nFu, Y. (2024, December 9). Revisiting the Link between Democracy and\nTerrorism. https://bim382.github.io/papers/2024-12-09-Terrorism/"
+    "text": "Abstract\nLLM-driven healthcare chatbots for preliminary medical consultation are a promising innovation to improve healthcare accessibility and efficiency. However, public acceptance of this technology in the Chinese context, especially the impact of users’ previous experience with relevant technologies on user behavior, remains underexplored. To address this gap, we extended the classical Unified Theory of Acceptance and Use of Technology (UTAUT) framework by examining the moderating effects of users’ previous experience with telemedicine and large language models (LLMs). Using a scenariobased survey, we collected 502 valid responses from general Chinese users and analyzed the data through Structural Equation Modelling (SEM). Our results demonstrated that performance expectancy, social influence, trust, and facilitating conditions were significant contributing factors, whereas effort expectancy was not, which contradicts previous literature. Moreover, users’ previous experience with LLMs exhibited significant moderating effects whereas previous experience with telemedicine didn’t. These findings contribute to the literature by suggesting that as LLMs become more widely adopted, users’ familiarity with them may enhance trust and, consequently, increase the general acceptance of LLM-driven healthcare chatbots.\n\n\n\n\nCitationBibTeX citation:@article{fu2026,\n  author = {Fu, Yuxin},\n  publisher = {Sage},\n  title = {Public Acceptance of {LLM-driven} Healthcare Chatbots in\n    {China:/} {An} Empirical Study},\n  journal = {Digital Health},\n  number = {20552076261437616},\n  date = {2026-03-28},\n  url = {https://bim382.github.io/papers/2026-03-28-AIdoc/},\n  doi = {10.1177/20552076261437614},\n  issn = {2055-2076},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nFu, Y. (2026). Public acceptance of LLM-driven healthcare chatbots in\nChina:/ An empirical study. Digital Health, Article\n20552076261437616. https://doi.org/10.1177/20552076261437614"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Yuxin Fu",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
     "section": "",
-    "text": "I’m currently a Ph.D. student in Political Science of the University of Macau.I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.\nREAD MORE →"
+    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "My Blogs",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact ",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n\n哲学史\n\n教程\n\n古希腊\n\n古罗马\n\n\n\n\n\n\nOct 1, 2025\n\n\nYuxin Fu\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\nToturial\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n11 min\n\n\n\n\n\n\n\n\n\n\n\n研究入门：现代定量社会科学家如何工作？\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\n教程\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n4 min\n\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html",
-    "href": "blog/2025-09-27-Positron中文教程/index.html",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "",
-    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.1 安装R、Positron和Quarto",
-    "text": "1.1 安装R、Positron和Quarto\n首先，我们需要下载并安装R、Positron和Quarto。\n\n按照CRAN镜像上的说明下载并安装R。\n按照Positron下载页面上的说明下载Positron。\n运行安装程序并安装Positron。当被要求时，请勾选所有选项。\n\n\n\n\n勾选所有选项\n\n\n\n按照Quarto入门指南上的说明下载并安装Quarto。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.2 设置系统环境变量",
-    "text": "1.2 设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.3 加入Github教育计划",
-    "text": "1.3 加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击Join GitHub Education按钮。\n按照说明验证您的学生身份并完成申请过程。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.4 更新Positron并设置Github Copilot Chat",
-    "text": "1.4 更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的管理图标。\n点击设置打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的管理齿轮图标。点击检查更新将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的聊天图标打开聊天选项卡。\n在聊天选项卡中，点击添加模型提供商按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击登录。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.5 安装R包管理器",
-    "text": "1.5 安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的扩展图标。\n搜索Positron R Package Manager。点击安装来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "1.6 安装Zotero",
-    "text": "1.6 安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.1 获取ORCID模板",
-    "text": "2.1 获取ORCID模板\n现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。\n\n打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的终端。\n在终端中，输入以下命令并按回车：quarto add kv9898/orcid。\n当询问是否信任作者并继续时，输入Y。\n现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：ORCID模板。\n点击顶部栏的预览尝试编译文档。按照终端中的说明安装任何缺失的包。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.2 YAML头部",
-    "text": "2.2 YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n---\ntitle: Orcid Template #更改文章标题\nsubtitle: with affiliation #更改文章副标题\ndate: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'\nauthors:\n  - name: Dianyi Yang #更改作者姓名\n    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱\n    orcid: 0009-0004-4652-3429 #更改作者ORCID\n    affiliations: #更改作者所属机构\n      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配\n      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配\n    corresponding: true #更改为通讯作者\n    equal-contributor: true #更改为并列贡献作者\n  - name: Yang Dianyi #可添加多位作者\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #设置所属机构\n  - id: ox #更改所属机构代号\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #可设置多个所属机构\n    name: Second Institute\nformat: #选择编译格式\n  #native: default #编译为本地HTML格式\n  #docx: default #编译为Word格式\n  orcid-pdf: #编译为PDF格式\n    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要\n    number-sections: true #选择是否对章节编号\n    cover: false #选择是否包含封面，如果true，值为cover.pdf\n    toc: false #选择是否包含目录\n    toc-newpage: false #选择目录是否另起一页\nbibliography: references.bib #设置参考文献文件\ncsl: extra/apa.csl #设置引用格式\nabstract: This is an abstract. #修改摘要内容\nkeywords: a, b, c #修改关键词\nacknowledgements: This is an acknowledgement. #修改致谢内容\n---"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.3 回归分析示例",
-    "text": "2.3 回归分析示例\n以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。\n首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。\n点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：\n# 为散点图分配标签以便交叉引用\n# 图表标签应该有前缀\"fig-\"\n#| label: fig-scatter\n# 为散点图分配标题\n#| fig-cap: \"汽车重量与燃油效率的关系\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\n# 安装必要的包\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# 如果包已安装，可以跳过上面的行\nlibrary(ggplot2)\nlibrary(dplyr)\n# 创建描述性统计图表\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"重量 (1000磅)\",\n    y = \"每加仑英里数\",\n    color = \"气缸数\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: 汽车重量与燃油效率的关系\n\n\n\n\n\n接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号$$ ... $$括起来，并使用{#label}分配标签以便交叉引用。\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n$$ {#eq-regression}  #方程标签应该有前缀\"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n\\tag{1}\\]\n我们也可以使用&来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\n注意这里我们使用\\begin{aligned} ... \\end{aligned}来对齐一组方程，使用\\\\表示换行，使用&表示对齐点。\n这三个方程现在作为一组引用并在等号处对齐：\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\n最后，让我们创建一个回归表来总结我们的回归结果。我们将使用modelsummary包来创建格式良好的回归表。\n# 为回归表分配标签以便交叉引用\n# 表格标签应该有前缀\"tbl-\"\n#| label: tbl-regression\n# 为回归表分配标题\n#| tbl-cap: \"回归结果：燃油效率模型\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# 拟合回归模型\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# 创建回归表\nmodelsummary(\n  list(\"模型1\" = model1, \"模型2\" = model2, \"模型3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: 回归结果：燃油效率模型\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                模型1\n                模型2\n                模型3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\n方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。\n要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用@标签，其中标签是您分配给图表、表格或方程的标签。例如，@eq-regression引用回归方程 Equation 1，@eq-group引用方程组 Equation 2，@fig-scatter引用散点图 Figure 1，@tbl-regression引用回归表 Table 1。您可以参考Quarto交叉引用文档获取更多交叉引用信息。"
-  },
-  {
-    "objectID": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
-    "href": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
-    "title": "研究入门：现代定量社会科学家如何工作？",
-    "section": "2.4 文献综述示例",
-    "text": "2.4 文献综述示例\n以下是使用Quarto进行文献引用的示例。\n首先，确保您已经按照前面 Section 1.6 的说明将references.bib文件添加到您的项目中，并在YAML头部中正确设置了bibliography字段。\n其次，确保您已经下载并添加了对应引用格式的*.csl文件，并在YAML头部中正确设置了csl字段。引用格式文件可以从CSL仓库下载。\n现在，您可以在文本中使用@引用键来引用文献。我们可以将引用放在句首。例如：\n@lake2011 Lake (2011) 认为国际关系研究中的“主义”之争是有害的。\n或者，我们也可以将引用放在句末：\n国际关系研究中的“主义”之争是有害的[@lake2011](Lake, 2011)。\n如果要引用多个文章，可以使用逗号分隔引用键，例如：\n这里有两篇好文章[@lake2011, @hale2020] (Hale, 2020; Lake, 2011)。\n最后，在文档的末尾添加以下内容以生成参考文献列表：\n# References {.unnumbered} #添加没有编号的参考文献部分\n\n::: {#refs} #将参考文献放这个位置，而不是文档的末尾\n:::"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html",
-    "href": "blog/2023-11-15-FranceVisa/index.html",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "银行流水不足三个月并不会影响递签。\n\n\n实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。\n\n\n\n\n\n\n法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件\n\n\n\n\n\n\n\nTLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。\n\n\n\n\n\n\n所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#时间线",
-    "href": "blog/2023-11-15-FranceVisa/index.html#时间线",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
-    "href": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "TLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。"
-  },
-  {
-    "objectID": "blog/2023-11-15-FranceVisa/index.html#准备材料",
-    "href": "blog/2023-11-15-FranceVisa/index.html#准备材料",
-    "title": "伦敦怎么办法签？",
-    "section": "",
-    "text": "所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Yuxin Fu",
-    "section": "",
-    "text": "Hello, this is Yuxin! Nice to meet you.\n\nI’m so far interested in the following areas:\n\n\nPolitical Economy\n\n\nPolitical Communication\n\n\nConflict Resolution\n\n\nCausal Inference\n\n\nGame Theory\n\n\nData Science\n\n\nMachine Learning\n\n\nText Analysis"
-  },
-  {
-    "objectID": "about/index.html#more-about-my-thoughts",
-    "href": "about/index.html#more-about-my-thoughts",
-    "title": "Yuxin Fu",
-    "section": "More about my thoughts",
-    "text": "More about my thoughts\nWork in progress …"
-  },
-  {
-    "objectID": "about/index.html#lately",
-    "href": "about/index.html#lately",
-    "title": "Yuxin Fu",
-    "section": "Lately …",
-    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n古希腊古罗马哲学篇\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPapers\n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\n\n\nNo matching items\n\nSee all →"
-  },
-  {
-    "objectID": "accessibility.html",
-    "href": "accessibility.html",
-    "title": "Accessibility commitment",
-    "section": "",
-    "text": "Travel back to the home page or about page."
-  },
-  {
-    "objectID": "accessibility.html#feedback",
-    "href": "accessibility.html#feedback",
-    "title": "Accessibility commitment",
-    "section": "Feedback",
-    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
-  },
-  {
-    "objectID": "accessibility.html#accessibility-practices",
-    "href": "accessibility.html#accessibility-practices",
-    "title": "Accessibility commitment",
-    "section": "Accessibility practices",
-    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
-  },
-  {
-    "objectID": "accessibility.html#work-related-to-accessibility",
-    "href": "accessibility.html#work-related-to-accessibility",
-    "title": "Accessibility commitment",
-    "section": "Work related to accessibility",
-    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
-  },
-  {
-    "objectID": "accessibility.html#footnotes",
-    "href": "accessibility.html#footnotes",
-    "title": "Accessibility commitment",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html",
-    "href": "blog/2025-09-27-PositronHandbook/index.html",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "",
-    "text": "This handbook provides a comprehensive guide for installing, configuring, and using Positron, Quarto, and Zotero for writing quantitative academic research papers."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#install-r-positron-quarto",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#install-r-positron-quarto",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.1 Install R & Positron & Quarto",
-    "text": "1.1 Install R & Positron & Quarto\nFirst, we need to download and install R, Positron and Quarto.\n\nFollow the instructions on CRAN mirror to download and install R.\nFollow the instructions on Positron Download to download Positron.\nRun SETUP and install Positron. Check all of the boxes when asked to.\n\n\n\n\nCheck all of the boxes\n\n\n\nFollow the instructions on Quarto Get Started to download and install Quarto."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#set-up-system-environment-variables",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#set-up-system-environment-variables",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.2 Set up System Environment Variables",
-    "text": "1.2 Set up System Environment Variables\nNext, we need to set up the system environment variables for proxys.\n\nOpen the Windows Start Menu and search for Env.\nClick on Edit the system environment variables.\nIn the System Properties window, click on the Environment Variables button.\nIn the Environment Variables window, under the System variables section, click on the New button.\nIn the New System Variable window, enter HTTP_PROXY as the Variable name and http://127.0.0.1:xxxx as the Variable value. Click OK. (Replace xxxx with the port number you are using for your proxy.)\nRepeat step 5 to create another system variable named HTTPS_PROXY with the same value http://127.0.0.1:xxxx.\nRepeat step 5 to create another system variable named NO_PROXY with the value localhost,127.0.0.1.\nClick OK to close the Environment Variables window. Click OK to close the System Properties window."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#join-github-eduction",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#join-github-eduction",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.3 Join Github Eduction",
-    "text": "1.3 Join Github Eduction\nTo use Github Copilot, we need to join the Github Education program.\n\nOpen your web browser and go to GitHub Education.\nClick on the Join GitHub Education button.\nFollow the instructions to verify your student status and complete the application process."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#update-positron-and-set-up-github-copilot-chat",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#update-positron-and-set-up-github-copilot-chat",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.4 Update Positron and Set Up Github Copilot Chat",
-    "text": "1.4 Update Positron and Set Up Github Copilot Chat\nNow, we need to update Positron and set up Github Copilot Chat.\n\nOpen Positron.\nClick on the Manage Icon on the bottom left corner.\nClick on Settings to open the Settings tab.\nIn the Settings tab, search for channel, and switch the releases to dailies.\nClick on the Manage Icon on the bottom left corner. Click on Check for Updates to update Positron to the latest version. After the update is complete, restart Positron.\nRepeat step 2 & 3 to open the Settings tab again.\nIn the Settings tab, search for assistant. Check on the box Enable Positron Assistant.\nClick on the Chat Icon on the left sidebar to open the Chat tab.\nIn the Chat tab, click on add model provider button.\nIn the Configure Language Model Provider window, select GitHub Copilot. Click on Sign in.\nIn the GitHub login page, enter your GitHub credentials to sign in.\nAfter signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#install-r-package-manager",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#install-r-package-manager",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.5 Install R Package Manager",
-    "text": "1.5 Install R Package Manager\nNext, we need to install the R Package Manager to manage R packages.\n\nOpen Positron. Click on the Extensions Icon on the left sidebar.\nSearch for Positron R Package Manager. Click on Install to install the extension.\nOnce the extension is installed and activated, you can find the R Package Manager 📖 icon on the left sidebar.\nDrag the 📖 icon to the secondary sidebar on the right."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#sec-zotero",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#sec-zotero",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "1.6 Install Zotero",
-    "text": "1.6 Install Zotero\nFinally, we need to download and install Zotero for managing references.\n\nDownload the Zotero installer for your operating system from the Zotero Download page.\nRun the installer and follow the on-screen instructions to complete the installation.\nOpen Zotero, go to Edit - Preferences, create and log into an account to sync your references. Click New Collection in the top left corner to create a new collection in My Library, then click the magic wand icon on the right to add any literature by DOI to that collection.\nDownload and extract the Zotero Addons plugin.\nOpen Zotero, click on Tools in the top menu bar, select Add-ons, click the gear icon, select Install Add-on From File, and choose the .xpi file downloaded in step 4.\nSelect Tools - Add-on Market, install the Better BibTeX for Zotero plugin for better BibTeX support.\nIn the library, right-click on the title bar and check Citation Key to display citation names.\nSelect Edit - Preferences - Better BibTeX, in the Citation key format, keep auth.lower + year.\nRight-click on the literature library you want to export, select Export Collection, check Keep updated, name the file references.bib and save it to your paper project folder."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#fetch-orcid-template",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#fetch-orcid-template",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "2.1 Fetch ORCID Template",
-    "text": "2.1 Fetch ORCID Template\nNow, every time before you start writing a new paper, we could install the ORCID template for better formatting.\n\nOpen Positron, create a qmd file as your transcript. Click on TERMINAL on the bottom sidebar.\nIn the terminal, type the following command and press Enter: quarto add kv9898/orcid.\nEnter Y when asked to trust the authors and to continue.\nYou can now work on an ORCID template. Copy and paste the example syntax from here: ORCID Template.\nClick Preview on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#yaml-header",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#yaml-header",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "2.2 YAML header",
-    "text": "2.2 YAML header\nYou can make changes to the default YAML header to fit your needs. Refer to the comments on the code in the template for more information.\n---\ntitle: Orcid Template #Change article title\nsubtitle: with affiliation #Change article subtitle\ndate: last-modified #Set article date to last modified time, or manually set to specific date, e.g., '2024-06-01'\nauthors:\n  - name: Dianyi Yang #Change author name\n    email: dianyi.yang@politics.ox.ac.uk #Change author email\n    orcid: 0009-0004-4652-3429 #Change author ORCID\n    affiliations: #Change author affiliations\n      - ref: ox #Select affiliation, must match id in affiliations section below\n      - ref: sec #Select affiliation, must match id in affiliations section below\n    corresponding: true #Set as corresponding author\n    equal-contributor: true #Set as equal contributor\n  - name: Yang Dianyi #Can add multiple authors\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #Set affiliations\n  - id: ox #Change affiliation code\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #Can set multiple affiliations\n    name: Second Institute\nformat: #Choose compilation format\n  #native: default #Compile to native HTML format\n  #docx: default #Compile to Word format\n  orcid-pdf: #Compile to PDF format\n    keep-tex: true #Choose whether to keep .tex file, usually required for journal submission\n    number-sections: true #Choose whether to number sections\n    cover: false #Choose whether to include cover, if true, value is cover.pdf\n    toc: false #Choose whether to include table of contents\n    toc-newpage: false #Choose whether table of contents starts on new page\nbibliography: references.bib #Set bibliography file\ncsl: extra/apa.csl #Set citation format\nabstract: This is an abstract. #Modify abstract content\nkeywords: a, b, c #Modify keywords\nacknowledgements: This is an acknowledgement. #Modify acknowledgements content\n---"
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#an-example-regression-analysis",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#an-example-regression-analysis",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "2.3 An Example Regression Analysis",
-    "text": "2.3 An Example Regression Analysis\nHere is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.\nFirst, let’s examine the relationship between car weight and fuel efficiency using a scatter plot.\nInsert an r code cell by clicking the Insert Code Cell button on the top bar, and copy and paste the following code into the code cell:\n# Assign a label to the scatter plot for cross-referencing\n# Labels for figures should have the prefix \"fig-\"\n#| label: fig-scatter\n# Assign a caption to the scatter plot\n#| fig-cap: \"Relationship between Car Weight and Fuel Efficiency\"\n# Set echo, warning, and message to false for the plot output only\n#| echo: false\n#| warning: false\n#| message: false\n# Install the necessary packages\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# If the packages are already installed, you can skip the above line\nlibrary(ggplot2)\nlibrary(dplyr)\n# Create descriptive statistics plot\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per Gallon\",\n    color = \"Cylinders\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: Relationship between Car Weight and Fuel Efficiency\n\n\n\n\n\nNext, we’ll perform a regression analysis. Equations written in syntax should be covered by double dollar signs $$ ... $$ and be assigned a label using {#label} for cross-referencing.\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot weight + \\beta_2 \\cdot cylinders + \\epsilon\n$$ {#eq-regression}  #Labels for equations should have the prefix \"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot weight + \\beta_2 \\cdot cylinders + \\epsilon\n\\tag{1}\\]\nWe can also use & to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\nNote that here we use \\begin{aligned} ... \\end{aligned} to align a group of equations, and we use \\\\ to indicate line breaks, and & to indicate the alignment point.\nThe three equations are now quoted as one group and aligned at the equal signs:\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\nFinally, let’s create a regression table to summarize our regression results. We will use the modelsummary package to create a well-formatted regression table.\n# Assign a label to the regression table for cross-referencing\n# Labels for tables should have the prefix \"tbl-\"\n#| label: tbl-regression\n# Assign a caption to the regression table\n#| tbl-cap: \"Regression Results: Fuel Efficiency Model\"\n# Set echo, warning, and message to false for the plot output only\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# Fit regression models\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# Create regression table\nmodelsummary(\n  list(\"Model 1\" = model1, \"Model 2\" = model2, \"Model 3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: Regression Results: Fuel Efficiency Model\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                Model 1\n                Model 2\n                Model 3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\nThe equations, figures, and tables are automatically numbered in a correct sequence, and could be cross-referenced in the text.\nTo create proper cross-references in Quarto, use the following syntax: @label at where you want to make cross references, where label is the label you assigned to the figure, table, or equation. For instance, @eq-regression refers to the regression equation Equation 1, @eq-group refers to the group of equations Equation 2, @fig-scatter refers to the scatter plot Figure 1, and @tbl-regression refers to the regression table Table 1. You could refer to Quarto Cross-References Documentation for more information on cross-reference."
-  },
-  {
-    "objectID": "blog/2025-09-27-PositronHandbook/index.html#an-example-literature-review",
-    "href": "blog/2025-09-27-PositronHandbook/index.html#an-example-literature-review",
-    "title": "Research 101: How to work as a modern quantitative social scientist?",
-    "section": "2.4 An Example Literature Review",
-    "text": "2.4 An Example Literature Review\nHere is an example of how to use Quarto for literature citations.\nFirst, make sure you have added the references.bib file to your project according to the previous instructions in Section 1.6, and correctly set the bibliography field in the YAML header.\nSecond, make sure you have downloaded and installed the corresponding citation format *.csl file, and correctly set the csl field in the YAML header. Citation formats can be downloaded from the CSL repository.\nNow, you can use @citation_key in the text to cite literature. We can place citations at the beginning of sentences. For example:\n@lake2011 Lake (2011) argues that the “isms” debate in international relations research is harmful.\nOr, we can also place citations at the end of sentences:\nThe “isms” debate in international relations research is harmful [@lake2011] (Lake, 2011).\nTo cite multiple articles, use comma-separated citation keys, for example:\nHere are two good articles [@lake2011, @hale2020] (Hale, 2020; Lake, 2011).\nFinally, add the following content at the end of the document to generate a reference list:\n# References {.unnumbered} #Add unnumbered references section\n\n::: {#refs} #Place references here, not at the end of document\n:::"
+    "text": "You can also contact me via yfu382@outlook.com \n    \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
   },
   {
     "objectID": "blog/2025-10-01-西方哲学史/index.html",
@@ -441,25 +203,270 @@
     "text": "4.7 章节小结\n本章以苏格拉底之死为起点，展示柏拉图以理念论为基石，为知识与政治奠定客观尺度的努力。他将世界区分为可见界与可知界，认为个别事物之所以“为其所是”，在于“分有”永恒不变的理念，而诸理念的秩序最终受“善”的理念统摄。借由“太阳—分线—洞穴”三重比喻，柏拉图把教育理解为灵魂的“转身”：从影像与意见出发，经由数学的抽象训练，在辩证法中直观“善”。这同时奠定了哲人王统治的正当性——统治的资格不在权术或票望，而在对“善”的见到与对整体秩序的把握。\n柏拉图据灵魂三分构想城邦三阶层，以智慧、勇敢、节制对应统治者、护卫者与生产者，正义即“各司其职，各得其所”。为抵御私利与派系，他提出统治者与护卫者的共同生活，并以“高贵的谎言”与“金银铜铁的神话”为公共叙事，赋予分工以情感黏着与合法性。由此引出“叙事的力量”：政治秩序不能只靠强制，更需可被内心认同的共同故事；在现代语境中，叙事转而诉诸机会公平、程序正义与对不利者的制度性扶助，使差别在可监督、可纠偏的框架内获得伦理承受力。与此同时，柏拉图刻画了政体堕落的谱系：当理性退位、血气篡权、财富为王、自由滥放，城邦终滑向僭主，提示教育与习俗松弛的制度后果。\n关于爱，柏拉图将“欲求不朽”视为人之深层动因，区分“肉体之生育”与“灵魂之生育”，并以“爱的阶梯”说明如何由具体之美上升至“美本身”。所谓“柏拉图式爱情”，不是压抑肉体欲望，而是“爱智慧”，把求知本身视为至乐。\n综合来说，本章以“理念的客观尺度—灵魂的教育—城邦的秩序—叙事的正当化—爱与求知的升华”为脉络，呈现柏拉图形而上、政治学、灵魂学的完整构想。"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact ",
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html",
+    "href": "blog/2025-09-27-PositronHandbook/index.html",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
     "section": "",
-    "text": "You can also contact me via yfu382@outlook.com \n    \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message"
+    "text": "This handbook provides a comprehensive guide for installing, configuring, and using Positron, Quarto, and Zotero for writing quantitative academic research papers."
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#install-r-positron-quarto",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#install-r-positron-quarto",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.1 Install R & Positron & Quarto",
+    "text": "1.1 Install R & Positron & Quarto\nFirst, we need to download and install R, Positron and Quarto.\n\nFollow the instructions on CRAN mirror to download and install R.\nFollow the instructions on Positron Download to download Positron.\nRun SETUP and install Positron. Check all of the boxes when asked to.\n\n\n\n\nCheck all of the boxes\n\n\n\nFollow the instructions on Quarto Get Started to download and install Quarto."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#set-up-system-environment-variables",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#set-up-system-environment-variables",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.2 Set up System Environment Variables",
+    "text": "1.2 Set up System Environment Variables\nNext, we need to set up the system environment variables for proxys.\n\nOpen the Windows Start Menu and search for Env.\nClick on Edit the system environment variables.\nIn the System Properties window, click on the Environment Variables button.\nIn the Environment Variables window, under the System variables section, click on the New button.\nIn the New System Variable window, enter HTTP_PROXY as the Variable name and http://127.0.0.1:xxxx as the Variable value. Click OK. (Replace xxxx with the port number you are using for your proxy.)\nRepeat step 5 to create another system variable named HTTPS_PROXY with the same value http://127.0.0.1:xxxx.\nRepeat step 5 to create another system variable named NO_PROXY with the value localhost,127.0.0.1.\nClick OK to close the Environment Variables window. Click OK to close the System Properties window."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#join-github-eduction",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#join-github-eduction",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.3 Join Github Eduction",
+    "text": "1.3 Join Github Eduction\nTo use Github Copilot, we need to join the Github Education program.\n\nOpen your web browser and go to GitHub Education.\nClick on the Join GitHub Education button.\nFollow the instructions to verify your student status and complete the application process."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#update-positron-and-set-up-github-copilot-chat",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#update-positron-and-set-up-github-copilot-chat",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.4 Update Positron and Set Up Github Copilot Chat",
+    "text": "1.4 Update Positron and Set Up Github Copilot Chat\nNow, we need to update Positron and set up Github Copilot Chat.\n\nOpen Positron.\nClick on the Manage Icon on the bottom left corner.\nClick on Settings to open the Settings tab.\nIn the Settings tab, search for channel, and switch the releases to dailies.\nClick on the Manage Icon on the bottom left corner. Click on Check for Updates to update Positron to the latest version. After the update is complete, restart Positron.\nRepeat step 2 & 3 to open the Settings tab again.\nIn the Settings tab, search for assistant. Check on the box Enable Positron Assistant.\nClick on the Chat Icon on the left sidebar to open the Chat tab.\nIn the Chat tab, click on add model provider button.\nIn the Configure Language Model Provider window, select GitHub Copilot. Click on Sign in.\nIn the GitHub login page, enter your GitHub credentials to sign in.\nAfter signing in, you will be redirected back to Positron. You can now use the LLMs provided by GitHub Copilot to assist with your coding."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#install-r-package-manager",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#install-r-package-manager",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.5 Install R Package Manager",
+    "text": "1.5 Install R Package Manager\nNext, we need to install the R Package Manager to manage R packages.\n\nOpen Positron. Click on the Extensions Icon on the left sidebar.\nSearch for Positron R Package Manager. Click on Install to install the extension.\nOnce the extension is installed and activated, you can find the R Package Manager 📖 icon on the left sidebar.\nDrag the 📖 icon to the secondary sidebar on the right."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#sec-zotero",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#sec-zotero",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "1.6 Install Zotero",
+    "text": "1.6 Install Zotero\nFinally, we need to download and install Zotero for managing references.\n\nDownload the Zotero installer for your operating system from the Zotero Download page.\nRun the installer and follow the on-screen instructions to complete the installation.\nOpen Zotero, go to Edit - Preferences, create and log into an account to sync your references. Click New Collection in the top left corner to create a new collection in My Library, then click the magic wand icon on the right to add any literature by DOI to that collection.\nDownload and extract the Zotero Addons plugin.\nOpen Zotero, click on Tools in the top menu bar, select Add-ons, click the gear icon, select Install Add-on From File, and choose the .xpi file downloaded in step 4.\nSelect Tools - Add-on Market, install the Better BibTeX for Zotero plugin for better BibTeX support.\nIn the library, right-click on the title bar and check Citation Key to display citation names.\nSelect Edit - Preferences - Better BibTeX, in the Citation key format, keep auth.lower + year.\nRight-click on the literature library you want to export, select Export Collection, check Keep updated, name the file references.bib and save it to your paper project folder."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#fetch-orcid-template",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#fetch-orcid-template",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "2.1 Fetch ORCID Template",
+    "text": "2.1 Fetch ORCID Template\nNow, every time before you start writing a new paper, we could install the ORCID template for better formatting.\n\nOpen Positron, create a qmd file as your transcript. Click on TERMINAL on the bottom sidebar.\nIn the terminal, type the following command and press Enter: quarto add kv9898/orcid.\nEnter Y when asked to trust the authors and to continue.\nYou can now work on an ORCID template. Copy and paste the example syntax from here: ORCID Template.\nClick Preview on the top bar to try compile the document. Follow the instructions on the terminal to install any missing packages."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#yaml-header",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#yaml-header",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "2.2 YAML header",
+    "text": "2.2 YAML header\nYou can make changes to the default YAML header to fit your needs. Refer to the comments on the code in the template for more information.\n---\ntitle: Orcid Template #Change article title\nsubtitle: with affiliation #Change article subtitle\ndate: last-modified #Set article date to last modified time, or manually set to specific date, e.g., '2024-06-01'\nauthors:\n  - name: Dianyi Yang #Change author name\n    email: dianyi.yang@politics.ox.ac.uk #Change author email\n    orcid: 0009-0004-4652-3429 #Change author ORCID\n    affiliations: #Change author affiliations\n      - ref: ox #Select affiliation, must match id in affiliations section below\n      - ref: sec #Select affiliation, must match id in affiliations section below\n    corresponding: true #Set as corresponding author\n    equal-contributor: true #Set as equal contributor\n  - name: Yang Dianyi #Can add multiple authors\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #Set affiliations\n  - id: ox #Change affiliation code\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #Can set multiple affiliations\n    name: Second Institute\nformat: #Choose compilation format\n  #native: default #Compile to native HTML format\n  #docx: default #Compile to Word format\n  orcid-pdf: #Compile to PDF format\n    keep-tex: true #Choose whether to keep .tex file, usually required for journal submission\n    number-sections: true #Choose whether to number sections\n    cover: false #Choose whether to include cover, if true, value is cover.pdf\n    toc: false #Choose whether to include table of contents\n    toc-newpage: false #Choose whether table of contents starts on new page\nbibliography: references.bib #Set bibliography file\ncsl: extra/apa.csl #Set citation format\nabstract: This is an abstract. #Modify abstract content\nkeywords: a, b, c #Modify keywords\nacknowledgements: This is an acknowledgement. #Modify acknowledgements content\n---"
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#an-example-regression-analysis",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#an-example-regression-analysis",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "2.3 An Example Regression Analysis",
+    "text": "2.3 An Example Regression Analysis\nHere is an example regression analysis using the ORCID template and the mtcars dataset to show you some basic syntax when you are writing a quantitative academic research paper.\nFirst, let’s examine the relationship between car weight and fuel efficiency using a scatter plot.\nInsert an r code cell by clicking the Insert Code Cell button on the top bar, and copy and paste the following code into the code cell:\n# Assign a label to the scatter plot for cross-referencing\n# Labels for figures should have the prefix \"fig-\"\n#| label: fig-scatter\n# Assign a caption to the scatter plot\n#| fig-cap: \"Relationship between Car Weight and Fuel Efficiency\"\n# Set echo, warning, and message to false for the plot output only\n#| echo: false\n#| warning: false\n#| message: false\n# Install the necessary packages\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# If the packages are already installed, you can skip the above line\nlibrary(ggplot2)\nlibrary(dplyr)\n# Create descriptive statistics plot\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"Weight (1000 lbs)\",\n    y = \"Miles per Gallon\",\n    color = \"Cylinders\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: Relationship between Car Weight and Fuel Efficiency\n\n\n\n\n\nNext, we’ll perform a regression analysis. Equations written in syntax should be covered by double dollar signs $$ ... $$ and be assigned a label using {#label} for cross-referencing.\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot weight + \\beta_2 \\cdot cylinders + \\epsilon\n$$ {#eq-regression}  #Labels for equations should have the prefix \"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot weight + \\beta_2 \\cdot cylinders + \\epsilon\n\\tag{1}\\]\nWe can also use & to align equations. For example, if we want our equations to be aligned at the equal signs and quote them as one group, we can write:\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\nNote that here we use \\begin{aligned} ... \\end{aligned} to align a group of equations, and we use \\\\ to indicate line breaks, and & to indicate the alignment point.\nThe three equations are now quoted as one group and aligned at the equal signs:\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\nFinally, let’s create a regression table to summarize our regression results. We will use the modelsummary package to create a well-formatted regression table.\n# Assign a label to the regression table for cross-referencing\n# Labels for tables should have the prefix \"tbl-\"\n#| label: tbl-regression\n# Assign a caption to the regression table\n#| tbl-cap: \"Regression Results: Fuel Efficiency Model\"\n# Set echo, warning, and message to false for the plot output only\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# Fit regression models\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# Create regression table\nmodelsummary(\n  list(\"Model 1\" = model1, \"Model 2\" = model2, \"Model 3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: Regression Results: Fuel Efficiency Model\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                Model 1\n                Model 2\n                Model 3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\nThe equations, figures, and tables are automatically numbered in a correct sequence, and could be cross-referenced in the text.\nTo create proper cross-references in Quarto, use the following syntax: @label at where you want to make cross references, where label is the label you assigned to the figure, table, or equation. For instance, @eq-regression refers to the regression equation Equation 1, @eq-group refers to the group of equations Equation 2, @fig-scatter refers to the scatter plot Figure 1, and @tbl-regression refers to the regression table Table 1. You could refer to Quarto Cross-References Documentation for more information on cross-reference."
+  },
+  {
+    "objectID": "blog/2025-09-27-PositronHandbook/index.html#an-example-literature-review",
+    "href": "blog/2025-09-27-PositronHandbook/index.html#an-example-literature-review",
+    "title": "Research 101: How to work as a modern quantitative social scientist?",
+    "section": "2.4 An Example Literature Review",
+    "text": "2.4 An Example Literature Review\nHere is an example of how to use Quarto for literature citations.\nFirst, make sure you have added the references.bib file to your project according to the previous instructions in Section 1.6, and correctly set the bibliography field in the YAML header.\nSecond, make sure you have downloaded and installed the corresponding citation format *.csl file, and correctly set the csl field in the YAML header. Citation formats can be downloaded from the CSL repository.\nNow, you can use @citation_key in the text to cite literature. We can place citations at the beginning of sentences. For example:\n@lake2011 Lake (2011) argues that the “isms” debate in international relations research is harmful.\nOr, we can also place citations at the end of sentences:\nThe “isms” debate in international relations research is harmful [@lake2011] (Lake, 2011).\nTo cite multiple articles, use comma-separated citation keys, for example:\nHere are two good articles [@lake2011, @hale2020] (Hale, 2020; Lake, 2011).\nFinally, add the following content at the end of the document to generate a reference list:\n# References {.unnumbered} #Add unnumbered references section\n\n::: {#refs} #Place references here, not at the end of document\n:::"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Accessibility commitment",
     "section": "",
-    "text": "My website is released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+    "text": "Travel back to the home page or about page."
+  },
+  {
+    "objectID": "accessibility.html#feedback",
+    "href": "accessibility.html#feedback",
+    "title": "Accessibility commitment",
+    "section": "Feedback",
+    "text": "Feedback\nI welcome any feedback on the accessibility of my site and/or the educational materials I create. Please let me know if you encounter any accessibility barriers by using my contact form and I’ll do my best to respond promptly.\nThank you for visiting my site and for taking the time to read this page"
+  },
+  {
+    "objectID": "accessibility.html#accessibility-practices",
+    "href": "accessibility.html#accessibility-practices",
+    "title": "Accessibility commitment",
+    "section": "Accessibility practices",
+    "text": "Accessibility practices\nThis site has been designed with the following features in mind:\n\nA color palette that meets WCAG 2.1 AA standards for contrast\nAlternative text for all informative images\nReadable font faces, specifically to avoid impostor letter shapes and mirroring. This site primarily uses Red Hat Text which is freely available and has been found to be relatively accessible to users with dyslexic traits and poor near vision.1\nA table of contents in the blog post sidebar for easier navigation\n\nI’m aware there is much more to inclusive and accessible design and I’m learning how to implement better accessibility practices in the content I create. I’m not a web developer but my plan is to regularly audit my site for accessibility failures and learn how to remedy them as best I can. I’ll be using the following evaluation tools:\n\nWAVE Web Accessibility Evaluation Tool\n\nIn addition, I’ll document the failures and any corrective actions as issues in the GitHub repository housing the files used to build this site."
+  },
+  {
+    "objectID": "accessibility.html#work-related-to-accessibility",
+    "href": "accessibility.html#work-related-to-accessibility",
+    "title": "Accessibility commitment",
+    "section": "Work related to accessibility",
+    "text": "Work related to accessibility\n\nTalk: Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\nBlog post: Resources for Data Viz Accessibility\nBlog post: Auditing for Web Accessibility"
+  },
+  {
+    "objectID": "accessibility.html#footnotes",
+    "href": "accessibility.html#footnotes",
+    "title": "Accessibility commitment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFor more on font accessibility, I recommend the talk Don’t Believe the Type! by The Readability Group.↩︎"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Yuxin Fu",
+    "section": "",
+    "text": "Hello, this is Yuxin! Nice to meet you.\n\nI’m so far interested in the following areas:\n\n\nPolitical Economy\n\n\nPolitical Communication\n\n\nConflict Resolution\n\n\nCausal Inference\n\n\nGame Theory\n\n\nData Science\n\n\nMachine Learning\n\n\nText Analysis"
+  },
+  {
+    "objectID": "about/index.html#more-about-my-thoughts",
+    "href": "about/index.html#more-about-my-thoughts",
+    "title": "Yuxin Fu",
+    "section": "More about my thoughts",
+    "text": "More about my thoughts\nWork in progress …"
+  },
+  {
+    "objectID": "about/index.html#lately",
+    "href": "about/index.html#lately",
+    "title": "Yuxin Fu",
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n古希腊古罗马哲学篇\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPapers\n\n\n\n\n\n\n\n\n\n\nPublic acceptance of LLM-driven healthcare chatbots in China:/ An empirical study\n\n\n\n\n\nNo matching items\n\nSee all →"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html",
+    "href": "blog/2023-11-15-FranceVisa/index.html",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "银行流水不足三个月并不会影响递签。\n\n\n实测不需要开户证明与解释信，也能顺利下签半年。如果不放心，可以写一段说明，解释自己什么时候到达英国即可。只要能够证明资金充足，就不会有问题。\n\n\n\n\n\n\n法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件\n\n\n\n\n\n\n\nTLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。\n\n\n\n\n\n\n所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "href": "blog/2023-11-15-FranceVisa/index.html#时间线",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "法签官网填申请表： 2023.11.15 更新：使用新的申请表需要重新预约 slot。如果行程有更改，可以带旧表到现场让工作人员修改。注意：签证生效时间是行程开始时间。\n\n\n访问 TLScontact 预约 slot\n\n\n选择伦敦签证中心\n\n\n建议预约早上 8:30： 刚开门时处理速度最快。\n\n\n9.28： 递交签证申请\n\n\n10.9： 收到领取邮件"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "href": "blog/2023-11-15-FranceVisa/index.html#伦敦法签中心地址",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "TLScontact – Visa Application Centre 地址：SW18 1UN\n\n\n交通方式： 最近的火车站是 Wandsworth Town。请不要单独购买火车票，直接使用 Oyster 卡即可。"
+  },
+  {
+    "objectID": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "href": "blog/2023-11-15-FranceVisa/index.html#准备材料",
+    "title": "伦敦怎么办法签？",
+    "section": "",
+    "text": "所有材料建议单面黑白打印。在学校图书馆或教学楼打印最划算，签证中心附近的邮局也提供打印服务。\n\n\n\nTLS 预约单或邮件：非必需，入口处出示预约邮件即可\n\n\n法签申请表及收据\n\n\n护照原件\n\n\n护照首页复印件\n\n\nBRP 原件\n\n\nBRP 复印件：打印两份，取护照时会用到\n\n\n往返机票或火车确认单：如法航 flex 或欧洲之星商务票（下签后可退）\n\n\n旅行计划：可使用行程助手或 ChatGPT 生成表格。每个城市停留三天足够，需包括英法交通、法国住宿和主要景点\n\n\n照片：建议在英国车站的 Photome 机器拍摄，穿深色衣服。国内拍摄的照片大多会被拒\n\n\n学校在读证明：可在学校官网获取\n\n\n银行流水：英国银行账户即可。对于新到英国的学生，流水不足三个月无妨，只要能证明资金充足即可\n\n\n酒店订单：建议选择可退订的订单，下签后取消\n\n\n旅行保险：推荐 Coverwise，打印确认邮件即可"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html",
+    "href": "blog/2025-09-27-Positron中文教程/index.html",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "",
+    "text": "本指南提供了安装、配置和使用Positron、Quarto和Zotero进行定量学术研究论文写作的实用指导。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#安装rpositron和quarto",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.1 安装R、Positron和Quarto",
+    "text": "1.1 安装R、Positron和Quarto\n首先，我们需要下载并安装R、Positron和Quarto。\n\n按照CRAN镜像上的说明下载并安装R。\n按照Positron下载页面上的说明下载Positron。\n运行安装程序并安装Positron。当被要求时，请勾选所有选项。\n\n\n\n\n勾选所有选项\n\n\n\n按照Quarto入门指南上的说明下载并安装Quarto。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#设置系统环境变量",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.2 设置系统环境变量",
+    "text": "1.2 设置系统环境变量\n接下来，我们需要为代理设置系统环境变量。\n\n打开Windows开始菜单并搜索Env。\n点击编辑系统环境变量。\n在系统属性窗口中，点击环境变量按钮。\n在环境变量窗口中，在系统变量部分下，点击新建按钮。\n在新建系统变量窗口中，输入HTTP_PROXY作为变量名，http://127.0.0.1:xxxx作为变量值。点击确定。（将xxxx替换为您代理使用的端口号。）\n重复步骤5，创建另一个名为HTTPS_PROXY的系统变量，值相同为http://127.0.0.1:xxxx。\n重复步骤5，创建另一个名为NO_PROXY的系统变量，值为localhost,127.0.0.1。\n点击确定关闭环境变量窗口。点击确定关闭系统属性窗口。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#加入github教育计划",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.3 加入Github教育计划",
+    "text": "1.3 加入Github教育计划\n要使用Github Copilot，我们需要加入Github教育计划。\n\n打开网络浏览器，访问GitHub Education。\n点击Join GitHub Education按钮。\n按照说明验证您的学生身份并完成申请过程。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#更新positron并设置github-copilot-chat",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.4 更新Positron并设置Github Copilot Chat",
+    "text": "1.4 更新Positron并设置Github Copilot Chat\n现在，我们需要更新Positron并设置Github Copilot Chat。\n\n打开Positron。\n点击左下角的管理图标。\n点击设置打开设置选项卡。\n在设置选项卡中，搜索channel，将releases切换为dailies。\n点击左下角的管理齿轮图标。点击检查更新将Positron更新到最新版本。更新完成后，重启Positron。\n重复步骤2和3再次打开设置选项卡。\n在设置选项卡中，搜索assistant。勾选Enable Positron Assistant选项。\n点击左侧边栏的聊天图标打开聊天选项卡。\n在聊天选项卡中，点击添加模型提供商按钮。\n在配置语言模型提供商窗口中，选择GitHub Copilot。点击登录。\n在GitHub登录页面中，输入您的GitHub凭据进行登录。\n登录后，您将被重定向回Positron。现在您可以使用GitHub Copilot提供的大语言模型来协助您的编程工作。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#安装r包管理器",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.5 安装R包管理器",
+    "text": "1.5 安装R包管理器\n接下来，我们需要安装R包管理器来管理R包。\n\n打开Positron。点击左侧边栏的扩展图标。\n搜索Positron R Package Manager。点击安装来安装扩展。\n扩展安装并激活后，您可以在左侧边栏找到R包管理器📖图标。\n将📖图标拖拽到右侧的辅助边栏中。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#sec-zotero",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "1.6 安装Zotero",
+    "text": "1.6 安装Zotero\n最后，我们需要下载并安装Zotero来管理参考文献。\n\n从Zotero下载页面下载适用于您操作系统的Zotero安装程序。\n运行安装程序并按照屏幕上的说明完成安装。\n打开Zotero，打开编辑-设置，创建及登录一个帐户以同步您的参考文献，点击左上角新建分类在我的文库中新建一个分类，点击右边魔法棒图标将任意文献按doi添加到该分类。\n下载并解压Zotero Addons插件。\n打开Zotero，点击顶部菜单栏的工具，选择插件，点击齿轮，选择从文件安装插件，选择步骤3中下载的.xpi文件。\n选择工具-插件市场，安装Better BibTex for Zotero插件以获得更好的BibTex支持。\n在文库中右键点击标题栏，勾选引用以显示引用名称。\n选择编辑-设置-Better BibTex，在引用格式公式中，保留auth.lower + year。\n右键点击想要导出的文献库，选择导出分类，勾选保持更新，将文件命名为references.bib并保存到您的论文项目文件夹中。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#获取orcid模板",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.1 获取ORCID模板",
+    "text": "2.1 获取ORCID模板\n现在，每次开始撰写新论文前，我们可以安装ORCID模板以获得更好的LaTeX格式。\n\n打开Positron，创建一个qmd文件作为您的文稿。点击底部边栏的终端。\n在终端中，输入以下命令并按回车：quarto add kv9898/orcid。\n当询问是否信任作者并继续时，输入Y。\n现在您可以使用ORCID模板工作。从这里复制并粘贴示例语法：ORCID模板。\n点击顶部栏的预览尝试编译文档。按照终端中的说明安装任何缺失的包。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#yaml头部",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.2 YAML头部",
+    "text": "2.2 YAML头部\n您可以修改默认的YAML头部以满足您的需求。有关更多信息，请参考模板中代码的注释。\n---\ntitle: Orcid Template #更改文章标题\nsubtitle: with affiliation #更改文章副标题\ndate: last-modified #设置文章日期为最后修改时间，或者可以手动设置为具体日期，例如 '2024-06-01'\nauthors:\n  - name: Dianyi Yang #更改作者姓名\n    email: dianyi.yang@politics.ox.ac.uk #更改作者电子邮箱\n    orcid: 0009-0004-4652-3429 #更改作者ORCID\n    affiliations: #更改作者所属机构\n      - ref: ox #选择所属机构，必须与下面的affiliations部分中的id匹配\n      - ref: sec #选择所属机构，必须与下面的affiliations部分中的id匹配\n    corresponding: true #更改为通讯作者\n    equal-contributor: true #更改为并列贡献作者\n  - name: Yang Dianyi #可添加多位作者\n    orcid: 0009-0004-4652-3429\n    affiliations: \n      - ref: ox\n  - name: Someone else\n    affiliations:\n      - ref: ox\n      - ref: sec\n    orcid: 0009-0009-9108-5436\n    equal-contributor: true\n\naffiliations: #设置所属机构\n  - id: ox #更改所属机构代号\n    name: Department of Politics and International Relations, University of Oxford\n  - id: sec #可设置多个所属机构\n    name: Second Institute\nformat: #选择编译格式\n  #native: default #编译为本地HTML格式\n  #docx: default #编译为Word格式\n  orcid-pdf: #编译为PDF格式\n    keep-tex: true #选择是否保留.tex文件，投稿期刊通常需要\n    number-sections: true #选择是否对章节编号\n    cover: false #选择是否包含封面，如果true，值为cover.pdf\n    toc: false #选择是否包含目录\n    toc-newpage: false #选择目录是否另起一页\nbibliography: references.bib #设置参考文献文件\ncsl: extra/apa.csl #设置引用格式\nabstract: This is an abstract. #修改摘要内容\nkeywords: a, b, c #修改关键词\nacknowledgements: This is an acknowledgement. #修改致谢内容\n---"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#回归分析示例",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.3 回归分析示例",
+    "text": "2.3 回归分析示例\n以下是使用ORCID模板和mtcars数据集进行回归分析的示例，展示了撰写定量学术研究论文时的一些基本语法。\n首先，让我们使用散点图检查汽车重量与燃油效率之间的关系。\n点击顶部栏的”插入代码单元格”按钮插入r代码单元格，并将以下代码复制粘贴到代码单元格中：\n# 为散点图分配标签以便交叉引用\n# 图表标签应该有前缀\"fig-\"\n#| label: fig-scatter\n# 为散点图分配标题\n#| fig-cap: \"汽车重量与燃油效率的关系\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\n# 安装必要的包\ninstall.packages(c(\"ggplot2\", \"dplyr\"))\n# 如果包已安装，可以跳过上面的行\nlibrary(ggplot2)\nlibrary(dplyr)\n# 创建描述性统计图表\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(aes(color = factor(cyl)), size = 3) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"blue\") +\n  labs(\n    x = \"重量 (1000磅)\",\n    y = \"每加仑英里数\",\n    color = \"气缸数\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n\n\n\nFigure 1: 汽车重量与燃油效率的关系\n\n\n\n\n\n接下来，我们将进行回归分析。用LaTeX语法编写的方程应该用双美元符号$$ ... $$括起来，并使用{#label}分配标签以便交叉引用。\n$$\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n$$ {#eq-regression}  #方程标签应该有前缀\"eq-\"\n\\[\nmpg = \\beta_0 + \\beta_1 \\cdot 重量 + \\beta_2 \\cdot 气缸数 + \\epsilon\n\\tag{1}\\]\n我们也可以使用&来对齐方程。例如，如果我们希望方程在等号处对齐并作为一组引用，我们可以写：\n$$\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n$$ {#eq-group}\n注意这里我们使用\\begin{aligned} ... \\end{aligned}来对齐一组方程，使用\\\\表示换行，使用&表示对齐点。\n这三个方程现在作为一组引用并在等号处对齐：\n\\[\n\\begin{aligned}\n1+2&=3\\\\\n3+4&=7\\\\\n11&=5+6\n\\end{aligned}\n\\tag{2}\\]\n最后，让我们创建一个回归表来总结我们的回归结果。我们将使用modelsummary包来创建格式良好的回归表。\n# 为回归表分配标签以便交叉引用\n# 表格标签应该有前缀\"tbl-\"\n#| label: tbl-regression\n# 为回归表分配标题\n#| tbl-cap: \"回归结果：燃油效率模型\"\n# 仅对图表输出设置echo、warning和message为false\n#| echo: false\n#| warning: false\n#| message: false\nlibrary(modelsummary)\n# 拟合回归模型\nmodel1 &lt;- lm(mpg ~ wt, data = mtcars)\nmodel2 &lt;- lm(mpg ~ wt + cyl, data = mtcars)\nmodel3 &lt;- lm(mpg ~ wt + cyl + hp, data = mtcars)\n# 创建回归表\nmodelsummary(\n  list(\"模型1\" = model1, \"模型2\" = model2, \"模型3\" = model3),\n  stars = TRUE,\n  gof_map = c(\"nobs\", \"r.squared\", \"adj.r.squared\")\n)\n\n\n\n\nTable 1: 回归结果：燃油效率模型\n\n\n\n\n\n    \n\n    \n    \n      \n        \n        \n              \n                 \n                模型1\n                模型2\n                模型3\n              \n        \n        + p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n        \n                \n                  (Intercept)\n                  37.285***\n                  39.686***\n                  38.752***\n                \n                \n                  \n                  (1.878)\n                  (1.715)\n                  (1.787)\n                \n                \n                  wt\n                  -5.344***\n                  -3.191***\n                  -3.167***\n                \n                \n                  \n                  (0.559)\n                  (0.757)\n                  (0.741)\n                \n                \n                  cyl\n                  \n                  -1.508**\n                  -0.942+\n                \n                \n                  \n                  \n                  (0.415)\n                  (0.551)\n                \n                \n                  hp\n                  \n                  \n                  -0.018\n                \n                \n                  \n                  \n                  \n                  (0.012)\n                \n                \n                  Num.Obs.\n                  32\n                  32\n                  32\n                \n                \n                  R2\n                  0.753\n                  0.830\n                  0.843\n                \n                \n                  R2 Adj.\n                  0.745\n                  0.819\n                  0.826\n                \n        \n      \n    \n\n\n\n\n\n\n方程、图表和表格会自动按正确顺序编号，并可以在文本中交叉引用。\n要在Quarto中创建正确的交叉引用，请使用以下语法：在您想要进行交叉引用的地方使用@标签，其中标签是您分配给图表、表格或方程的标签。例如，@eq-regression引用回归方程 Equation 1，@eq-group引用方程组 Equation 2，@fig-scatter引用散点图 Figure 1，@tbl-regression引用回归表 Table 1。您可以参考Quarto交叉引用文档获取更多交叉引用信息。"
+  },
+  {
+    "objectID": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
+    "href": "blog/2025-09-27-Positron中文教程/index.html#文献综述示例",
+    "title": "研究入门：现代定量社会科学家如何工作？",
+    "section": "2.4 文献综述示例",
+    "text": "2.4 文献综述示例\n以下是使用Quarto进行文献引用的示例。\n首先，确保您已经按照前面 Section 1.6 的说明将references.bib文件添加到您的项目中，并在YAML头部中正确设置了bibliography字段。\n其次，确保您已经下载并添加了对应引用格式的*.csl文件，并在YAML头部中正确设置了csl字段。引用格式文件可以从CSL仓库下载。\n现在，您可以在文本中使用@引用键来引用文献。我们可以将引用放在句首。例如：\n@lake2011 Lake (2011) 认为国际关系研究中的“主义”之争是有害的。\n或者，我们也可以将引用放在句末：\n国际关系研究中的“主义”之争是有害的[@lake2011](Lake, 2011)。\n如果要引用多个文章，可以使用逗号分隔引用键，例如：\n这里有两篇好文章[@lake2011, @hale2020] (Hale, 2020; Lake, 2011)。\n最后，在文档的末尾添加以下内容以生成参考文献列表：\n# References {.unnumbered} #添加没有编号的参考文献部分\n\n::: {#refs} #将参考文献放这个位置，而不是文档的末尾\n:::"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "My Blogs",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n变得有文化：西方哲学史入门\n\n\n\n哲学史\n\n教程\n\n古希腊\n\n古罗马\n\n\n\n\n\n\nOct 1, 2025\n\n\nYuxin Fu\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\nResearch 101: How to work as a modern quantitative social scientist?\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\nToturial\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n11 min\n\n\n\n\n\n\n\n\n\n\n\n研究入门：现代定量社会科学家如何工作？\n\n\n\nPositron\n\nQuarto\n\nGithub\n\nZotero\n\nCopilot\n\n教程\n\n\n\n\n\n\nSep 27, 2025\n\n\nYuxin Fu, Dianyi Yang\n\n4 min\n\n\n\n\n\n\n\n\n\n\n\n伦敦怎么办法签？\n\n\n\nVisa\n\nFrance\n\nLondon\n\n\n\n\n\n\nNov 15, 2023\n\n\nYuxin Fu\n\n1 min\n\n\n\n\nNo matching items\nReuseCC BY-SA 4.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yuxin Fu",
+    "section": "",
+    "text": "I’m currently a Ph.D. student in Political Science of the University of Macau.I’m a graduate of the London School of Economics and Political Science. At the LSE, I studied Political Science and Political Economy as an MSc student. I’m interested in conflict resolution, populism, and political communication.\nREAD MORE →"
+  },
+  {
+    "objectID": "papers/2024-12-09-Terrorism/index.html",
+    "href": "papers/2024-12-09-Terrorism/index.html",
+    "title": "Revisiting the Link between Democracy and Terrorism",
+    "section": "",
+    "text": "Abstract\nThis essay revisits the link between democracy and terrorism. Several related divided conclusions proposed in the past are re-examined with new data. An OLS regression with fixed effects and a 2SLS regression are adopted in this essay. The results confirms the common belief that democracy has a positive curvilinear relationship with terrorism. Countries respecting physical integrity would experience less terrorism. High levels of mobilization would inspire terrorism, and new systematic changes in the dynamic between democracy and terrorism remain to be further explored.\n\n\n\n\nCitationBibTeX citation:@online{fu2024,\n  author = {Fu, Yuxin},\n  title = {Revisiting the {Link} Between {Democracy} and {Terrorism}},\n  date = {2024-12-09},\n  url = {https://bim382.github.io/papers/2024-12-09-Terrorism/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nFu, Y. (2024, December 9). Revisiting the Link between Democracy and\nTerrorism. https://bim382.github.io/papers/2024-12-09-Terrorism/"
   },
   {
     "objectID": "papers/index.html",
     "href": "papers/index.html",
     "title": "Papers",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\nDemocracy\n\nTerrorism\n\nCivil Liberty\n\nPhysical Integrity\n\n\n\n\n\n\nDec 9, 2024\n\n\nYuxin Fu\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPublic acceptance of LLM-driven healthcare chatbots in China:/ An empirical study\n\n\n\nHealthcare Chatbots\n\nSEM\n\nTechnology Acceptance\n\nModerating Effects\n\n\n\n\n\n\nMar 28, 2026\n\n\nYuxin Fu\n\n\n\n\n\n\n\n\n\n\n\n\nRevisiting the Link between Democracy and Terrorism\n\n\n\nDemocracy\n\nTerrorism\n\nCivil Liberty\n\nPhysical Integrity\n\n\n\n\n\n\nDec 9, 2024\n\n\nYuxin Fu\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "tools/2024-10-28-ShinySortable/index.html",
