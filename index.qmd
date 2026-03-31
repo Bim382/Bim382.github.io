@@ -1,6 +1,6 @@
 ---
-title: "Yuxin Fu"
-pagetitle: "Yuxin Fu"
+title: "Yuxin Fu's Personal Page"
+pagetitle: "Yuxin Fu's Personal Page"
 subtitle: "Comparative Politics/Causal Inference/Game Theory"
 image: assets/dianyi/avatar.png
 image-alt: "My avatar"
