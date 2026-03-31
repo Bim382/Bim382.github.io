@@ -13,11 +13,11 @@ project:
     #- "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
 website:
-  title: "Yuxin Fu"
+  title: "Yuxin Fu's Personal Website"
   site-url: https://yuxinfu.me
   favicon: "assets/dianyi/shush.ico"
   description: "Political Economy/Causal Inference/Game Theory."
-#  google-analytics: "G-J9JHQ6RJV3"
+  google-analytics: "G-25GGHN32FG"
   comments: 
     giscus:
       repo: Bim382/Bim382.github.io
