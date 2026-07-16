@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  11 JAN 2026 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  16 JUL 2026 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,6 +202,26 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
+) (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box51
+\extrarowheight=\dimen148
+\NC@list=\toks20
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box52
+)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count273
+\TX@ftn=\toks21
 )
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -209,48 +229,48 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count273
-\Gm@cntv=\count274
-\c@Gm@tempcnt=\count275
-\Gm@bindingoffset=\dimen147
-\Gm@wd@mp=\dimen148
-\Gm@odd@mp=\dimen149
-\Gm@even@mp=\dimen150
-\Gm@layoutwidth=\dimen151
-\Gm@layoutheight=\dimen152
-\Gm@layouthoffset=\dimen153
-\Gm@layoutvoffset=\dimen154
-\Gm@dimlist=\toks20
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks22
 
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box53
 ) (CV_Yuxin.aux)
 \openout1 = `CV_Yuxin.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-Package hyperref Info: Link coloring OFF on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+Package hyperref Info: Link coloring OFF on input line 26.
  (CV_Yuxin.out) (CV_Yuxin.out)
 \@outlinefile=\write3
 \openout3 = `CV_Yuxin.out'.
@@ -259,17 +279,17 @@ Package hyperref Info: Link coloring OFF on input line 22.
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen155
-\scratchbox=\box52
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen156
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count278
+\scratchdimen=\dimen162
+\scratchbox=\box54
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen163
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks24
 )
 (C:\Users\yfu38\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -316,21 +336,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 35.
+(Font)              <10.95> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
-
-Overfull \hbox (34.6522pt too wide) in paragraph at lines 35--41
- [] 
- []
-
-
-Overfull \hbox (12.15509pt too wide) in paragraph at lines 48--62
-[] 
- []
-
+(Font)              <6> on input line 39.
 [1
 
 {C:/Users/yfu38/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
@@ -343,22 +353,23 @@ Package rerunfilecheck Info: File `CV_Yuxin.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8908 strings out of 474486
- 140756 string characters out of 5743755
- 1936542 words of memory out of 5000000
- 31108 multiletter control sequences out of 15000+600000
- 562020 words of font info for 49 fonts, out of 8000000 for 9000
+ 9036 strings out of 474486
+ 142781 string characters out of 5743755
+ 1943542 words of memory out of 5000000
+ 31229 multiletter control sequences out of 15000+600000
+ 562366 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,286b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,285b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yfu38/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on CV_Yuxin.pdf (1 page, 75339 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/yfu38/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on CV_Yuxin.pdf (1 page, 88526 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,6 +6,7 @@
 
 \usepackage[hidelinks]{hyperref} % For hyperlinks
 \usepackage{graphicx}
+\usepackage{tabularx}
 \graphicspath{ {images/}} %upload your signature to this file
 %Change the margins to fit your CV/resume content
 \usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
@@ -17,13 +18,16 @@
 %Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
 \pagenumbering{gobble}
 
+% Use consistent column widths throughout the main body.
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
 %%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
 
-\noindent  \LARGE{\textbf{Yuxin Fu}} \\
+\noindent  \LARGE{\textbf{Yuxin Fu's CV}} \\
 \vspace{-2ex} 
 \hrule 
 \normalsize
@@ -33,10 +37,8 @@
 
 \begin{center}
 \begin{tabular}{l l}
- University of Macau    & \hspace{0.2in} \href{mailto:yc57370@um.edu.mo}{yc57370@um.edu.mo} \\
- Department of Government and Public Administration    & \hspace{0.2in}  \href{https://gpa.fss.um.edu.mo/}{https://gpa.fss.um.edu.mo/}   \\
- Phone: +86 13918385248  & \hspace{0.2in}  \href{https://yuxinfu.me/}{https://yuxinfu.me/}   \\
- Building E21B, Avenida da Universidade, Taipa, Macao SAR, China &    \\
+ Department of Government and Public Administration   & \hspace{0.2in} Email: \href{mailto:yc57370@um.edu.mo}{yc57370@um.edu.mo} \\
+ University of Macau    & \hspace{0.2in}  Website: \href{https://yuxinfu.me/}{https://yuxinfu.me/}    \\
 \end{tabular}
 \end{center}
 
@@ -45,36 +47,59 @@
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
 
-\noindent \begin{tabular}{l@{\hspace{0.4in}} l@{\hspace{0.1in}} l}
- \Large{Education}    & \textbf{University of Macau} & \textbf{Macau, CN}\\
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+ \Large{Education}    & \textbf{University of Macau}  \\
      & Ph.D., Political Science, 2025-2029. \\
      & \\
-     & \textbf{London School of Economics and Political Science} & \textbf{London, UK}\\
+     & \textbf{London School of Economics and Political Science}  \\
      & M.Sc., Political Science (Political Economy), 2023-2024. \\
      & \\
-     & \textbf{University of Western Ontario} & \textbf{London, CA}\\
+     & \textbf{University of Western Ontario}  \\
      & B.MOS., Economics and International Commerce, 2021-2023. \\
      & \\
-     & \textbf{East China University of Science and Technology} & \textbf{Shanghai, CN}\\
+     & \textbf{East China University of Science and Technology}  \\
      & B.Sc., International Economics and Trade, 2019-2023. \\
      & \\
-\end{tabular}
+\end{tabularx}
 
 \vspace{1em}
 
-\noindent \begin{tabular}{l@{\hspace{0.4in}} p{4.5in}}
- \Large{Knowledge}    & \textbf{Quantitative Methods:} OLS regression, binomial regression (Probit \& Logit), causal inference (Difference-in-Differences, regression discontinuity design), Bayesian regression, Structural Equation Modeling \\
-   & \\
-   & \textbf{Game Theory:} Nash equilibrium, subgame perfect Nash equilibrium, Bayesian Nash equilibrium \\
-   & \\
-   & \textbf{Text Analysis:} Scaling methods (Wordscores, Wordfish), topic modeling (STM, LDA), sentiment analysis; applied to political texts using R (quanteda) \\
-\end{tabular}
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+\Large{Scholarships} & \textbf{ECUST Scholarship}, 2019 and 2020. \\
+                     & \textbf{UWO International Scholarship}, 2021 and 2022. \\
+                     & \textbf{UWO Dean's Honor List}, 2021 and 2022. \\
+\end{tabularx}
 
 \vspace{1em}
 
-\noindent \begin{tabular}{l@{\hspace{0.4in}} l}
-  \Large{Languages}   & Mandarin, English (IELTS 8.0) \\
-\Large{and Skills}    & R (RStudio, Positron), Quarto, \LaTeX\ (Overleaf), Zotero, MS Office, Amos  \\
-\end{tabular}
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+ \Large{Research}    & Immigration, populism, and nationalism. \\
+\Large{Interests}    & Democratic backsliding.\\
+& Conflict resolution and peacebuilding. \\
+& Terrorism and extremism.\\
+& LLMs in the social sciences. \\
+& \\
+\end{tabularx}
 
+\vspace{1em}
+
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+ \Large{Knowledge}    & \textbf{Quantitative Research Methods} \\
+ & Regression Models, Text Analysis and Formal Modelling.\\
+\end{tabularx}
+
+\vspace{1em}
+
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+  \Large{Languages}   & Mandarin and English.  \\
+\Large{and Skills}    & R, Quarto, \LaTeX, Zotero, MS Office, and AMOS.  \\
+\end{tabularx}
+
+\vspace{1em}
+
+\noindent\begin{tabularx}{\textwidth}{@{}p{1.25in}@{\hspace{0.25in}}Y@{}}
+\Large{Works}        & Qian, Y., Fu, Y., Chen, Y., Lu, K., \& Zhao, X. (2026). Public acceptance of LLM-driven healthcare chatbots in China: An empirical study. \textit{Digital Health}. \href{https://doi.org/10.1177/20552076261437614}{doi:10.1177/20552076261437614} \\
+\end{tabularx}
+
+\vspace{1em}
 \end{document}
